@@ -1,0 +1,25 @@
+/**
+ * @name Reborn
+ * @author Lil Monster#3557
+ * @version 1.0.0
+ * @description Edited with https://gibbu.me/editor/reborn | Base theme: Reborn by Lil Monster#3557
+ * @source https://github.com/monstrousdev/themes
+ * @website https://www.gibbu.me/themegen/reborn
+ * @invite TeRQEPb
+*/
+
+@import url('https://monstrousdev.github.io/themes/phoenix-bundle/reborn.css');
+
+
+:root {
+
+--roundness: 15px;
+--main-color: #d52964;
+--hover-color: #4b9dc8;
+--home-color: #7868cd;
+--shadow: rgba(0,0,0,0.4);
+--background-blur: 0px;
+--background-image: url('https://i.imgur.com/uF0Op3C.jpg');
+--popup-background: url('https://imgur.com/RG03PyX.png');
+
+}

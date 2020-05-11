@@ -1,0 +1,18 @@
+{
+  "commands": {
+    "%2Fhome%2Fshadow": [
+      "qq"
+    ]
+  },
+  "extensions": {
+    "%2Fhome%2Fshadow": [
+      "q"
+    ]
+  },
+  "lists": {
+    "%2Fhome%2Fshadow": [
+      "q",
+      "jedi"
+    ]
+  }
+}

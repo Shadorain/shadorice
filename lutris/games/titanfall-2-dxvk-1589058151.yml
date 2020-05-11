@@ -1,0 +1,33 @@
+game:
+  arch: win64
+  exe: /home/shadow/Documents/Games/titanfall-2/drive_c/Program Files (x86)/Origin/Origin.exe
+  prefix: ~/Documents/Games/titanfall-2
+system:
+  env:
+    DXVK_CONFIG_FILE: /home/shadow/Documents/Games/titanfall-2/dxvk.conf
+    DXVK_HUD: compiler
+    DXVK_STATE_CACHE_PATH: /home/shadow/Documents/Games/titanfall-2
+    STAGING_SHARED_MEMORY: '0'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/shadow/Documents/Games/titanfall-2/nv-shaders
+  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  prime: true
+  reset_desktop: true
+  resolution: 1920x1080
+  terminal_app: /usr/bin/kitty
+  use_us_layout: true
+  vk_icd: /usr/share/vulkan/icd.d/nvidia_icd.json
+  xephyr_fullscreen: false
+  xephyr_resolution: 1920x1080
+wine:
+  Audio: auto
+  ShowCrashDialog: true
+  autoconf_joypad: false
+  dumbxinputemu: true
+  dxvk: true
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+    xaudio2_7: native,builtin
+  version: lutris-4.15-x86_64
+  xinput-arch: win64

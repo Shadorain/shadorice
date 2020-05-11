@@ -1,0 +1,200 @@
+" ----------------------------------------------------- "
+"                                                       "
+"                   NEOVIM CONFIG                       "
+"                                                       "
+" ----------------------------------------------------- "
+" ----- Plugs ----- " {{{
+call plug#begin('~/.local/share/nvim/plugged')
+	
+    "<--General
+	Plug 'terryma/vim-multiple-cursors'
+    Plug 'https://github.com/chrisbra/Colorizer.git'
+    Plug 'itchyny/lightline.vim'
+    Plug 'vifm/vifm.vim'
+    Plug 'vimwiki/vimwiki'
+    Plug 'ap/vim-css-color'
+    Plug 'plasticboy/vim-markdown'
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
+    Plug 'unblevable/quick-scope'
+    Plug 'ctrlpvim/ctrlp.vim'
+    Plug 'tpope/vim-surround'
+    Plug 'sainnhe/lightline_foobar.vim'
+    "Plug 'kaicataldo/material.vim'
+    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'justinmk/vim-sneak'
+    Plug 'mhinz/vim-startify'
+    "Plug 'joshdick/onedark.vim'
+    "Plug 'sonph/onehalf', {'rtp': 'vim/'}
+    "Plug 'tomasiser/vim-code-dark'
+    "<--Git Integration
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+    "<--Nerd tree
+    Plug 'preservim/nerdtree'
+    "Plug 'tsony-tsonev/nerdtree-git-plugin'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'scrooloose/nerdcommenter'
+    "<--Syntax
+    Plug 'davidhalter/jedi-vim'
+    Plug 'vim-pandoc/vim-pandoc-syntax'
+    Plug 'justinmk/vim-syntax-extra'    
+
+call plug#end()
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+"}}}
+" ----- General ----- " {{{
+syntax enable
+set termguicolors
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set number                     " Show current line number
+set relativenumber             " Show relative line numbers
+filetype plugin on
+let mapleader = "'"
+"au ColorScheme * hi Normal ctermbg=none guibg=none
+set t_Co=256
+set t_ut=
+colorscheme shadopurplesecond
+highlight SignColumn guibg=none
+"au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
+"colorscheme shadopurplesecond 
+set clipboard+=unnamedplus
+" Toggle side numbers
+noremap <F3> :set invnumber invrelativenumber<CR>
+set foldmethod=marker
+" }}}
+" ----- Plug Config ----- " {{{
+" Plug >-- CoC " {{{
+" Use tab for trigger completion with characters ahead and navigate.
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config.
+"inoremap <silent><expr> <TAB>
+"      \ pumvisible() ? "\<C-n>" :
+"      \ <SID>check_back_space() ? "\<TAB>" :
+"      \ coc#refresh()
+"inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+"}}}
+" Plug >-- Sneak " {{{
+let g:sneak#prompt = '❱'
+"}}}
+" Plug >-- Startify " {{{
+let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_enable_special = 0
+" let g:startify_session_autoload = 1
+" Lists
+let g:startify_lists = [
+    \ { 'type': 'sessions',    'header': ['    Sessions']                    },
+    \ { 'type': 'bookmarks',   'header': ['    Bookmarks']                   },
+    \ { 'type': 'files',       'header': ['    Files']                       },
+    \ { 'type': 'dir',         'header': ['    Current Directory '.getcwd()] },
+    \ ]
+
+" Bookmarks
+let g:startify_bookmarks = [
+    \ { 'n':  '~/.config/nvim/init.vim'                        },
+    \ { 's':  '~/.config/sxhkd/sxhkdrc'                        },
+    \ { 'b':  '~/.config/bspwm/bspwmrc'                        },
+    \ { 'k':  '~/.config/kitty/kitty.conf'                     },
+    \ { 'p':  '~/.config/polybar/config'                       },
+    \ { 'c':  '~/.config/picom.conf'                           },
+    \ { 'S':  '~/Documents/PY-Projects/Shadochan/shadochan.py' },
+    \ { 'm':  '~/.config/miscellaneous'                        },
+    \ { 'r':  '~/.config/rofi/themes/onedark.rasi'             },
+    \ { 'Z':  '~/.config/zsh/.zshrc'                           },
+    \ { 'z':  '~/.zshenv'                                      },
+    \ { 'd':  '~/Documents/'                                   },
+    \ { 'ds': '~/Documents/SchoolWork/'                        },
+    \ { 'dh': '~/Documents/HTB/'                               },
+    \ { 'dc': '~/Documents/CTF/'                               },
+    \ { 'D':  '~/Downloads/'                                   },
+    \ { 'Ps':  '~/Pictures/Screenshots/'                       },
+    \ { 'P':  '~/Pictures/'                                    },
+    \ { 'M':  '~/Music/'                                       },
+    \ { 'Sc': '~/Documents/Shadochan/'                         },
+    \ ]
+" Ascii Art
+let g:startify_custom_header = [
+    \ '    _________  __                  ___                        __            ',       
+    \ '   /   _____/ |  |__  _____     __| _/ _____ _______ _____   |__|  ____     ',
+    \ '   \_____  \  |  |  \ \__  \   / __ | /  _  \\_  __ \\__  \  |  | /    \    ',
+    \ '   /        \ |   Y  \ / __ \_/ /_/ |(  <_>  )|  | \/ / __ \_|  ||   |  \   ',
+    \ '  /_______  / |___|  /(____  /\____ | \_____/ |__|   (____  /|__||___|  /   ',
+    \ '          \/       \/      \/      \/                    \/          \/     ',
+    \ ]
+" Autostart nerdtree with Startify
+"autocmd VimEnter *                                                                 
+"    \   if !argc()                                                         
+"    \ |   Startify                                                         
+"    \ |   NERDTree                                                         
+"    \ |   wincmd w                                                         
+"    \ | endif
+" }}}
+" Plug >-- Signify " {{{
+let g:signify_sign_add               = '+'
+let g:signify_sign_delete            = '_'
+let g:signify_sign_delete_first_line = '‾'
+let g:signify_sign_change            = '~'
+let g:signify_sign_show_count = 0 "-\
+let g:signify_sign_show_text = 1  "-+--- Gets rid of extra numbers
+" Jump through Hunks
+nmap <leader>gj <plug>(signify-next-hunk)
+nmap <leader>gk <plug>(signify-prev-hunk)
+nmap <leader>gJ 9999<leader>gJ
+nmap <leader>gK 9999<leader>gK
+" Highlight > Numbers
+highlight SignifySignAdd    ctermfg=green  guifg=#03fc7f guibg=none
+highlight SignifySignDelete ctermfg=red    guifg=#db1f4e guibg=none
+highlight SignifySignChange ctermfg=yellow guifg=#dbc893 guibg=none
+" }}}
+" Plug >-- Fugitive/Rhubarb " {{{
+" }}}
+" Plug >-- NERDTree " {{{
+"autocmd vimenter * NERDTree  " will auto open nerdtree
+map <C-t> :NERDTreeToggle<CR> 
+" maps ctrl+t to open nerdtree
+" }}}
+" Plug >-- Lightline " {{{
+set laststatus=2
+
+if !has('gui_running')
+  set t_Co=256
+endif
+set noshowmode
+
+let g:lightline = { 'colorscheme': 'palenight_alter' }
+" }}}
+" Plug >-- Vifm " {{{
+map <Leader>vf :Vifm<CR>
+map <Leader>vs :VsplitVifm<CR>
+map <Leader>vh :SplitVifm<CR>
+map <Leader>dv :DiffVifm<CR>
+map <Leader>tv :TabVifm<CR>
+"let g:vifm_replace_netrw = 1                                                                  
+"let g:vifm_replace_netrw_cmd = '/home/shadow/.config/vifm/scripts/vifmrun'                    
+"let g:NERDTreeHijackNetrw = 1                                                                 
+"let g:loaded_netrw       = 1                                                                  
+"let g:loaded_netrwPlugin = 1
+" }}}
+" Plug >-- VimWiki " {{{
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+" }}}
+" Plug >-- Quick Scope " {{{
+let g:qs_highlight_on_keys = ['f', 'F', 't' , 'T']
+highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
+"}}}
+"}}}
+" ----------------------------------------------------- "

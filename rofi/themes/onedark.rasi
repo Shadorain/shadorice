@@ -1,0 +1,144 @@
+// ----------------------------------------------------- \\
+//                                                       \\
+//             ROFI ShadoRain Theme Config               \\
+//                                                       \\
+// ----------------------------------------------------- \\
+/* Description {{{
+ * ROFI ShadoRain 
+ *
+ * Author: Shadorain
+ *
+ */
+//}}}
+// * {{{
+* {
+  black:      #000000;
+  red:        #eb6e67;
+  green:      #95ee8f;
+  yellow:     #f8c456;
+  blue:       #6eaafb;
+  mangenta:   #d886f3;
+  cyan:       #6cdcf7;
+  emphasis:   #50536b;
+  text:       #dfdfdf;
+  text-alt:   #b2b2b2;
+  fg:         #5ADECD;
+  //fg:         #abb2bf;
+  bg:         #09090d;   //#1c162e;
+  //bg:         #282c34;
+
+  spacing: 0;
+  background-color: #09090d; //rgb (28, 22, 46);
+
+  font: "Hack Nerd Font 12";
+  text-color: #5ADECD;
+  //text-color: @text;
+  //border-color: #991559;
+  //border: 2px;
+  //margin: 35px 0px 0px 0px;
+}
+//}}}
+// Window {{{
+window {
+  //transparency: "real";
+  fullscreen: false;
+  border-color: #991559;
+  border: 2px;
+  //background-color: #282c34dd;
+  //background-color: rgba (28, 22, 46, 90%);
+  location: north west;
+  anchor: north west;
+  width: 45%;
+  height: 21%;
+  children: [mainbox]; 
+}
+//}}}
+// Mainbox {{{
+mainbox {
+  padding: 10 10;
+}
+//}}}
+// Input Bar {{{
+inputbar {
+  border-color: #8897F4;
+  margin: 0px 0px 10px 0px;
+  border: 0 0 1px 0;
+  children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+//}}}
+// Prompt {{{
+prompt {
+  text-color: @blue;
+  border-color: #8897F4;
+  //border-color: #2e343f;
+  padding: 8px;
+  border: 0 1px 0 0;
+}
+//}}}
+// Textbox-Prompt-Colon {{{
+textbox-prompt-colon {
+  expand: false;
+}
+//}}}
+// TextBox {{{
+textbox {
+  text-color: #5ADECD;
+  padding: 8px 16px;
+}
+//}}}
+// Entry {{{
+entry {
+  padding: 8px 5px 10px 10px;
+  //margin: 0px 10px;
+}
+//}}}
+// List View {{{
+listview {
+  margin: 0 0 -1px 0;
+  cycle: false;
+  //spacing: 5px;
+  dynamic: true;
+  scrollbar: false;
+}
+//}}}
+// -- Element -- {{{
+element {
+  padding: 5px;
+  text-color: @text-alt;
+  highlight: bold #95ee8f; /* green */
+  //border-radius: 3px;
+}
+
+// Element Selected {{{
+element selected {
+  background-color: #8897F4;
+  text-color: #31239e;
+}
+// }}}
+// Element (Selected) Urgent {{{
+element urgent, element selected urgent {
+  text-color: @red;
+}
+// }}}
+// Element (Selected) Active {{{
+element active, element selected active {
+  text-color: @purple;
+}
+// }}}
+//}}}
+// Message {{{
+message {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: @emphasis;
+  border: 1px;
+  border-color: @cyan;
+}
+//}}}
+// Button Selected {{{
+button selected {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: @emphasis;
+}
+//}}}

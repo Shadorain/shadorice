@@ -1,0 +1,16 @@
+linux - Linux 5.6.7-arch1-1 x64
+
+[Info] Server is running @ localhost:1730
+[Info] Connection received!
+[Info] Checking for country
+[Info] Connection received!
+[Info] Connection language set to: en
+[Info] Checking for updates
+[Info] Running the latest version!
+[Info] Logging in
+[Info] Checking for country
+[Info] Logged in successfully
+[Info] Loading Personal Playlists
+[Info] Loaded 1 Playlist
+[Info] Checking for updates
+[Info] Running the latest version!

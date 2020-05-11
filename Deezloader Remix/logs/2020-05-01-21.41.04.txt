@@ -1,0 +1,737 @@
+linux - Linux 5.6.7-arch1-1 x64
+
+[Info] Server is running @ localhost:1730
+[Info] Connection received!
+[Info] Checking for updates
+[Info] Running the latest version!
+[Info] Checking for country
+[Info] Connection received!
+[Info] Connection language set to: en
+[Info] Logging in
+[Info] Checking for country
+[Info] Checking for updates
+[Info] Running the latest version!
+[Info] Logged in successfully
+[Info] Loading Personal Playlists
+[Info] Loaded 1 Playlist
+[Info] Added to Queue 7655
+[Info] Added to Queue 51868182
+[Info] Added to Queue 302612
+[Info] Added to Queue 328149
+[Info] Added to Queue 300476
+[Info] Added to Queue 328101
+[Info] Added to Queue 328085
+[Info] Added to Queue 328131
+[Info] Added to Queue 328124
+[Info] Registered album: 51868182:3 | Falling Up - Цветы
+[Info] Now downloading: Falling Up - Цветы
+[Info] [Falling Up - Цветы] Getting BPM
+[Info] Now downloading: Falling Up - Не остановиться!
+[Info] [Falling Up - Не остановиться!] Getting BPM
+[Info] Now downloading: Falling Up - В "Nike"
+[Info] [Falling Up - В "Nike"] Getting BPM
+[Info] [Falling Up - Цветы] Downloading file to /home/shadow/Music/Falling Up - Цветы/01 - Цветы.mp3
+[Info] [Falling Up - Не остановиться!] Downloading file to /home/shadow/Music/Falling Up - Цветы/02 - Не остановиться!.mp3
+[Info] [Falling Up - В "Nike"] Downloading file to /home/shadow/Music/Falling Up - Цветы/03 - В _Nike_.mp3
+[Info] [Falling Up - Цветы] Cover downloaded!
+[Info] [Falling Up - Цветы] Starting the download process
+[Info] [Falling Up - Не остановиться!] Cover downloaded!
+[Info] [Falling Up - Не остановиться!] Starting the download process
+[Info] [Falling Up - В "Nike"] Cover downloaded!
+[Info] [Falling Up - В "Nike"] Starting the download process
+[Info] [Falling Up - Цветы] Downloaded
+[Info] Now downloading: Falling Up - Нафиг, если пофиг!
+[Info] [Falling Up - Нафиг, если пофиг!] Getting BPM
+[Info] [Falling Up - Нафиг, если пофиг!] Downloading file to /home/shadow/Music/Falling Up - Цветы/04 - Нафиг, если пофиг!.mp3
+[Info] [Falling Up - Нафиг, если пофиг!] Cover already downloaded
+[Info] [Falling Up - Нафиг, если пофиг!] Starting the download process
+[Info] [Falling Up - Не остановиться!] Downloaded
+[Info] Now downloading: Falling Up - Какой же ты красивый
+[Info] [Falling Up - Какой же ты красивый] Getting BPM
+[Info] [Falling Up - В "Nike"] Downloaded
+[Info] Now downloading: Falling Up - Деньги
+[Info] [Falling Up - Деньги] Getting BPM
+[Info] [Falling Up - Какой же ты красивый] Downloading file to /home/shadow/Music/Falling Up - Цветы/05 - Какой же ты красивый.mp3
+[Info] [Falling Up - Какой же ты красивый] Cover already downloaded
+[Info] [Falling Up - Какой же ты красивый] Starting the download process
+[Info] [Falling Up - Деньги] Downloading file to /home/shadow/Music/Falling Up - Цветы/06 - Деньги.mp3
+[Info] [Falling Up - Деньги] Cover already downloaded
+[Info] [Falling Up - Деньги] Starting the download process
+[Info] [Falling Up - Нафиг, если пофиг!] Downloaded
+[Info] Now downloading: Falling Up - Дикая
+[Info] [Falling Up - Дикая] Getting BPM
+[Info] [Falling Up - Какой же ты красивый] Downloaded
+[Info] Now downloading: Falling Up - Лето спето!
+[Info] [Falling Up - Лето спето!] Getting BPM
+[Info] [Falling Up - Дикая] Downloading file to /home/shadow/Music/Falling Up - Цветы/07 - Дикая.mp3
+[Info] [Falling Up - Дикая] Cover already downloaded
+[Info] [Falling Up - Дикая] Starting the download process
+[Info] [Falling Up - Лето спето!] Downloading file to /home/shadow/Music/Falling Up - Цветы/08 - Лето спето!.mp3
+[Info] [Falling Up - Лето спето!] Cover already downloaded
+[Info] [Falling Up - Лето спето!] Starting the download process
+[Info] [Falling Up - Деньги] Downloaded
+[Info] Now downloading: Falling Up - Понимаешь
+[Info] [Falling Up - Понимаешь] Getting BPM
+[Info] [Falling Up - Понимаешь] Downloading file to /home/shadow/Music/Falling Up - Цветы/09 - Понимаешь.mp3
+[Info] [Falling Up - Понимаешь] Cover already downloaded
+[Info] [Falling Up - Понимаешь] Starting the download process
+[Info] [Falling Up - Дикая] Downloaded
+[Info] Now downloading: Falling Up - Манят мани
+[Info] [Falling Up - Манят мани] Getting BPM
+[Info] [Falling Up - Лето спето!] Downloaded
+[Info] Now downloading: Falling Up - Superштучка
+[Info] [Falling Up - Superштучка] Getting BPM
+[Info] [Falling Up - Манят мани] Downloading file to /home/shadow/Music/Falling Up - Цветы/10 - Манят мани.mp3
+[Info] [Falling Up - Манят мани] Cover already downloaded
+[Info] [Falling Up - Манят мани] Starting the download process
+[Info] [Falling Up - Superштучка] Downloading file to /home/shadow/Music/Falling Up - Цветы/11 - Superштучка.mp3
+[Info] [Falling Up - Superштучка] Cover already downloaded
+[Info] [Falling Up - Superштучка] Starting the download process
+[Info] [Falling Up - Манят мани] Downloaded
+[Info] Now downloading: Falling Up - Любовь
+[Info] [Falling Up - Любовь] Getting BPM
+[Info] [Falling Up - Любовь] Downloading file to /home/shadow/Music/Falling Up - Цветы/12 - Любовь.mp3
+[Info] [Falling Up - Любовь] Cover already downloaded
+[Info] [Falling Up - Любовь] Starting the download process
+[Info] [Falling Up - Любовь] Downloaded
+[Info] Now downloading: Falling Up - Хватай и беги!
+[Info] [Falling Up - Хватай и беги!] Getting BPM
+[Info] [Falling Up - Хватай и беги!] Downloading file to /home/shadow/Music/Falling Up - Цветы/13 - Хватай и беги!.mp3
+[Info] [Falling Up - Хватай и беги!] Cover already downloaded
+[Info] [Falling Up - Хватай и беги!] Starting the download process
+[Info] [Falling Up - Superштучка] Downloaded
+[Info] Now downloading: Falling Up - Серёга, не расплатишься
+[Info] [Falling Up - Серёга, не расплатишься] Getting BPM
+[Info] [Falling Up - Серёга, не расплатишься] Downloading file to /home/shadow/Music/Falling Up - Цветы/14 - Серёга, не расплатишься.mp3
+[Info] [Falling Up - Серёга, не расплатишься] Cover already downloaded
+[Info] [Falling Up - Серёга, не расплатишься] Starting the download process
+[Info] [Falling Up - Хватай и беги!] Downloaded
+[Info] Now downloading: Falling Up - Всё для тебя
+[Info] [Falling Up - Всё для тебя] Getting BPM
+[Info] [Falling Up - Понимаешь] Downloaded
+[Info] Now downloading: Falling Up - Самая я
+[Info] [Falling Up - Самая я] Getting BPM
+[Info] [Falling Up - Всё для тебя] Downloading file to /home/shadow/Music/Falling Up - Цветы/15 - Всё для тебя.mp3
+[Info] [Falling Up - Всё для тебя] Cover already downloaded
+[Info] [Falling Up - Всё для тебя] Starting the download process
+[Info] [Falling Up - Самая я] Downloading file to /home/shadow/Music/Falling Up - Цветы/16 - Самая я.mp3
+[Info] [Falling Up - Самая я] Cover already downloaded
+[Info] [Falling Up - Самая я] Starting the download process
+[Info] [Falling Up - Самая я] Downloaded
+[Info] [Falling Up - Всё для тебя] Downloaded
+[Info] [Falling Up - Серёга, не расплатишься] Downloaded
+[Info] Album finished downloading: Цветы
+[Info] Registered album: 302612:3 | Falling Up - Fangs!
+[Info] Now downloading: Falling Up - A Colour Eoptian
+[Info] [Falling Up - A Colour Eoptian] Getting BPM
+[Info] Now downloading: Falling Up - Lotus And The Languorous
+[Info] [Falling Up - Lotus And The Languorous] Getting BPM
+[Info] Now downloading: Falling Up - Streams Of Woe At Acheron
+[Info] [Falling Up - Streams Of Woe At Acheron] Getting BPM
+[Info] [Falling Up - Streams Of Woe At Acheron] Downloading file to /home/shadow/Music/Falling Up - Fangs!/03 - Streams Of Woe At Acheron.mp3
+[Info] [Falling Up - Streams Of Woe At Acheron] Cover downloaded!
+[Info] [Falling Up - Streams Of Woe At Acheron] Starting the download process
+[Info] [Falling Up - Lotus And The Languorous] Downloading file to /home/shadow/Music/Falling Up - Fangs!/02 - Lotus And The Languorous.mp3
+[Info] [Falling Up - Lotus And The Languorous] Cover already downloaded
+[Info] [Falling Up - Lotus And The Languorous] Starting the download process
+[Info] [Falling Up - Streams Of Woe At Acheron] Downloaded
+[Info] Now downloading: Falling Up - Magician Reversed
+[Info] [Falling Up - Magician Reversed] Getting BPM
+[Info] [Falling Up - Magician Reversed] Downloading file to /home/shadow/Music/Falling Up - Fangs!/04 - Magician Reversed.mp3
+[Info] [Falling Up - Magician Reversed] Cover already downloaded
+[Info] [Falling Up - Magician Reversed] Starting the download process
+[Info] [Falling Up - Lotus And The Languorous] Downloaded
+[Info] Now downloading: Falling Up - Golden Arrows
+[Info] [Falling Up - Golden Arrows] Getting BPM
+[Info] [Falling Up - Golden Arrows] Downloading file to /home/shadow/Music/Falling Up - Fangs!/05 - Golden Arrows.mp3
+[Info] [Falling Up - Golden Arrows] Cover already downloaded
+[Info] [Falling Up - Golden Arrows] Starting the download process
+[Info] [Falling Up - Magician Reversed] Downloaded
+[Info] Now downloading: Falling Up - The King's Garden
+[Info] [Falling Up - The King's Garden] Getting BPM
+[Info] [Falling Up - The King's Garden] Downloading file to /home/shadow/Music/Falling Up - Fangs!/06 - The King's Garden.mp3
+[Info] [Falling Up - The King's Garden] Cover already downloaded
+[Info] [Falling Up - The King's Garden] Starting the download process
+[Info] [Falling Up - Golden Arrows] Downloaded
+[Info] Now downloading: Falling Up - Panic And Geo-Primaries
+[Info] [Falling Up - Panic And Geo-Primaries] Getting BPM
+[Info] [Falling Up - A Colour Eoptian] Downloading file to /home/shadow/Music/Falling Up - Fangs!/01 - A Colour Eoptian.mp3
+[Info] [Falling Up - A Colour Eoptian] Cover already downloaded
+[Info] [Falling Up - A Colour Eoptian] Starting the download process
+[Info] [Falling Up - Panic And Geo-Primaries] Downloading file to /home/shadow/Music/Falling Up - Fangs!/07 - Panic And Geo-Primaries.mp3
+[Info] [Falling Up - Panic And Geo-Primaries] Cover already downloaded
+[Info] [Falling Up - Panic And Geo-Primaries] Starting the download process
+[Info] [Falling Up - The King's Garden] Downloaded
+[Info] Now downloading: Falling Up - The Moonn And Sixpence
+[Info] [Falling Up - The Moonn And Sixpence] Getting BPM
+[Info] [Falling Up - A Colour Eoptian] Downloaded
+[Info] Now downloading: Falling Up - Goddess Of The Dayspring, Am I
+[Info] [Falling Up - Goddess Of The Dayspring, Am I] Getting BPM
+[Info] [Falling Up - Panic And Geo-Primaries] Downloaded
+[Info] Now downloading: Falling Up - The Sidewinder Flux
+[Info] [Falling Up - The Sidewinder Flux] Getting BPM
+[Info] [Falling Up - Goddess Of The Dayspring, Am I] Downloading file to /home/shadow/Music/Falling Up - Fangs!/09 - Goddess Of The Dayspring, Am I.mp3
+[Info] [Falling Up - Goddess Of The Dayspring, Am I] Cover already downloaded
+[Info] [Falling Up - Goddess Of The Dayspring, Am I] Starting the download process
+[Info] [Falling Up - The Sidewinder Flux] Downloading file to /home/shadow/Music/Falling Up - Fangs!/10 - The Sidewinder Flux.mp3
+[Info] [Falling Up - The Sidewinder Flux] Cover already downloaded
+[Info] [Falling Up - The Sidewinder Flux] Starting the download process
+[Info] [Falling Up - Goddess Of The Dayspring, Am I] Downloaded
+[Info] Now downloading: Falling Up - The Chilling Alpine Adventure
+[Info] [Falling Up - The Chilling Alpine Adventure] Getting BPM
+[Info] [Falling Up - The Chilling Alpine Adventure] Downloading file to /home/shadow/Music/Falling Up - Fangs!/11 - The Chilling Alpine Adventure.mp3
+[Info] [Falling Up - The Chilling Alpine Adventure] Cover already downloaded
+[Info] [Falling Up - The Chilling Alpine Adventure] Starting the download process
+[Info] [Falling Up - The Sidewinder Flux] Downloaded
+[Info] Now downloading: Falling Up - Swimming Towards Propellers
+[Info] [Falling Up - Swimming Towards Propellers] Getting BPM
+[Info] [Falling Up - Swimming Towards Propellers] Downloading file to /home/shadow/Music/Falling Up - Fangs!/12 - Swimming Towards Propellers.mp3
+[Info] [Falling Up - Swimming Towards Propellers] Cover already downloaded
+[Info] [Falling Up - Swimming Towards Propellers] Starting the download process
+[Info] [Falling Up - Swimming Towards Propellers] Downloaded
+[Info] [Falling Up - The Chilling Alpine Adventure] Downloaded
+[Info] [Falling Up - The Moonn And Sixpence] Downloading file to /home/shadow/Music/Falling Up - Fangs!/08 - The Moonn And Sixpence.mp3
+[Info] [Falling Up - The Moonn And Sixpence] Cover already downloaded
+[Info] [Falling Up - The Moonn And Sixpence] Starting the download process
+[Info] [Falling Up - The Moonn And Sixpence] Downloaded
+[Info] Album finished downloading: Fangs!
+[Info] Registered album: 328149:3 | Falling Up - Discover The Trees Again: The Best Of Falling Up
+[Info] Now downloading: Falling Up - Broken Heart
+[Info] [Falling Up - Broken Heart] Getting BPM
+[Info] Now downloading: Falling Up - Hotel Aquarium
+[Info] [Falling Up - Hotel Aquarium] Getting BPM
+[Info] Now downloading: Falling Up - Moonlit
+[Info] [Falling Up - Moonlit] Getting BPM
+[Info] [Falling Up - Moonlit] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/03 - Moonlit.mp3
+[Info] [Falling Up - Hotel Aquarium] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/02 - Hotel Aquarium.mp3
+[Info] [Falling Up - Broken Heart] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/01 - Broken Heart.mp3
+[Info] [Falling Up - Moonlit] Cover downloaded!
+[Info] [Falling Up - Moonlit] Starting the download process
+[Info] [Falling Up - Broken Heart] Cover downloaded!
+[Info] [Falling Up - Broken Heart] Starting the download process
+[Info] [Falling Up - Hotel Aquarium] Cover downloaded!
+[Info] [Falling Up - Hotel Aquarium] Starting the download process
+[Info] [Falling Up - Broken Heart] Downloaded
+[Info] Now downloading: Falling Up - Exit Calypsan (Into The Ice Cave)
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Getting BPM
+[Info] [Falling Up - Moonlit] Downloaded
+[Info] Now downloading: Falling Up - Escalates
+[Info] [Falling Up - Escalates] Getting BPM
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/04 - Exit Calypsan (Into The Ice Cave).mp3
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Cover already downloaded
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Starting the download process
+[Info] [Falling Up - Escalates] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/05 - Escalates.mp3
+[Info] [Falling Up - Escalates] Cover already downloaded
+[Info] [Falling Up - Escalates] Starting the download process
+[Info] [Falling Up - Hotel Aquarium] Downloaded
+[Info] Now downloading: Falling Up - Contact
+[Info] [Falling Up - Contact] Getting BPM
+[Info] [Falling Up - Contact] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/06 - Contact.mp3
+[Info] [Falling Up - Contact] Cover already downloaded
+[Info] [Falling Up - Contact] Starting the download process
+[Info] [Falling Up - Escalates] Downloaded
+[Info] Now downloading: Falling Up - Searchlights (Indoor Soccer)
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Getting BPM
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Downloaded
+[Info] Now downloading: Falling Up - Good Morning Planetarium
+[Info] [Falling Up - Good Morning Planetarium] Getting BPM
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/07 - Searchlights (Indoor Soccer).mp3
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Cover already downloaded
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Starting the download process
+[Info] [Falling Up - Good Morning Planetarium] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/08 - Good Morning Planetarium.mp3
+[Info] [Falling Up - Good Morning Planetarium] Cover already downloaded
+[Info] [Falling Up - Good Morning Planetarium] Starting the download process
+[Info] [Falling Up - Contact] Downloaded
+[Info] Now downloading: Falling Up - Bittersweet
+[Info] [Falling Up - Bittersweet] Getting BPM
+[Info] [Falling Up - Bittersweet] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/09 - Bittersweet.mp3
+[Info] [Falling Up - Bittersweet] Cover already downloaded
+[Info] [Falling Up - Bittersweet] Starting the download process
+[Info] [Falling Up - Good Morning Planetarium] Downloaded
+[Info] Now downloading: Falling Up - Islander
+[Info] [Falling Up - Islander] Getting BPM
+[Info] [Falling Up - Islander] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/10 - Islander.mp3
+[Info] [Falling Up - Islander] Cover already downloaded
+[Info] [Falling Up - Islander] Starting the download process
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Downloaded
+[Info] Now downloading: Falling Up - Symmetry
+[Info] [Falling Up - Symmetry] Getting BPM
+[Info] [Falling Up - Bittersweet] Downloaded
+[Info] Now downloading: Falling Up - Flights
+[Info] [Falling Up - Flights] Getting BPM
+[Info] [Falling Up - Symmetry] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/11 - Symmetry.mp3
+[Info] [Falling Up - Symmetry] Cover already downloaded
+[Info] [Falling Up - Symmetry] Starting the download process
+[Info] [Falling Up - Flights] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/12 - Flights.mp3
+[Info] [Falling Up - Flights] Cover already downloaded
+[Info] [Falling Up - Flights] Starting the download process
+[Info] [Falling Up - Flights] Downloaded
+[Info] Now downloading: Falling Up - Falling In Love
+[Info] [Falling Up - Falling In Love] Getting BPM
+[Info] [Falling Up - Symmetry] Downloaded
+[Info] Now downloading: Falling Up - Goodnight Gravity
+[Info] [Falling Up - Goodnight Gravity] Getting BPM
+[Info] [Falling Up - Goodnight Gravity] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/14 - Goodnight Gravity.mp3
+[Info] [Falling Up - Goodnight Gravity] Cover already downloaded
+[Info] [Falling Up - Goodnight Gravity] Starting the download process
+[Info] [Falling Up - Falling In Love] Downloading file to /home/shadow/Music/Falling Up - Discover The Trees Again_ The Best Of Falling Up/13 - Falling In Love.mp3
+[Info] [Falling Up - Falling In Love] Cover already downloaded
+[Info] [Falling Up - Falling In Love] Starting the download process
+[Info] [Falling Up - Goodnight Gravity] Downloaded
+[Info] [Falling Up - Falling In Love] Downloaded
+[Info] [Falling Up - Islander] Downloaded
+[Info] Album finished downloading: Discover The Trees Again: The Best Of Falling Up
+[Info] Registered album: 300476:3 | Falling Up - Captiva
+[Info] Now downloading: Falling Up - A Guide To Marine Life
+[Info] [Falling Up - A Guide To Marine Life] Getting BPM
+[Info] Now downloading: Falling Up - Hotel Aquarium
+[Info] [Falling Up - Hotel Aquarium] Getting BPM
+[Info] Now downloading: Falling Up - Goodnight Gravity
+[Info] [Falling Up - Goodnight Gravity] Getting BPM
+[Info] [Falling Up - A Guide To Marine Life] Downloading file to /home/shadow/Music/Falling Up - Captiva/01 - A Guide To Marine Life.mp3
+[Info] [Falling Up - Goodnight Gravity] Downloading file to /home/shadow/Music/Falling Up - Captiva/03 - Goodnight Gravity.mp3
+[Info] [Falling Up - Hotel Aquarium] Downloading file to /home/shadow/Music/Falling Up - Captiva/02 - Hotel Aquarium.mp3
+[Info] [Falling Up - A Guide To Marine Life] Cover downloaded!
+[Info] [Falling Up - A Guide To Marine Life] Starting the download process
+[Info] [Falling Up - Hotel Aquarium] Cover downloaded!
+[Info] [Falling Up - Hotel Aquarium] Starting the download process
+[Info] [Falling Up - Goodnight Gravity] Cover downloaded!
+[Info] [Falling Up - Goodnight Gravity] Starting the download process
+[Info] [Falling Up - A Guide To Marine Life] Downloaded
+[Info] Now downloading: Falling Up - Captiva
+[Info] [Falling Up - Captiva] Getting BPM
+[Info] [Falling Up - Captiva] Downloading file to /home/shadow/Music/Falling Up - Captiva/04 - Captiva.mp3
+[Info] [Falling Up - Captiva] Cover already downloaded
+[Info] [Falling Up - Captiva] Starting the download process
+[Info] [Falling Up - Goodnight Gravity] Downloaded
+[Info] Now downloading: Falling Up - Helicopters
+[Info] [Falling Up - Helicopters] Getting BPM
+[Info] [Falling Up - Hotel Aquarium] Downloaded
+[Info] Now downloading: Falling Up - Maps
+[Info] [Falling Up - Maps] Getting BPM
+[Info] [Falling Up - Helicopters] Downloading file to /home/shadow/Music/Falling Up - Captiva/05 - Helicopters.mp3
+[Info] [Falling Up - Helicopters] Cover already downloaded
+[Info] [Falling Up - Helicopters] Starting the download process
+[Info] [Falling Up - Maps] Downloading file to /home/shadow/Music/Falling Up - Captiva/06 - Maps.mp3
+[Info] [Falling Up - Maps] Cover already downloaded
+[Info] [Falling Up - Maps] Starting the download process
+[Info] [Falling Up - Captiva] Downloaded
+[Info] Now downloading: Falling Up - How They Made Cameras
+[Info] [Falling Up - How They Made Cameras] Getting BPM
+[Info] [Falling Up - How They Made Cameras] Downloading file to /home/shadow/Music/Falling Up - Captiva/07 - How They Made Cameras.mp3
+[Info] [Falling Up - How They Made Cameras] Cover already downloaded
+[Info] [Falling Up - How They Made Cameras] Starting the download process
+[Info] [Falling Up - Maps] Downloaded
+[Info] Now downloading: Falling Up - Good Morning Planetarium
+[Info] [Falling Up - Good Morning Planetarium] Getting BPM
+[Info] [Falling Up - Good Morning Planetarium] Downloading file to /home/shadow/Music/Falling Up - Captiva/08 - Good Morning Planetarium.mp3
+[Info] [Falling Up - Good Morning Planetarium] Cover already downloaded
+[Info] [Falling Up - Good Morning Planetarium] Starting the download process
+[Info] [Falling Up - Helicopters] Downloaded
+[Info] Now downloading: Falling Up - Murexa
+[Info] [Falling Up - Murexa] Getting BPM
+[Info] [Falling Up - Murexa] Downloading file to /home/shadow/Music/Falling Up - Captiva/09 - Murexa.mp3
+[Info] [Falling Up - Murexa] Cover already downloaded
+[Info] [Falling Up - Murexa] Starting the download process
+[Info] [Falling Up - How They Made Cameras] Downloaded
+[Info] Now downloading: Falling Up - Drago Or The Dragons
+[Info] [Falling Up - Drago Or The Dragons] Getting BPM
+[Info] [Falling Up - Drago Or The Dragons] Downloading file to /home/shadow/Music/Falling Up - Captiva/10 - Drago Or The Dragons.mp3
+[Info] [Falling Up - Drago Or The Dragons] Cover already downloaded
+[Info] [Falling Up - Drago Or The Dragons] Starting the download process
+[Info] [Falling Up - Murexa] Downloaded
+[Info] Now downloading: Falling Up - Arch To Achtilles
+[Info] [Falling Up - Arch To Achtilles] Getting BPM
+[Info] [Falling Up - Arch To Achtilles] Downloading file to /home/shadow/Music/Falling Up - Captiva/11 - Arch To Achtilles.mp3
+[Info] [Falling Up - Arch To Achtilles] Cover already downloaded
+[Info] [Falling Up - Arch To Achtilles] Starting the download process
+[Info] [Falling Up - Good Morning Planetarium] Downloaded
+[Info] Now downloading: Falling Up - The Dark Side Of Indoor Track Meets
+[Info] [Falling Up - The Dark Side Of Indoor Track Meets] Getting BPM
+[Info] [Falling Up - Drago Or The Dragons] Downloaded
+[Info] [Falling Up - The Dark Side Of Indoor Track Meets] Downloading file to /home/shadow/Music/Falling Up - Captiva/12 - The Dark Side Of Indoor Track Meets.mp3
+[Info] [Falling Up - The Dark Side Of Indoor Track Meets] Cover already downloaded
+[Info] [Falling Up - The Dark Side Of Indoor Track Meets] Starting the download process
+[Info] [Falling Up - Arch To Achtilles] Downloaded
+[Info] [Falling Up - The Dark Side Of Indoor Track Meets] Downloaded
+[Info] Album finished downloading: Captiva
+[Info] Registered album: 328085:3 | Falling Up - Exit Lights
+[Info] Now downloading: Falling Up - Islander
+[Info] [Falling Up - Islander] Getting BPM
+[Info] Now downloading: Falling Up - Exit Calypsan (Into The Ice Cave)
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Getting BPM
+[Info] Now downloading: Falling Up - Escalates (Aceramic)
+[Info] [Falling Up - Escalates (Aceramic)] Getting BPM
+[Info] [Falling Up - Escalates (Aceramic)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/03 - Escalates (Aceramic).mp3
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/02 - Exit Calypsan (Into The Ice Cave).mp3
+[Info] [Falling Up - Islander] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/01 - Islander.mp3
+[Info] [Falling Up - Escalates (Aceramic)] Cover downloaded!
+[Info] [Falling Up - Escalates (Aceramic)] Starting the download process
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Cover downloaded!
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Starting the download process
+[Info] [Falling Up - Islander] Cover downloaded!
+[Info] [Falling Up - Islander] Starting the download process
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Downloaded
+[Info] Now downloading: Falling Up - Broken Heart (Ghosts Of Seaside)
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Getting BPM
+[Info] [Falling Up - Islander] Downloaded
+[Info] Now downloading: Falling Up - Circlewinds
+[Info] [Falling Up - Circlewinds] Getting BPM
+[Info] [Falling Up - Circlewinds] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/05 - Circlewinds.mp3
+[Info] [Falling Up - Circlewinds] Cover already downloaded
+[Info] [Falling Up - Circlewinds] Starting the download process
+[Info] [Falling Up - Escalates (Aceramic)] Downloaded
+[Info] Now downloading: Falling Up - Moonlit (Neon Predator)
+[Info] [Falling Up - Moonlit (Neon Predator)] Getting BPM
+[Info] [Falling Up - Moonlit (Neon Predator)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/06 - Moonlit (Neon Predator).mp3
+[Info] [Falling Up - Moonlit (Neon Predator)] Cover already downloaded
+[Info] [Falling Up - Moonlit (Neon Predator)] Starting the download process
+[Info] [Falling Up - Circlewinds] Downloaded
+[Info] Now downloading: Falling Up - Bittersweet (A Jedi Force)
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Getting BPM
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/07 - Bittersweet (A Jedi Force).mp3
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Cover already downloaded
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Starting the download process
+[Info] [Falling Up - Moonlit (Neon Predator)] Downloaded
+[Info] Now downloading: Falling Up - Third Lake (Interlude)
+[Info] [Falling Up - Third Lake (Interlude)] Getting BPM
+[Info] [Falling Up - Third Lake (Interlude)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/08 - Third Lake (Interlude).mp3
+[Info] [Falling Up - Third Lake (Interlude)] Cover already downloaded
+[Info] [Falling Up - Third Lake (Interlude)] Starting the download process
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Downloaded
+[Info] Now downloading: Falling Up - Searchlights (Indoor Soccer)
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Getting BPM
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/09 - Searchlights (Indoor Soccer).mp3
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Cover already downloaded
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Starting the download process
+[Info] [Falling Up - Third Lake (Interlude)] Downloaded
+[Info] Now downloading: Falling Up - Fearless (250 And Dark Stars)
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Getting BPM
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/04 - Broken Heart (Ghosts Of Seaside).mp3
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Cover already downloaded
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Starting the download process
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Downloaded
+[Info] Now downloading: Falling Up - Contact (Complexus)
+[Info] [Falling Up - Contact (Complexus)] Getting BPM
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/10 - Fearless (250 And Dark Stars).mp3
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Cover already downloaded
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Starting the download process
+[Info] [Falling Up - Contact (Complexus)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/11 - Contact (Complexus).mp3
+[Info] [Falling Up - Contact (Complexus)] Cover already downloaded
+[Info] [Falling Up - Contact (Complexus)] Starting the download process
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Downloaded
+[Info] Now downloading: Falling Up - Exhibition (Epoison)
+[Info] [Falling Up - Exhibition (Epoison)] Getting BPM
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Downloaded
+[Info] Now downloading: Falling Up - Cascades (From In The Forest Cascadia)
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Getting BPM
+[Info] [Falling Up - Exhibition (Epoison)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/12 - Exhibition (Epoison).mp3
+[Info] [Falling Up - Exhibition (Epoison)] Cover already downloaded
+[Info] [Falling Up - Exhibition (Epoison)] Starting the download process
+[Info] [Falling Up - Contact (Complexus)] Downloaded
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Downloading file to /home/shadow/Music/Falling Up - Exit Lights/13 - Cascades (From In The Forest Cascadia).mp3
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Cover already downloaded
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Starting the download process
+[Info] [Falling Up - Exhibition (Epoison)] Downloaded
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Downloaded
+[Info] Album finished downloading: Exit Lights
+[Info] Registered album: 328131:3 | Falling Up - Dawn Escapes
+[Info] Now downloading: Falling Up - Searchlights
+[Info] [Falling Up - Searchlights] Getting BPM
+[Info] Now downloading: Falling Up - Exhibition
+[Info] [Falling Up - Exhibition] Getting BPM
+[Info] Now downloading: Falling Up - Flights
+[Info] [Falling Up - Flights] Getting BPM
+[Info] [Falling Up - Searchlights] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/01 - Searchlights.mp3
+[Info] [Falling Up - Flights] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/03 - Flights.mp3
+[Info] [Falling Up - Exhibition] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/02 - Exhibition.mp3
+[Info] [Falling Up - Searchlights] Cover downloaded!
+[Info] [Falling Up - Searchlights] Starting the download process
+[Info] [Falling Up - Flights] Cover downloaded!
+[Info] [Falling Up - Flights] Starting the download process
+[Info] [Falling Up - Exhibition] Cover downloaded!
+[Info] [Falling Up - Exhibition] Starting the download process
+[Info] [Falling Up - Searchlights] Downloaded
+[Info] Now downloading: Falling Up - Exit Calypsan
+[Info] [Falling Up - Exit Calypsan] Getting BPM
+[Info] [Falling Up - Exit Calypsan] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/04 - Exit Calypsan.mp3
+[Info] [Falling Up - Exit Calypsan] Cover already downloaded
+[Info] [Falling Up - Exit Calypsan] Starting the download process
+[Info] [Falling Up - Exhibition] Downloaded
+[Info] Now downloading: Falling Up - Contact
+[Info] [Falling Up - Contact] Getting BPM
+[Info] [Falling Up - Flights] Downloaded
+[Info] Now downloading: Falling Up - Moonlit
+[Info] [Falling Up - Moonlit] Getting BPM
+[Info] [Falling Up - Moonlit] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/06 - Moonlit.mp3
+[Info] [Falling Up - Moonlit] Cover already downloaded
+[Info] [Falling Up - Moonlit] Starting the download process
+[Info] [Falling Up - Contact] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/05 - Contact.mp3
+[Info] [Falling Up - Contact] Cover already downloaded
+[Info] [Falling Up - Contact] Starting the download process
+[Info] [Falling Up - Moonlit] Downloaded
+[Info] Now downloading: Falling Up - Cascades
+[Info] [Falling Up - Cascades] Getting BPM
+[Info] [Falling Up - Contact] Downloaded
+[Info] Now downloading: Falling Up - Meridians
+[Info] [Falling Up - Meridians] Getting BPM
+[Info] [Falling Up - Cascades] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/07 - Cascades.mp3
+[Info] [Falling Up - Cascades] Cover already downloaded
+[Info] [Falling Up - Cascades] Starting the download process
+[Info] [Falling Up - Meridians] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/08 - Meridians.mp3
+[Info] [Falling Up - Meridians] Cover already downloaded
+[Info] [Falling Up - Meridians] Starting the download process
+[Info] [Falling Up - Cascades] Downloaded
+[Info] Now downloading: Falling Up - Lights Of Reedsport
+[Info] [Falling Up - Lights Of Reedsport] Getting BPM
+[Info] [Falling Up - Lights Of Reedsport] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/09 - Lights Of Reedsport.mp3
+[Info] [Falling Up - Lights Of Reedsport] Cover already downloaded
+[Info] [Falling Up - Lights Of Reedsport] Starting the download process
+[Info] [Falling Up - Meridians] Downloaded
+[Info] Now downloading: Falling Up - Marathons
+[Info] [Falling Up - Marathons] Getting BPM
+[Info] [Falling Up - Exit Calypsan] Downloaded
+[Info] Now downloading: Falling Up - Fearless
+[Info] [Falling Up - Fearless] Getting BPM
+[Info] [Falling Up - Fearless] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/11 - Fearless.mp3
+[Info] [Falling Up - Fearless] Cover already downloaded
+[Info] [Falling Up - Fearless] Starting the download process
+[Info] [Falling Up - Lights Of Reedsport] Downloaded
+[Info] Now downloading: Falling Up - Intro The Gravity
+[Info] [Falling Up - Intro The Gravity] Getting BPM
+[Info] [Falling Up - Intro The Gravity] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/12 - Intro The Gravity.mp3
+[Info] [Falling Up - Intro The Gravity] Cover already downloaded
+[Info] [Falling Up - Intro The Gravity] Starting the download process
+[Info] [Falling Up - Fearless] Downloaded
+[Info] [Falling Up - Intro The Gravity] Downloaded
+[Info] [Falling Up - Marathons] Downloading file to /home/shadow/Music/Falling Up - Dawn Escapes/10 - Marathons.mp3
+[Info] [Falling Up - Marathons] Cover already downloaded
+[Info] [Falling Up - Marathons] Starting the download process
+[Info] [Falling Up - Marathons] Downloaded
+[Info] Album finished downloading: Dawn Escapes
+[Info] Registered album: 328101:3 | Falling Up - Double Take
+[Info] Now downloading: Falling Up - Islander
+[Info] [Falling Up - Islander] Getting BPM
+[Info] Now downloading: Falling Up - Exit Calypsan (Into The Ice Cave)
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Getting BPM
+[Info] Now downloading: Falling Up - Escalates (Aceramic)
+[Info] [Falling Up - Escalates (Aceramic)] Getting BPM
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/02 - Exit Calypsan (Into The Ice Cave).mp3
+[Info] [Falling Up - Islander] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/01 - Islander.mp3
+[Info] [Falling Up - Escalates (Aceramic)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/03 - Escalates (Aceramic).mp3
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Cover downloaded!
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Starting the download process
+[Info] [Falling Up - Escalates (Aceramic)] Cover downloaded!
+[Info] [Falling Up - Escalates (Aceramic)] Starting the download process
+[Info] [Falling Up - Islander] Cover downloaded!
+[Info] [Falling Up - Islander] Starting the download process
+[Info] [Falling Up - Exit Calypsan (Into The Ice Cave)] Downloaded
+[Info] Now downloading: Falling Up - Broken Heart (Ghosts Of Seaside)
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Getting BPM
+[Info] [Falling Up - Escalates (Aceramic)] Downloaded
+[Info] Now downloading: Falling Up - Circlewinds
+[Info] [Falling Up - Circlewinds] Getting BPM
+[Info] [Falling Up - Islander] Downloaded
+[Info] Now downloading: Falling Up - Moonlit (Neon Predator)
+[Info] [Falling Up - Moonlit (Neon Predator)] Getting BPM
+[Info] [Falling Up - Circlewinds] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/05 - Circlewinds.mp3
+[Info] [Falling Up - Circlewinds] Cover already downloaded
+[Info] [Falling Up - Circlewinds] Starting the download process
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/04 - Broken Heart (Ghosts Of Seaside).mp3
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Cover already downloaded
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Starting the download process
+[Info] [Falling Up - Moonlit (Neon Predator)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/06 - Moonlit (Neon Predator).mp3
+[Info] [Falling Up - Moonlit (Neon Predator)] Cover already downloaded
+[Info] [Falling Up - Moonlit (Neon Predator)] Starting the download process
+[Info] [Falling Up - Moonlit (Neon Predator)] Downloaded
+[Info] Now downloading: Falling Up - Bittersweet (A Jedi Force)
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Getting BPM
+[Info] [Falling Up - Circlewinds] Downloaded
+[Info] Now downloading: Falling Up - Third Lake (Interlude)
+[Info] [Falling Up - Third Lake (Interlude)] Getting BPM
+[Info] [Falling Up - Broken Heart (Ghosts Of Seaside)] Downloaded
+[Info] Now downloading: Falling Up - Searchlights (Indoor Soccer)
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Getting BPM
+[Info] [Falling Up - Third Lake (Interlude)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/08 - Third Lake (Interlude).mp3
+[Info] [Falling Up - Third Lake (Interlude)] Cover already downloaded
+[Info] [Falling Up - Third Lake (Interlude)] Starting the download process
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/09 - Searchlights (Indoor Soccer).mp3
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Cover already downloaded
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Starting the download process
+[Info] [Falling Up - Searchlights (Indoor Soccer)] Downloaded
+[Info] Now downloading: Falling Up - Fearless (250 And Dark Stars)
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Getting BPM
+[Info] [Falling Up - Third Lake (Interlude)] Downloaded
+[Info] Now downloading: Falling Up - Contact (Complexus)
+[Info] [Falling Up - Contact (Complexus)] Getting BPM
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/10 - Fearless (250 And Dark Stars).mp3
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Cover already downloaded
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Starting the download process
+[Info] [Falling Up - Contact (Complexus)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/11 - Contact (Complexus).mp3
+[Info] [Falling Up - Contact (Complexus)] Cover already downloaded
+[Info] [Falling Up - Contact (Complexus)] Starting the download process
+[Info] [Falling Up - Contact (Complexus)] Downloaded
+[Info] Now downloading: Falling Up - Exhibition (Epoison)
+[Info] [Falling Up - Exhibition (Epoison)] Getting BPM
+[Info] [Falling Up - Exhibition (Epoison)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/12 - Exhibition (Epoison).mp3
+[Info] [Falling Up - Exhibition (Epoison)] Cover already downloaded
+[Info] [Falling Up - Exhibition (Epoison)] Starting the download process
+[Info] [Falling Up - Fearless (250 And Dark Stars)] Downloaded
+[Info] Now downloading: Falling Up - Cascades (From In The Forest Cascadia)
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Getting BPM
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/07 - Bittersweet (A Jedi Force).mp3
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Cover already downloaded
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Starting the download process
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD1/13 - Cascades (From In The Forest Cascadia).mp3
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Cover already downloaded
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Starting the download process
+[Info] [Falling Up - Exhibition (Epoison)] Downloaded
+[Info] Now downloading: Falling Up - Searchlights
+[Info] [Falling Up - Searchlights] Getting BPM
+[Info] [Falling Up - Cascades (From In The Forest Cascadia)] Downloaded
+[Info] Now downloading: Falling Up - Exhibition
+[Info] [Falling Up - Exhibition] Getting BPM
+[Info] [Falling Up - Bittersweet (A Jedi Force)] Downloaded
+[Info] Now downloading: Falling Up - Flights
+[Info] [Falling Up - Flights] Getting BPM
+[Info] [Falling Up - Searchlights] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/01 - Searchlights.mp3
+[Info] [Falling Up - Searchlights] Cover already downloaded
+[Info] [Falling Up - Searchlights] Starting the download process
+[Info] [Falling Up - Exhibition] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/02 - Exhibition.mp3
+[Info] [Falling Up - Exhibition] Cover already downloaded
+[Info] [Falling Up - Exhibition] Starting the download process
+[Info] [Falling Up - Flights] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/03 - Flights.mp3
+[Info] [Falling Up - Flights] Cover already downloaded
+[Info] [Falling Up - Flights] Starting the download process
+[Info] [Falling Up - Exhibition] Downloaded
+[Info] Now downloading: Falling Up - Exit Calypsan
+[Info] [Falling Up - Exit Calypsan] Getting BPM
+[Info] [Falling Up - Searchlights] Downloaded
+[Info] Now downloading: Falling Up - Contact
+[Info] [Falling Up - Contact] Getting BPM
+[Info] [Falling Up - Exit Calypsan] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/04 - Exit Calypsan.mp3
+[Info] [Falling Up - Exit Calypsan] Cover already downloaded
+[Info] [Falling Up - Exit Calypsan] Starting the download process
+[Info] [Falling Up - Contact] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/05 - Contact.mp3
+[Info] [Falling Up - Contact] Cover already downloaded
+[Info] [Falling Up - Contact] Starting the download process
+[Info] [Falling Up - Flights] Downloaded
+[Info] Now downloading: Falling Up - Moonlit
+[Info] [Falling Up - Moonlit] Getting BPM
+[Info] [Falling Up - Moonlit] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/06 - Moonlit.mp3
+[Info] [Falling Up - Moonlit] Cover already downloaded
+[Info] [Falling Up - Moonlit] Starting the download process
+[Info] [Falling Up - Exit Calypsan] Downloaded
+[Info] Now downloading: Falling Up - Cascades
+[Info] [Falling Up - Cascades] Getting BPM
+[Info] [Falling Up - Moonlit] Downloaded
+[Info] Now downloading: Falling Up - Meridians
+[Info] [Falling Up - Meridians] Getting BPM
+[Info] [Falling Up - Cascades] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/07 - Cascades.mp3
+[Info] [Falling Up - Cascades] Cover already downloaded
+[Info] [Falling Up - Cascades] Starting the download process
+[Info] [Falling Up - Meridians] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/08 - Meridians.mp3
+[Info] [Falling Up - Meridians] Cover already downloaded
+[Info] [Falling Up - Meridians] Starting the download process
+[Info] [Falling Up - Contact] Downloaded
+[Info] Now downloading: Falling Up - Lights Of Reedsport
+[Info] [Falling Up - Lights Of Reedsport] Getting BPM
+[Info] [Falling Up - Lights Of Reedsport] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/09 - Lights Of Reedsport.mp3
+[Info] [Falling Up - Lights Of Reedsport] Cover already downloaded
+[Info] [Falling Up - Lights Of Reedsport] Starting the download process
+[Info] [Falling Up - Meridians] Downloaded
+[Info] Now downloading: Falling Up - Marathons
+[Info] [Falling Up - Marathons] Getting BPM
+[Info] [Falling Up - Cascades] Downloaded
+[Info] Now downloading: Falling Up - Fearless
+[Info] [Falling Up - Fearless] Getting BPM
+[Info] [Falling Up - Marathons] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/10 - Marathons.mp3
+[Info] [Falling Up - Marathons] Cover already downloaded
+[Info] [Falling Up - Marathons] Starting the download process
+[Info] [Falling Up - Fearless] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/11 - Fearless.mp3
+[Info] [Falling Up - Fearless] Cover already downloaded
+[Info] [Falling Up - Fearless] Starting the download process
+[Info] [Falling Up - Lights Of Reedsport] Downloaded
+[Info] Now downloading: Falling Up - Intro The Gravity
+[Info] [Falling Up - Intro The Gravity] Getting BPM
+[Info] [Falling Up - Intro The Gravity] Downloading file to /home/shadow/Music/Falling Up - Double Take/CD2/12 - Intro The Gravity.mp3
+[Info] [Falling Up - Intro The Gravity] Cover already downloaded
+[Info] [Falling Up - Intro The Gravity] Starting the download process
+[Info] [Falling Up - Marathons] Downloaded
+[Info] [Falling Up - Fearless] Downloaded
+[Info] [Falling Up - Intro The Gravity] Downloaded
+[Info] Album finished downloading: Double Take
+[Info] Registered album: 328124:3 | Falling Up - Crashings
+[Info] Now downloading: Falling Up - Bittersweet
+[Info] [Falling Up - Bittersweet] Getting BPM
+[Info] Now downloading: Falling Up - Symmetry
+[Info] [Falling Up - Symmetry] Getting BPM
+[Info] Now downloading: Falling Up - Broken Heart
+[Info] [Falling Up - Broken Heart] Getting BPM
+[Info] [Falling Up - Bittersweet] Downloading file to /home/shadow/Music/Falling Up - Crashings/01 - Bittersweet.mp3
+[Info] [Falling Up - Broken Heart] Downloading file to /home/shadow/Music/Falling Up - Crashings/03 - Broken Heart.mp3
+[Info] [Falling Up - Symmetry] Downloading file to /home/shadow/Music/Falling Up - Crashings/02 - Symmetry.mp3
+[Info] [Falling Up - Bittersweet] Cover downloaded!
+[Info] [Falling Up - Bittersweet] Starting the download process
+[Info] [Falling Up - Broken Heart] Cover downloaded!
+[Info] [Falling Up - Broken Heart] Starting the download process
+[Info] [Falling Up - Symmetry] Cover downloaded!
+[Info] [Falling Up - Symmetry] Starting the download process
+[Info] [Falling Up - Broken Heart] Downloaded
+[Info] Now downloading: Falling Up - Escalates
+[Info] [Falling Up - Escalates] Getting BPM
+[Info] [Falling Up - Bittersweet] Downloaded
+[Info] Now downloading: Falling Up - New Hope Generation
+[Info] [Falling Up - New Hope Generation] Getting BPM
+[Info] [Falling Up - Escalates] Downloading file to /home/shadow/Music/Falling Up - Crashings/04 - Escalates.mp3
+[Info] [Falling Up - Escalates] Cover already downloaded
+[Info] [Falling Up - Escalates] Starting the download process
+[Info] [Falling Up - Symmetry] Downloaded
+[Info] Now downloading: Falling Up - Gathering, The
+[Info] [Falling Up - Gathering, The] Getting BPM
+[Info] [Falling Up - New Hope Generation] Downloading file to /home/shadow/Music/Falling Up - Crashings/05 - New Hope Generation.mp3
+[Info] [Falling Up - New Hope Generation] Cover already downloaded
+[Info] [Falling Up - New Hope Generation] Starting the download process
+[Info] [Falling Up - Gathering, The] Downloading file to /home/shadow/Music/Falling Up - Crashings/06 - Gathering, The.mp3
+[Info] [Falling Up - Gathering, The] Cover already downloaded
+[Info] [Falling Up - Gathering, The] Starting the download process
+[Info] [Falling Up - Gathering, The] Downloaded
+[Info] Now downloading: Falling Up - Jackson Five
+[Info] [Falling Up - Jackson Five] Getting BPM
+[Info] [Falling Up - New Hope Generation] Downloaded
+[Info] Now downloading: Falling Up - Divinity
+[Info] [Falling Up - Divinity] Getting BPM
+[Info] [Falling Up - Jackson Five] Downloading file to /home/shadow/Music/Falling Up - Crashings/07 - Jackson Five.mp3
+[Info] [Falling Up - Jackson Five] Cover already downloaded
+[Info] [Falling Up - Jackson Five] Starting the download process
+[Info] [Falling Up - Escalates] Downloaded
+[Info] Now downloading: Falling Up - Places
+[Info] [Falling Up - Places] Getting BPM
+[Info] [Falling Up - Divinity] Downloading file to /home/shadow/Music/Falling Up - Crashings/08 - Divinity.mp3
+[Info] [Falling Up - Divinity] Cover already downloaded
+[Info] [Falling Up - Divinity] Starting the download process
+[Info] [Falling Up - Places] Downloading file to /home/shadow/Music/Falling Up - Crashings/09 - Places.mp3
+[Info] [Falling Up - Places] Cover already downloaded
+[Info] [Falling Up - Places] Starting the download process
+[Info] [Falling Up - Divinity] Downloaded
+[Info] Now downloading: Falling Up - Falling In Love
+[Info] [Falling Up - Falling In Love] Getting BPM
+[Info] [Falling Up - Jackson Five] Downloaded
+[Info] Now downloading: Falling Up - Ambience
+[Info] [Falling Up - Ambience] Getting BPM
+[Info] [Falling Up - Ambience] Downloading file to /home/shadow/Music/Falling Up - Crashings/11 - Ambience.mp3
+[Info] [Falling Up - Ambience] Cover already downloaded
+[Info] [Falling Up - Ambience] Starting the download process
+[Info] [Falling Up - Falling In Love] Downloading file to /home/shadow/Music/Falling Up - Crashings/10 - Falling In Love.mp3
+[Info] [Falling Up - Falling In Love] Cover already downloaded
+[Info] [Falling Up - Falling In Love] Starting the download process
+[Info] [Falling Up - Places] Downloaded
+[Info] Now downloading: Falling Up - Arafax Deep
+[Info] [Falling Up - Arafax Deep] Getting BPM
+[Info] [Falling Up - Arafax Deep] Downloading file to /home/shadow/Music/Falling Up - Crashings/12 - Arafax Deep.mp3
+[Info] [Falling Up - Arafax Deep] Cover already downloaded
+[Info] [Falling Up - Arafax Deep] Starting the download process
+[Info] [Falling Up - Ambience] Downloaded
+[Info] [Falling Up - Falling In Love] Downloaded
+[Info] [Falling Up - Arafax Deep] Downloaded
+[Info] Album finished downloading: Crashings

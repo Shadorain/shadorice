@@ -1,0 +1,21 @@
+
+[General]
+Binary = calcurse
+
+Hostname = apidata.googleusercontent.com
+#Path = /caldav/v2/560juvim5ufbmurufo2j5a3fafunlqam@import.calendar.google.com.ics/events
+Path = /caldev/v2/560juvim5ufbmurufo2j5a3fafunlqam@import.calendar.google.com/events
+AuthMethod = oauth2
+SyncFilter = cal
+HTTPS = Yes
+DryRun = No
+Verbose = Yes
+
+
+[OAuth2]
+ClientID = 853008520974-kjiqsgb42fid0ecjmabc6ubrksm0f1u5.apps.googleusercontent.com
+ClientSecret = bxCuA25f-RSSRtesCzz5wOnE
+#Scope=https://www.googleapis.com/auth/calendar
+Scope=https://www.googleapis.com/auth/calendar.events
+RedirectURI = http://127.0.0.1
+
