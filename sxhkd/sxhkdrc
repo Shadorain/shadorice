@@ -107,18 +107,14 @@ super + m
 # Rotate Desktop 90*
 super + r
     bspc node @/ -R 90
+# }}}
 #}}}
-
-
-
-
-
 # --- Utilities --- # {{{
 # Terminal Emulator
 super + Return
     kitty
 
-# -- File Manager Controls -- #
+# -- File Manager Controls -- # {{{
 # Vifm
 super + v
     kitty /home/shadow/.config/vifm/scripts/vifmrun
@@ -141,6 +137,7 @@ super + Tab
 # Calcurse
 super + ctrl + m
     kitty calcurse
+
 # ADB 
 super + alt + a
     kitty killall adb && adb tcpip 5555 && adb connect 192.168.1.180:5555
@@ -148,9 +145,13 @@ super + alt + a
 super + alt + s
     kitty scrcpy -m 1024 &
 
-# Browser, Discord, Spotify, VBox
-super + shift + {b, d, s, v}
-	{firefox, discord, spotify, virtualbox}
+# Browser
+super + b
+    firefox
+
+# Discord, Spotify, VBox
+super + shift + {d, s, v}
+	{discord, spotify, virtualbox}
 
 # Pulsemixer, HTop, Wifi-Menu
 super + ctrl + {a,t,i}
@@ -202,6 +203,10 @@ super + shift + {r,t}
 # Lockscreen
 super + p
 	betterlockscreen -l blur -r 1920x1080  -b 0.2 -t "Welcome back, Shado..."
+
+# System Polybar Toggle
+super + @Pause
+    polybar-msg -p $(pgrep polybar | cut -d $'\n' -f 2) cmd toggle
 
 # -- Audio Config -- # {{{
 XF86AudioLowerVolume

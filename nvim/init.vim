@@ -10,6 +10,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'terryma/vim-multiple-cursors'
     Plug 'https://github.com/chrisbra/Colorizer.git'
     Plug 'itchyny/lightline.vim'
+    Plug 'godlygeek/tabular'
+    Plug 'mattn/calendar-vim'
     Plug 'vifm/vifm.vim'
     Plug 'vimwiki/vimwiki'
     Plug 'ap/vim-css-color'
@@ -24,9 +26,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'justinmk/vim-sneak'
     Plug 'mhinz/vim-startify'
-    "Plug 'joshdick/onedark.vim'
-    "Plug 'sonph/onehalf', {'rtp': 'vim/'}
-    "Plug 'tomasiser/vim-code-dark'
     "<--Git Integration
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
@@ -34,7 +33,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'junegunn/gv.vim'
     "<--Nerd tree
     Plug 'preservim/nerdtree'
-    "Plug 'tsony-tsonev/nerdtree-git-plugin'
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'ryanoasis/vim-devicons'
@@ -66,14 +64,18 @@ let mapleader = "'"
 "au ColorScheme * hi Normal ctermbg=none guibg=none
 set t_Co=256
 set t_ut=
+set nocompatible
 colorscheme shadopurplesecond
 highlight SignColumn guibg=none
 "au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
-"colorscheme shadopurplesecond 
 set clipboard+=unnamedplus
 " Toggle side numbers
 noremap <F3> :set invnumber invrelativenumber<CR>
 set foldmethod=marker
+"set foldmethod=manual
+"au BufWinLeave * mkview
+"au BufWinEnter * silent_loadview
+"au BufRead,BufNewFile *.md		setfiletype md
 " }}}
 " ----- Plug Config ----- " {{{
 " Plug >-- CoC " {{{
@@ -110,6 +112,7 @@ let g:startify_bookmarks = [
     \ { 'p':  '~/.config/polybar/config'                       },
     \ { 'c':  '~/.config/picom.conf'                           },
     \ { 'S':  '~/Documents/PY-Projects/Shadochan/shadochan.py' },
+    \ { 'w':  '~/vimwiki/index.md'                             },
     \ { 'm':  '~/.config/miscellaneous'                        },
     \ { 'r':  '~/.config/rofi/themes/onedark.rasi'             },
     \ { 'Z':  '~/.config/zsh/.zshrc'                           },
@@ -119,10 +122,10 @@ let g:startify_bookmarks = [
     \ { 'dh': '~/Documents/HTB/'                               },
     \ { 'dc': '~/Documents/CTF/'                               },
     \ { 'D':  '~/Downloads/'                                   },
-    \ { 'Ps':  '~/Pictures/Screenshots/'                       },
+    \ { 'ps':  '~/Pictures/Screenshots/'                       },
     \ { 'P':  '~/Pictures/'                                    },
     \ { 'M':  '~/Music/'                                       },
-    \ { 'Sc': '~/Documents/Shadochan/'                         },
+    \ { 'sc': '~/Documents/Shadochan/'                         },
     \ ]
 " Ascii Art
 let g:startify_custom_header = [
@@ -190,11 +193,51 @@ map <Leader>tv :TabVifm<CR>
 " Plug >-- VimWiki " {{{
 let g:vimwiki_list = [{'path': '~/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
+
+command! Diary VimwikiDiaryIndex
+augroup vimwikigroup
+    autocmd!
+    " automatically update links on read diary
+    autocmd BufRead,BufNewFile diary.md VimwikiDiaryGenerateLinks
+augroup end
+
+set foldenable
+let g:markdown_folding=1
+let g:vim_markdown_folding_level=6
+
+"let g:vimwiki_listsyms = '✗○◐●✓'
+let g:vim_markdown_strikethrough = 1
+let g:vim_markdown_no_extensions_in_markdown = 1
+let g:vim_markdown_autowrite = 1
 " }}}
 " Plug >-- Quick Scope " {{{
 let g:qs_highlight_on_keys = ['f', 'F', 't' , 'T']
 highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
 highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
 "}}}
+" Plug >-- Markdown Preview " {{{
+let g:mkdp_auto_start = 0
+let g:mkdp_auto_close = 1
+let g:mkdp_refresh_slow = 0
+let g:mkdp_browser = 'qutebrowser'
+set updatetime=100
+
+let g:mkdp_preview_options = {
+    \ 'mkit': {},
+    \ 'katex': {},
+    \ 'uml': {},
+    \ 'maid': {},
+    \ 'disable_sync_scroll': 0,
+    \ 'sync_scroll_type': 'middle',
+    \ 'hide_yaml_meta': 1,
+    \ 'sequence_diagrams': {},
+    \ 'flowchart_diagrams': {}
+    \ }
+
+let g:mkdp_page_title = '「${name}」'
+nmap <F5> <Plug>MarkdownPreview
+"nmap <M-s> <Plug>MarkdownPreviewStop
+"nmap <C-p> <Plug>MarkdownPreviewToggle
+" }}}
 "}}}
 " ----------------------------------------------------- "

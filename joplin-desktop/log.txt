@@ -2136,3 +2136,139 @@ Error: Access denied
 2020-04-30 12:30:00: "ResourceService::indexNoteResources: Start"
 2020-04-30 12:30:00: "ResourceService::indexNoteResources: Completed"
 2020-04-30 12:30:00: "ResourceService::deleteOrphanResources:", "[]"
+2020-05-11 19:02:20: "Profile directory: /home/shadow/.config/joplin-desktop"
+2020-05-11 19:02:20: "Trying to load 0 master keys..."
+2020-05-11 19:02:20: "Loaded master keys: 0"
+2020-05-11 19:02:20: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-05-11 19:02:20: "ResourceFetcher: Auto-added resources: 0"
+2020-05-11 19:02:20: "Trying to load 0 master keys..."
+2020-05-11 19:02:20: "Loaded master keys: 0"
+2020-05-11 19:02:20: "Scheduling sync operation...", "10000"
+2020-05-11 19:02:20: "Trying to load 0 master keys..."
+2020-05-11 19:02:20: "Loaded master keys: 0"
+2020-05-11 19:02:20: "Scheduling sync operation...", "10000"
+2020-05-11 19:02:20: "Trying to load 0 master keys..."
+2020-05-11 19:02:20: "Loaded master keys: 0"
+2020-05-11 19:02:20: "Scheduling sync operation...", "10000"
+2020-05-11 19:02:20: "Scheduling sync operation...", "10000"
+2020-05-11 19:02:20: "RevisionService::runInBackground: Starting background service with revision collection interval 600000"
+2020-05-11 19:02:21: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-05-11 19:02:24: "RevisionService::maintenance: Starting..."
+2020-05-11 19:02:24: "RevisionService::maintenance: Service is enabled"
+2020-05-11 19:02:25: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-05-11 19:02:25: "RevisionService::maintenance: Done in 195ms"
+2020-05-11 19:02:30: "SearchEngine: Updating FTS table..."
+2020-05-11 19:02:30: "SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0"
+2020-05-11 19:02:30: "Preparing scheduled sync"
+2020-05-11 19:02:30: "Saving updated OneDrive auth."
+2020-05-11 19:02:31: "Token expired: refreshing..."
+2020-05-11 19:02:31: "Saving updated OneDrive auth."
+2020-05-11 19:02:31: "Could not run background sync:"
+2020-05-11 19:02:31: "Error: Access denied
+Code: accessDenied
+Header: {"_headers":{"cache-control":["private"],"content-type":["application/json"],"request-id":["34470997-5a01-4858-9b9b-1fc459be7e92"],"client-request-id":["34470997-5a01-4858-9b9b-1fc459be7e92"],"x-ms-ags-diagnostic":["{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"003\",\"RoleInstance\":\"AGSFE_IN_7\"}}"],"strict-transport-security":["max-age=31536000"],"date":["Mon, 11 May 2020 23:02:30 GMT"],"connection":["close"],"content-length":["211"]}}
+Request: GET https://graph.microsoft.com/v1.0/drive/special/approot null null {"headers":{"Authorization":"bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImhsRk1tUzdXQ0cyWkxoeF8yV3B0dUFxYkFkSWJxSVFkSE5yNDVXWVhwclkiLCJhbGciOiJSUzI1NiIsIng1dCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSIsImtpZCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hMDZiOTgyYy0xZWU0LTQ5ZmItODg1Mi1lNThlOTMzMDgzODEvIiwiaWF0IjoxNTg5MjM3ODUxLCJuYmYiOjE1ODkyMzc4NTEsImV4cCI6MTU4OTI0MTc1MSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhQQUFBQTE2Q1AyTDhGckdaS2t5YkN5YXExMXp2c0hGTklERExHelRMOTFjOHRkQzA9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJKb3BsaW4iLCJhcHBpZCI6ImUwOWZjMGRlLWM5NTgtNDI0Zi04M2EyLWU1NmE3MjFkMzMxYiIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiRmVycmFyaXMiLCJnaXZlbl9uYW1lIjoiSm9yZGFuIiwiaXBhZGRyIjoiMTA4LjM1LjEwMy4yMyIsIm5hbWUiOiJKb3JkYW4gQS4gRmVycmFyaXMiLCJvaWQiOiJmYzVmNTY3OS0wOWQ0LTQxMmUtOTE1Ni03YzgyYWQ4MzQxM2QiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTIyMjgzNjQ0NC0zMj
+Error: Access denied
+    at OneDriveApi.oneDriveErrorResponseToError (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:124:19)
+    at OneDriveApi.exec (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:195:24)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async OneDriveApi.execJson (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:249:20)
+    at async OneDriveApi.appDirectory (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:76:13)
+    at async SyncTargetOneDrive.initFileApi (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:74:18)
+    at async SyncTargetOneDrive.fileApi (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:73:19)
+    at async SyncTargetOneDrive.initSynchronizer (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:83:38)
+    at async SyncTargetOneDrive.synchronizer (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:109:26)
+    at async timeoutCallback (/usr/share/joplin/resources/app.asar/lib/registry.js:108:19)"
+2020-05-11 19:02:31: "Updating all notifications..."
+2020-05-11 19:02:31: "Garbage collecting alarms..."
+2020-05-11 19:02:32: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-05-11 19:02:50: "ResourceService::indexNoteResources: Start"
+2020-05-11 19:02:50: "ResourceService::indexNoteResources: Completed"
+2020-05-11 19:02:50: "ResourceService::deleteOrphanResources:", "[]"
+2020-05-11 19:07:31: "Running background sync on timer..."
+2020-05-11 19:07:31: "Scheduling sync operation...", "0"
+2020-05-11 19:07:31: "Preparing scheduled sync"
+2020-05-11 19:07:32: "Could not run background sync:"
+2020-05-11 19:07:32: "Error: Access denied
+Code: accessDenied
+Header: {"_headers":{"cache-control":["private"],"content-type":["application/json"],"request-id":["7704a50c-89bd-4160-aba8-c6a7087f8f8f"],"client-request-id":["7704a50c-89bd-4160-aba8-c6a7087f8f8f"],"x-ms-ags-diagnostic":["{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"003\",\"RoleInstance\":\"AGSFE_IN_52\"}}"],"strict-transport-security":["max-age=31536000"],"date":["Mon, 11 May 2020 23:07:31 GMT"],"connection":["close"],"content-length":["211"]}}
+Request: GET https://graph.microsoft.com/v1.0/drive/special/approot null null {"headers":{"Authorization":"bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImhsRk1tUzdXQ0cyWkxoeF8yV3B0dUFxYkFkSWJxSVFkSE5yNDVXWVhwclkiLCJhbGciOiJSUzI1NiIsIng1dCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSIsImtpZCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hMDZiOTgyYy0xZWU0LTQ5ZmItODg1Mi1lNThlOTMzMDgzODEvIiwiaWF0IjoxNTg5MjM3ODUxLCJuYmYiOjE1ODkyMzc4NTEsImV4cCI6MTU4OTI0MTc1MSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhQQUFBQTE2Q1AyTDhGckdaS2t5YkN5YXExMXp2c0hGTklERExHelRMOTFjOHRkQzA9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJKb3BsaW4iLCJhcHBpZCI6ImUwOWZjMGRlLWM5NTgtNDI0Zi04M2EyLWU1NmE3MjFkMzMxYiIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiRmVycmFyaXMiLCJnaXZlbl9uYW1lIjoiSm9yZGFuIiwiaXBhZGRyIjoiMTA4LjM1LjEwMy4yMyIsIm5hbWUiOiJKb3JkYW4gQS4gRmVycmFyaXMiLCJvaWQiOiJmYzVmNTY3OS0wOWQ0LTQxMmUtOTE1Ni03YzgyYWQ4MzQxM2QiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTIyMjgzNjQ0NC0zMj
+Error: Access denied
+    at OneDriveApi.oneDriveErrorResponseToError (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:124:19)
+    at OneDriveApi.exec (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:195:24)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async OneDriveApi.execJson (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:249:20)
+    at async OneDriveApi.appDirectory (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:76:13)
+    at async SyncTargetOneDrive.initFileApi (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:74:18)
+    at async SyncTargetOneDrive.fileApi (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:73:19)
+    at async SyncTargetOneDrive.initSynchronizer (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:83:38)
+    at async SyncTargetOneDrive.synchronizer (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:109:26)
+    at async timeoutCallback (/usr/share/joplin/resources/app.asar/lib/registry.js:108:19)"
+2020-05-11 19:10:15: "Scheduling sync operation...", "30000"
+2020-05-11 19:10:25: "SearchEngine: Updating FTS table..."
+2020-05-11 19:10:25: "SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0"
+2020-05-11 19:10:45: "Preparing scheduled sync"
+2020-05-11 19:10:45: "Could not run background sync:"
+2020-05-11 19:10:45: "Error: Access denied
+Code: accessDenied
+Header: {"_headers":{"cache-control":["private"],"content-type":["application/json"],"request-id":["472d8f0a-9e69-459c-8aa2-44387d0dd17e"],"client-request-id":["472d8f0a-9e69-459c-8aa2-44387d0dd17e"],"x-ms-ags-diagnostic":["{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"2\",\"ScaleUnit\":\"000\",\"RoleInstance\":\"AGSFE_IN_77\"}}"],"strict-transport-security":["max-age=31536000"],"date":["Mon, 11 May 2020 23:10:44 GMT"],"connection":["close"],"content-length":["211"]}}
+Request: GET https://graph.microsoft.com/v1.0/drive/special/approot null null {"headers":{"Authorization":"bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImhsRk1tUzdXQ0cyWkxoeF8yV3B0dUFxYkFkSWJxSVFkSE5yNDVXWVhwclkiLCJhbGciOiJSUzI1NiIsIng1dCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSIsImtpZCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hMDZiOTgyYy0xZWU0LTQ5ZmItODg1Mi1lNThlOTMzMDgzODEvIiwiaWF0IjoxNTg5MjM3ODUxLCJuYmYiOjE1ODkyMzc4NTEsImV4cCI6MTU4OTI0MTc1MSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhQQUFBQTE2Q1AyTDhGckdaS2t5YkN5YXExMXp2c0hGTklERExHelRMOTFjOHRkQzA9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJKb3BsaW4iLCJhcHBpZCI6ImUwOWZjMGRlLWM5NTgtNDI0Zi04M2EyLWU1NmE3MjFkMzMxYiIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiRmVycmFyaXMiLCJnaXZlbl9uYW1lIjoiSm9yZGFuIiwiaXBhZGRyIjoiMTA4LjM1LjEwMy4yMyIsIm5hbWUiOiJKb3JkYW4gQS4gRmVycmFyaXMiLCJvaWQiOiJmYzVmNTY3OS0wOWQ0LTQxMmUtOTE1Ni03YzgyYWQ4MzQxM2QiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTIyMjgzNjQ0NC0zMj
+Error: Access denied
+    at OneDriveApi.oneDriveErrorResponseToError (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:124:19)
+    at OneDriveApi.exec (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:195:24)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async OneDriveApi.execJson (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:249:20)
+    at async OneDriveApi.appDirectory (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:76:13)
+    at async SyncTargetOneDrive.initFileApi (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:74:18)
+    at async SyncTargetOneDrive.fileApi (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:73:19)
+    at async SyncTargetOneDrive.initSynchronizer (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:83:38)
+    at async SyncTargetOneDrive.synchronizer (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:109:26)
+    at async timeoutCallback (/usr/share/joplin/resources/app.asar/lib/registry.js:108:19)"
+2020-05-11 19:11:09: "Scheduling sync operation...", "30000"
+2020-05-11 19:11:09: "Scheduling sync operation...", "30000"
+2020-05-11 19:11:19: "SearchEngine: Updating FTS table..."
+2020-05-11 19:11:19: "SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0"
+2020-05-11 19:11:20: "Scheduling sync operation...", "30000"
+2020-05-11 19:11:21: "Scheduling sync operation...", "30000"
+2020-05-11 19:11:30: "SearchEngine: Updating FTS table..."
+2020-05-11 19:11:30: "SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0"
+2020-05-11 19:11:51: "Preparing scheduled sync"
+2020-05-11 19:11:51: "Could not run background sync:"
+2020-05-11 19:11:51: "Error: Access denied
+Code: accessDenied
+Header: {"_headers":{"cache-control":["private"],"content-type":["application/json"],"request-id":["f2d06ab1-125f-4b5a-89b7-fbdca21a21c6"],"client-request-id":["f2d06ab1-125f-4b5a-89b7-fbdca21a21c6"],"x-ms-ags-diagnostic":["{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"002\",\"RoleInstance\":\"AGSFE_IN_85\"}}"],"strict-transport-security":["max-age=31536000"],"date":["Mon, 11 May 2020 23:11:51 GMT"],"connection":["close"],"content-length":["211"]}}
+Request: GET https://graph.microsoft.com/v1.0/drive/special/approot null null {"headers":{"Authorization":"bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImhsRk1tUzdXQ0cyWkxoeF8yV3B0dUFxYkFkSWJxSVFkSE5yNDVXWVhwclkiLCJhbGciOiJSUzI1NiIsIng1dCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSIsImtpZCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hMDZiOTgyYy0xZWU0LTQ5ZmItODg1Mi1lNThlOTMzMDgzODEvIiwiaWF0IjoxNTg5MjM3ODUxLCJuYmYiOjE1ODkyMzc4NTEsImV4cCI6MTU4OTI0MTc1MSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhQQUFBQTE2Q1AyTDhGckdaS2t5YkN5YXExMXp2c0hGTklERExHelRMOTFjOHRkQzA9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJKb3BsaW4iLCJhcHBpZCI6ImUwOWZjMGRlLWM5NTgtNDI0Zi04M2EyLWU1NmE3MjFkMzMxYiIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiRmVycmFyaXMiLCJnaXZlbl9uYW1lIjoiSm9yZGFuIiwiaXBhZGRyIjoiMTA4LjM1LjEwMy4yMyIsIm5hbWUiOiJKb3JkYW4gQS4gRmVycmFyaXMiLCJvaWQiOiJmYzVmNTY3OS0wOWQ0LTQxMmUtOTE1Ni03YzgyYWQ4MzQxM2QiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTIyMjgzNjQ0NC0zMj
+Error: Access denied
+    at OneDriveApi.oneDriveErrorResponseToError (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:124:19)
+    at OneDriveApi.exec (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:195:24)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async OneDriveApi.execJson (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:249:20)
+    at async OneDriveApi.appDirectory (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:76:13)
+    at async SyncTargetOneDrive.initFileApi (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:74:18)
+    at async SyncTargetOneDrive.fileApi (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:73:19)
+    at async SyncTargetOneDrive.initSynchronizer (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:83:38)
+    at async SyncTargetOneDrive.synchronizer (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:109:26)
+    at async timeoutCallback (/usr/share/joplin/resources/app.asar/lib/registry.js:108:19)"
+2020-05-11 19:12:20: "RevisionService::maintenance: Starting..."
+2020-05-11 19:12:20: "RevisionService::maintenance: Service is enabled"
+2020-05-11 19:12:20: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-05-11 19:12:20: "RevisionService::maintenance: Done in 105ms"
+2020-05-11 19:16:51: "Running background sync on timer..."
+2020-05-11 19:16:51: "Scheduling sync operation...", "0"
+2020-05-11 19:16:51: "Preparing scheduled sync"
+2020-05-11 19:16:52: "Could not run background sync:"
+2020-05-11 19:16:52: "Error: Access denied
+Code: accessDenied
+Header: {"_headers":{"cache-control":["private"],"content-type":["application/json"],"request-id":["c11135b8-d4d8-4b02-8192-e340d5127c42"],"client-request-id":["c11135b8-d4d8-4b02-8192-e340d5127c42"],"x-ms-ags-diagnostic":["{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"002\",\"RoleInstance\":\"AGSFE_IN_71\"}}"],"strict-transport-security":["max-age=31536000"],"date":["Mon, 11 May 2020 23:16:51 GMT"],"connection":["close"],"content-length":["211"]}}
+Request: GET https://graph.microsoft.com/v1.0/drive/special/approot null null {"headers":{"Authorization":"bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImhsRk1tUzdXQ0cyWkxoeF8yV3B0dUFxYkFkSWJxSVFkSE5yNDVXWVhwclkiLCJhbGciOiJSUzI1NiIsIng1dCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSIsImtpZCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hMDZiOTgyYy0xZWU0LTQ5ZmItODg1Mi1lNThlOTMzMDgzODEvIiwiaWF0IjoxNTg5MjM3ODUxLCJuYmYiOjE1ODkyMzc4NTEsImV4cCI6MTU4OTI0MTc1MSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhQQUFBQTE2Q1AyTDhGckdaS2t5YkN5YXExMXp2c0hGTklERExHelRMOTFjOHRkQzA9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJKb3BsaW4iLCJhcHBpZCI6ImUwOWZjMGRlLWM5NTgtNDI0Zi04M2EyLWU1NmE3MjFkMzMxYiIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiRmVycmFyaXMiLCJnaXZlbl9uYW1lIjoiSm9yZGFuIiwiaXBhZGRyIjoiMTA4LjM1LjEwMy4yMyIsIm5hbWUiOiJKb3JkYW4gQS4gRmVycmFyaXMiLCJvaWQiOiJmYzVmNTY3OS0wOWQ0LTQxMmUtOTE1Ni03YzgyYWQ4MzQxM2QiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTIyMjgzNjQ0NC0zMj
+Error: Access denied
+    at OneDriveApi.oneDriveErrorResponseToError (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:124:19)
+    at OneDriveApi.exec (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:195:24)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async OneDriveApi.execJson (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:249:20)
+    at async OneDriveApi.appDirectory (/usr/share/joplin/resources/app.asar/lib/onedrive-api.js:76:13)
+    at async SyncTargetOneDrive.initFileApi (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:74:18)
+    at async SyncTargetOneDrive.fileApi (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:73:19)
+    at async SyncTargetOneDrive.initSynchronizer (/usr/share/joplin/resources/app.asar/lib/SyncTargetOneDrive.js:83:38)
+    at async SyncTargetOneDrive.synchronizer (/usr/share/joplin/resources/app.asar/lib/BaseSyncTarget.js:109:26)
+    at async timeoutCallback (/usr/share/joplin/resources/app.asar/lib/registry.js:108:19)"

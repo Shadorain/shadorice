@@ -11,3 +11,4 @@ polybar mybar &
 polybar bottom &
 polybar desktops &
 echo "Polybar Launched..."
+

@@ -39,7 +39,7 @@ hi IncSearch guifg=#302b30 guibg=#db9569 guisp=#db9569 gui=NONE ctermfg=236 cter
 hi WildMenu guifg=#eed6ee guibg=#5d5daf guisp=#5d5daf gui=NONE ctermfg=255 ctermbg=61 cterm=NONE
 hi SpecialComment guifg=#bc6bd0 guibg=NONE guisp=NONE gui=NONE ctermfg=134 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#8677d9 guibg=NONE guisp=NONE gui=NONE ctermfg=207 ctermbg=NONE cterm=NONE
-hi Title guifg=#8897F4 guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NONE cterm=NONE "#00bbff
+hi Title guifg=#8897F4 guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NONE cterm=NONE "#00bbff #8897F4
 hi Folded guifg=#cfcfb8 guibg=#42128f guisp=#42128f gui=NONE ctermfg=187 ctermbg=54 cterm=NONE
 hi PreCondit guifg=#29e3e3 guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=NONE cterm=NONE
 hi Include guifg=#329090 guibg=NONE guisp=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
@@ -96,7 +96,7 @@ hi Repeat guifg=#ff71ff guibg=NONE guisp=NONE gui=NONE ctermfg=207 ctermbg=NONE 
 hi Directory guifg=#00bbff guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi Structure guifg=#329090 guibg=NONE guisp=NONE gui=NONE ctermfg=207 ctermbg=NONE cterm=NONE
 hi Macro guifg=#329090 guibg=NONE guisp=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
-hi Underlined guifg=#df9617 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
+hi Underlined guifg=#458FAA guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi DiffAdd guifg=#221d26 guibg=#2c9465 guisp=#2c9465 gui=NONE ctermfg=235 ctermbg=29 cterm=NONE
 hi cursorim guifg=#403940 guibg=#7171ff guisp=#7171ff gui=NONE ctermfg=238 ctermbg=12 cterm=NONE
 hi mbenormal guifg=#cfb699 guibg=#28283f guisp=#28283f gui=NONE ctermfg=180 ctermbg=237 cterm=NONE

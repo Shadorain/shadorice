@@ -442,7 +442,7 @@ menu-0-1 = 
 menu-0-1-exec = /home/shadow/.config/scripts/prompt "Reboot?" "reboot" 
 ; poweroff
 menu-0-2 = 
-menu-0-2-exec = /home/shadow/.config/scripts/prompt "Shut Down?" "shutdown -h now"
+menu-0-2-exec = "kitty nvim ~/vimwiki/diary/diary.md && /home/shadow/.config/scripts/prompt "Shut Down?" "shutdown -h now""
 ; logout
 menu-0-0 = 
 menu-0-0-exec = /home/shadow/.config/scripts/prompt "Logout?" "bspwm exit"
