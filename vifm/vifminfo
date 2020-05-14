@@ -13,15 +13,11 @@
 	/home/shadow/
 	..
 1587824602
-'z
-	/home/shadow/.config/vifm
-	..
-1587824602
 
 # Bookmarks:
 
 # TUI:
-al
+ar
 q1
 v2
 ov
@@ -30,12 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shadow
-	Pictures
-9
-d/home/shadow/Pictures
-	Screenshots
-3
 d/home/shadow/Pictures/Screenshots
 	2020-04-28-113804_900x1004_scrot.png
 41
@@ -329,7 +319,13 @@ d/home/shadow/.config/vifm
 1
 d/home/shadow
 	.vim
-28
+4
+d/home/shadow/vimwiki
+	..
+0
+d/home/shadow/.config
+	vifm
+19
 d
 
 # Right window history (oldest to newest):
@@ -398,7 +394,7 @@ D/home/shadow
 3
 D/home/shadow/Downloads
 	zoom_x86_64.pkg.tar.xz
-42
+23
 D
 
 # Command line history (oldest to newest):
@@ -409,6 +405,7 @@ D
 :execute ./origin-latest
 :run origin-latest
 :run chmod +x origin-latest; ./origin-latest
+:Q
 :q
 
 # Search history (oldest to newest):

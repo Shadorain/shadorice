@@ -23,6 +23,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'tpope/vim-surround'
     Plug 'sainnhe/lightline_foobar.vim'
+    "Plug 'kaicataldo/material.vim'
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'justinmk/vim-sneak'
@@ -39,9 +40,10 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'scrooloose/nerdcommenter'
     "<--Syntax
-    "Plug 'davidhalter/jedi-vim'
+    Plug 'davidhalter/jedi-vim'
     Plug 'vim-pandoc/vim-pandoc-syntax'
     Plug 'justinmk/vim-syntax-extra'    
+    "Plug 'prettier/vim-prettier', {'do': 'yarn install'}
 
 call plug#end()
 
@@ -163,10 +165,10 @@ let g:signify_sign_change            = '~'
 let g:signify_sign_show_count = 0 "-\
 let g:signify_sign_show_text = 1  "-+--- Gets rid of extra numbers
 " Jump through Hunks
-"nmap <leader>gj <plug>(signify-next-hunk)
-"nmap <leader>gk <plug>(signify-prev-hunk)
-"nmap <leader>gJ 9999<leader>gJ
-"nmap <leader>gK 9999<leader>gK
+nmap <leader>gj <plug>(signify-next-hunk)
+nmap <leader>gk <plug>(signify-prev-hunk)
+nmap <leader>gJ 9999<leader>gJ
+nmap <leader>gK 9999<leader>gK
 " Highlight > Numbers
 highlight SignifySignAdd    ctermfg=green  guifg=#03fc7f guibg=none
 highlight SignifySignDelete ctermfg=red    guifg=#db1f4e guibg=none
@@ -269,35 +271,26 @@ let g:which_key_map = {}
 
 " Search and Replace
 nnoremap <leader>R :%s///gcI<left><left><left><left><left>
-let g:which_key_map['R'] = [ ':%s///gcI<left><left><left><left><left>' , 'Search & Replace' ]
-let g:which_key_map['S'] = [ ':Startify' , 'Startify' ]
+let g:which_key_map['R'] = [ ':%s///gcI<left><left><left><left><left>' , 'search-and-replace' ]
+let g:which_key_map['S'] = [ ':Startify' , 'start screen' ]
 let g:which_key_map['V'] = [ ':Vifm' , 'Vifm' ]
 
 " --- Setup Section --- " {{{
-" +Calendar {{{
-let g:which_key_map.c = {
-    \ 'name' : '+Calendar',
-    \ 'al' : [':Calendar'   , 'Calendar Left']      ,
-    \ 'ar' : [':CalendarVR' , 'Calendar Right']     ,
-    \ 'ab' : [':CalendarH'  , 'Calendar Bottom']    ,
-    \ 'af' : [':CalendarT'  , 'Calendar Full']      ,
-    \ }
-" }}}
 " +Startify {{{
 let g:which_key_map.s = {
     \ 'name' : '+Startify',
     \ 'n' :  [':n ~/.config/nvim/init.vim' , 'Init.vim'                          ],
-    \ 's' :  [':n ~/.config/sxhkd/sxhkdrc' , 'sxhkdrc'                           ],
-    \ 'b' :  [':n ~/.config/bspwm/bspwmrc' , 'bspwmrc'                           ],
-    \ 'k' :  [':n ~/.config/kitty/kitty.conf' , 'Kitty Conf'                     ],
+    \ 's' :  [':n ~/.config/sxhkd/sxhkdrc' , 'SXHKDrc'                           ],
+    \ 'b' :  [':n ~/.config/bspwm/bspwmrc' , 'BSPWMrc'                           ],
+    \ 'k' :  [':n ~/.config/kitty/kitty.conf' , 'Kitty.conf'                     ],
     \ 'p' :  [':n ~/.config/polybar/config' , 'Polybar Conf'                     ],
     \ 'c' :  [':n ~/.config/picom.conf' , 'Picom Conf'                           ],
     \ 'S' :  [':n ~/Documents/PY-Projects/Shadochan/shadochan.py' , 'Shadochan'  ],
     \ 'w' :  [':n ~/vimwiki/index.md' , 'Vimwiki Index'                          ],
     \ 'm' :  [':n ~/.config/miscellaneous' , 'Misc File'                         ],
     \ 'r' :  [':n ~/.config/rofi/themes/onedark.rasi' , 'Rofi Theme'             ],
-    \ 'Z' :  [':n ~/.config/zsh/.zshrc' , 'zshrc'                                ],
-    \ 'z' :  [':n ~/.zshenv' , 'zshenv'                                          ],
+    \ 'Z' :  [':n ~/.config/zsh/.zshrc' , 'ZSHrc'                                ],
+    \ 'z' :  [':n ~/.zshenv' , 'ZSHenv'                                          ],
     \ 'd' :  [':n ~/Documents/' , '~/Documents/'                                 ],
     \ 'ds':  [':n ~/Documents/SchoolWork/' , '~/Documents/SchoolWork/'           ],
     \ 'dh':  [':n ~/Documents/HTB/' , '~/Documents/HTB/'                         ],
@@ -314,48 +307,51 @@ let g:which_key_map.s = {
 let g:NERDCreateDefaultMappings = 0
 let g:which_key_map['/'] = {
     \ 'name' : '+Commenter' ,
-    \ '/' : ['<Plug>NERDCommenterToggle'    , 'Toggles Comment']    ,
-    \ '$' : ['<Plug>NERDCommenterToEOL'     , 'Comment to EOL']     ,
-    \ 'A' : ['<Plug>NERDCommenterAppend'    , 'Append to EOL']      ,
-    \ 's' : ['<Plug>NERDCommenterSexy'      , 'Sexy']               ,
-    \ 'u' : ['<Plug>NERDCommenterUncomment' , 'Uncomment']          ,
-    \ 'y' : ['<Plug>NERDCommenterYank'      , 'Comment and Yank']   ,
+    \ '/' : ['<Plug>NERDCommenterToggle'    , 'toggles-comment']    ,
+    \ '$' : ['<Plug>NERDCommenterToEOL'     , 'comment-to-EOL']     ,
+    \ 'A' : ['<Plug>NERDCommenterAppend'    , 'append-to-EOL']      ,
+    \ 's' : ['<Plug>NERDCommenterSexy'      , 'sexy']               ,
+    \ 'u' : ['<Plug>NERDCommenterUncomment' , 'uncomment']          ,
+    \ 'y' : ['<Plug>NERDCommenterYank'      , 'comment-and-yank']   ,
     \ }
 " }}}
 " +Windows {{{
 let g:which_key_map.W = {
     \ 'name' : '+Windows' ,
-    \ 'w' : ['<C-W>w'     , 'Swap']                 ,
-    \ 'd' : ['<C-W>c'     , 'Delete split']         ,
-    \ 'h' : ['<C-W>h'     , 'Swap left']            ,
-    \ 'j' : ['<C-W>j'     , 'Swap below']           ,
-    \ 'l' : ['<C-W>l'     , 'Swap right']           ,
-    \ 'k' : ['<C-W>k'     , 'Swap up']              ,
-    \ 'H' : ['<C-W>5<'    , 'Expand left']          ,
-    \ 'J' : [':resize +5'  , 'Expand below']         ,
-    \ 'L' : ['<C-W>5>'    , 'Expand right']         ,
-    \ 'K' : [':resize -5'  , 'Expand up']            ,
-    \ '=' : ['<C-W>='     , 'Balance']              ,
-    \ 's' : ['<C-W>s'     , 'Split Horizontally']   ,
-    \ 'v' : ['<C-W>v'     , 'Split Vertically']     ,
+    \ 'w' : ['<C-W>w'     , 'other-window']                 ,
+    \ 'd' : ['<C-W>c'     , 'delete-window']                ,
+    \ '-' : ['<C-W>s'     , 'split-window-below']           ,
+    \ '|' : ['<C-W>v'     , 'split-window-right']           ,
+    \ '2' : ['<C-W>v'     , 'layout-double-columns']        ,
+    \ 'h' : ['<C-W>h'     , 'window-left']                  ,
+    \ 'j' : ['<C-W>j'     , 'window-below']                 ,
+    \ 'l' : ['<C-W>l'     , 'window-right']                 ,
+    \ 'k' : ['<C-W>k'     , 'window-up']                    ,
+    \ 'H' : ['<C-W>5<'    , 'expand-window-left']           ,
+    \ 'J' : ['resize +5'  , 'expand-window-below']          ,
+    \ 'L' : ['<C-W>5>'    , 'expand-window-right']          ,
+    \ 'K' : ['resize -5'  , 'expand-window-up']             ,
+    \ '=' : ['<C-W>='     , 'balance-window']               ,
+    \ 's' : ['<C-W>s'     , 'split-window-horizontally']    ,
+    \ 'v' : ['<C-W>v'     , 'split-window-vertically']      ,
     \ }
 " }}}
 " +wiki {{{
 nmap <Leader>wb <Plug>VimwikiTabIndex
 let g:which_key_map.w = {
     \ 'name' : '+Wiki' ,
-    \ 'd' : ['<Plug>VimwikiDeleteLink'  , 'Delete']        ,
-    \ 'h' : ['<Plug>Vimwiki2HTML'       , 'Convert to html']    ,
-    \ 'hh': ['<Plug>Vimwiki2HTMLBrowse' , 'Convert and browse'] ,
-    \ 'i' : ['<Plug>VimwikiDiaryIndex'  , 'Opens Diary']        ,
-    \ 'r' : ['<Plug>VimwikiRenameLink'  , 'Renames Link']       ,
-    \ 's' : ['<Plug>VimwikiUISelect'    , 'Select wiki']        ,
-    \ 'b' : ['<Plug>VimwikiTabIndex'    , 'Opens tab of index'] ,
-    \ 'w' : ['<Plug>VimwikiIndex'       , 'Opens index']        ,
+    \ 'd' : ['<Plug>VimwikiDeleteLink'  , 'delete-link']        ,
+    \ 'h' : ['<Plug>Vimwiki2HTML'       , 'convert-to-html']    ,
+    \ 'hh': ['<Plug>Vimwiki2HTMLBrowse' , 'convert-and-browse'] ,
+    \ 'i' : ['<Plug>VimwikiDiaryIndex'  , 'opens-diary']        ,
+    \ 'r' : ['<Plug>VimwikiRenameLink'  , 'renames-link']       ,
+    \ 's' : ['<Plug>VimwikiUISelect'    , 'select-wiki']        ,
+    \ 'b' : ['<Plug>VimwikiTabIndex'    , 'opens-tab-of-index'] ,
+    \ 'w' : ['<Plug>VimwikiIndex'       , 'opens-index']        ,
     \ 't' : {
         \ 'name' : '+todo',
-        \ 'c' : ['<Plug>VimwikiToggleListItem^ddGo\<Esc>pI\<right>\<right>~~\<Esc>A~~\<Esc>^db' , 'Complete TODO']      ,
-        \ 't' : [':n ~/vimwiki/Life/TODO.md' , 'Open TODO']                 ,  
+        \ 'c' : ['<Plug>VimwikiToggleListItem^ddGo\<Esc>pI\<right>\<right>~~\<Esc>A~~\<Esc>^db' , 'complete']      ,
+        \ 't' : [':n ~/vimwiki/Life/TODO.md' , 'open-TODO']                 ,  
         \ }
     \ }
 " }}}

@@ -78129,3 +78129,513 @@ May 14 00:00 : client: [396] closed
 May 14 00:00 : client: [397] opened from 127.0.0.1:38200
 May 14 00:04 : player: played "Convictions - Hurricane.mp3"
 May 14 01:00 : client: [7] closed
+May 14 01:29 : player: played "Japanese/Joint.mp3"
+May 14 13:00 : zeroconf: No global port, disabling zeroconf
+May 14 13:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 13:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 13:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 13:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 13:00 : client: [0] opened from 127.0.0.1:56410
+May 14 13:00 : client: [1] opened from 127.0.0.1:56412
+May 14 13:00 : client: [1] closed
+May 14 13:00 : client: [2] opened from 127.0.0.1:56414
+May 14 13:01 : client: [3] opened from 127.0.0.1:56416
+May 14 13:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 13:01 : client: [2] closed
+May 14 13:01 : client: [4] opened from 127.0.0.1:56418
+May 14 13:01 : client: [3] closed
+May 14 13:04 : client: [0] closed
+May 14 13:04 : client: [5] opened from 127.0.0.1:56420
+May 14 13:04 : client: [5] closed
+May 14 13:04 : client: [6] opened from 127.0.0.1:56422
+May 14 13:05 : player: played "Japanese/Joint.mp3"
+May 14 13:05 : client: [4] closed
+May 14 13:05 : client: [7] opened from 127.0.0.1:56424
+May 14 13:06 : client: [8] opened from 127.0.0.1:56426
+May 14 13:06 : client: [7] closed
+May 14 13:06 : client: [9] opened from 127.0.0.1:56428
+May 14 13:06 : client: [8] closed
+May 14 13:13 : client: [10] opened from 127.0.0.1:56794
+May 14 13:13 : client: [11] opened from 127.0.0.1:56796
+May 14 13:13 : client: [9] closed
+May 14 13:13 : client: [10] closed
+May 14 13:13 : client: [12] opened from 127.0.0.1:56798
+May 14 13:13 : client: [11] closed
+May 14 13:13 : client: [13] opened from 127.0.0.1:56800
+May 14 13:13 : client: [12] closed
+May 14 13:13 : client: [14] opened from 127.0.0.1:56802
+May 14 13:13 : client: [13] closed
+May 14 13:13 : client: [15] opened from 127.0.0.1:56804
+May 14 13:13 : client: [14] closed
+May 14 13:13 : client: [16] opened from 127.0.0.1:56808
+May 14 13:13 : client: [15] closed
+May 14 13:13 : client: [17] opened from 127.0.0.1:56810
+May 14 13:13 : client: [16] closed
+May 14 13:13 : client: [18] opened from 127.0.0.1:56812
+May 14 13:13 : client: [17] closed
+May 14 13:13 : client: [19] opened from 127.0.0.1:56814
+May 14 13:13 : client: [18] closed
+May 14 13:16 : player: played "Japanese/LetItEnd.mp3"
+May 14 13:16 : client: [19] closed
+May 14 13:16 : client: [20] opened from 127.0.0.1:56954
+May 14 13:20 : player: played "Japanese/Joint.mp3"
+May 14 13:20 : client: [20] closed
+May 14 13:20 : client: [21] opened from 127.0.0.1:57084
+May 14 13:24 : player: played "Japanese/Day by Day.mp3"
+May 14 13:30 : client: [22] opened from 127.0.0.1:57398
+May 14 13:30 : exception: Not playing
+May 14 13:30 : client: [22] closed
+May 14 13:31 : client: [23] opened from 127.0.0.1:57400
+May 14 13:31 : client: [23] closed
+May 14 13:31 : client: [21] closed
+May 14 13:31 : client: [24] opened from 127.0.0.1:57402
+May 14 13:31 : client: [25] opened from 127.0.0.1:57404
+May 14 13:31 : client: [24] closed
+May 14 13:31 : client: [26] opened from 127.0.0.1:57406
+May 14 13:31 : client: [25] closed
+May 14 13:31 : client: [27] opened from 127.0.0.1:57408
+May 14 13:31 : client: [28] opened from 127.0.0.1:57410
+May 14 13:31 : client: [29] opened from 127.0.0.1:57412
+May 14 13:31 : client: [27] closed
+May 14 13:31 : client: [30] opened from 127.0.0.1:57414
+May 14 13:31 : client: [26] closed
+May 14 13:31 : client: [28] closed
+May 14 13:31 : client: [29] closed
+May 14 13:31 : client: [31] opened from 127.0.0.1:57416
+May 14 13:31 : client: [30] closed
+May 14 13:31 : client: [32] opened from 127.0.0.1:57418
+May 14 13:31 : client: [31] closed
+May 14 13:31 : client: [33] opened from 127.0.0.1:57420
+May 14 13:31 : client: [32] closed
+May 14 13:31 : client: [34] opened from 127.0.0.1:57422
+May 14 13:31 : client: [33] closed
+May 14 13:31 : client: [35] opened from 127.0.0.1:57426
+May 14 13:31 : client: [34] closed
+May 14 13:31 : client: [36] opened from 127.0.0.1:57428
+May 14 13:31 : client: [35] closed
+May 14 13:31 : client: [37] opened from 127.0.0.1:57430
+May 14 13:31 : client: [36] closed
+May 14 13:31 : client: [38] opened from 127.0.0.1:57432
+May 14 13:31 : client: [37] closed
+May 14 13:31 : client: [39] opened from 127.0.0.1:57434
+May 14 13:31 : client: [40] opened from 127.0.0.1:57436
+May 14 13:31 : client: [39] closed
+May 14 13:31 : client: [38] closed
+May 14 13:31 : client: [41] opened from 127.0.0.1:57438
+May 14 13:31 : client: [40] closed
+May 14 13:31 : client: [42] opened from 127.0.0.1:57440
+May 14 13:31 : client: [41] closed
+May 14 13:31 : client: [43] opened from 127.0.0.1:57442
+May 14 13:31 : client: [42] closed
+May 14 13:31 : client: [44] opened from 127.0.0.1:57444
+May 14 13:31 : client: [43] closed
+May 14 13:31 : client: [45] opened from 127.0.0.1:57446
+May 14 13:31 : client: [44] closed
+May 14 13:31 : client: [46] opened from 127.0.0.1:57448
+May 14 13:31 : client: [45] closed
+May 14 13:31 : client: [47] opened from 127.0.0.1:57450
+May 14 13:31 : client: [46] closed
+May 14 13:31 : client: [48] opened from 127.0.0.1:57452
+May 14 13:31 : client: [47] closed
+May 14 13:31 : client: [49] opened from 127.0.0.1:57454
+May 14 13:31 : client: [48] closed
+May 14 13:31 : client: [50] opened from 127.0.0.1:57456
+May 14 13:31 : client: [49] closed
+May 14 13:31 : client: [51] opened from 127.0.0.1:57458
+May 14 13:31 : client: [50] closed
+May 14 13:31 : client: [52] opened from 127.0.0.1:57460
+May 14 13:31 : client: [51] closed
+May 14 13:31 : client: [53] opened from 127.0.0.1:57462
+May 14 13:31 : client: [52] closed
+May 14 13:31 : client: [54] opened from 127.0.0.1:57464
+May 14 13:31 : client: [55] opened from 127.0.0.1:57466
+May 14 13:31 : client: [54] closed
+May 14 13:31 : client: [53] closed
+May 14 13:31 : client: [56] opened from 127.0.0.1:57468
+May 14 13:31 : client: [55] closed
+May 14 13:31 : client: [57] opened from 127.0.0.1:57470
+May 14 13:31 : client: [58] opened from 127.0.0.1:57472
+May 14 13:31 : client: [59] opened from 127.0.0.1:57474
+May 14 13:31 : client: [57] closed
+May 14 13:31 : client: [60] opened from 127.0.0.1:57476
+May 14 13:31 : client: [61] opened from 127.0.0.1:57480
+May 14 13:31 : client: [56] closed
+May 14 13:31 : client: [58] closed
+May 14 13:31 : client: [61] closed
+May 14 13:31 : client: [62] opened from 127.0.0.1:57482
+May 14 13:31 : client: [59] closed
+May 14 13:31 : client: [60] closed
+May 14 13:31 : client: [63] opened from 127.0.0.1:57484
+May 14 13:31 : client: [62] closed
+May 14 13:31 : client: [64] opened from 127.0.0.1:57486
+May 14 13:31 : client: [63] closed
+May 14 13:31 : client: [65] opened from 127.0.0.1:57488
+May 14 13:31 : client: [64] closed
+May 14 13:31 : client: [66] opened from 127.0.0.1:57490
+May 14 13:31 : client: [65] closed
+May 14 13:31 : client: [67] opened from 127.0.0.1:57492
+May 14 13:31 : client: [66] closed
+May 14 13:31 : client: [68] opened from 127.0.0.1:57494
+May 14 13:31 : client: [67] closed
+May 14 13:31 : client: [69] opened from 127.0.0.1:57496
+May 14 13:31 : client: [68] closed
+May 14 13:31 : client: [70] opened from 127.0.0.1:57498
+May 14 13:31 : client: [69] closed
+May 14 13:31 : client: [71] opened from 127.0.0.1:57500
+May 14 13:31 : client: [70] closed
+May 14 13:31 : client: [72] opened from 127.0.0.1:57502
+May 14 13:31 : client: [71] closed
+May 14 13:31 : client: [73] opened from 127.0.0.1:57504
+May 14 13:31 : client: [72] closed
+May 14 13:31 : client: [74] opened from 127.0.0.1:57506
+May 14 13:31 : client: [73] closed
+May 14 13:31 : client: [75] opened from 127.0.0.1:57508
+May 14 13:31 : client: [74] closed
+May 14 13:31 : client: [76] opened from 127.0.0.1:57510
+May 14 13:31 : client: [75] closed
+May 14 13:31 : client: [77] opened from 127.0.0.1:57512
+May 14 13:31 : client: [76] closed
+May 14 13:31 : client: [78] opened from 127.0.0.1:57516
+May 14 13:31 : client: [77] closed
+May 14 13:31 : client: [79] opened from 127.0.0.1:57518
+May 14 13:31 : client: [78] closed
+May 14 13:31 : client: [80] opened from 127.0.0.1:57520
+May 14 13:31 : client: [79] closed
+May 14 13:31 : client: [81] opened from 127.0.0.1:57522
+May 14 13:31 : client: [80] closed
+May 14 13:31 : client: [82] opened from 127.0.0.1:57524
+May 14 13:31 : client: [81] closed
+May 14 13:31 : client: [83] opened from 127.0.0.1:57536
+May 14 13:34 : player: played "Japanese/LightMyFire.mp3"
+May 14 13:34 : client: [82] closed
+May 14 13:34 : client: [84] opened from 127.0.0.1:57634
+May 14 13:35 : client: [85] opened from 127.0.0.1:57644
+May 14 13:35 : client: [84] closed
+May 14 13:35 : client: [86] opened from 127.0.0.1:57646
+May 14 13:35 : client: [85] closed
+May 14 13:35 : client: [87] opened from 127.0.0.1:57650
+May 14 13:35 : client: [86] closed
+May 14 13:35 : client: [88] opened from 127.0.0.1:57652
+May 14 13:35 : client: [87] closed
+May 14 13:39 : player: played "Japanese/Nagi Yanagi - Tokohana (Black Bullet ED) [Arsenik Release].mp3"
+May 14 13:39 : client: [88] closed
+May 14 13:39 : client: [89] opened from 127.0.0.1:57768
+May 14 13:43 : player: played "Japanese/Nano - Hysteria.mp3"
+May 14 13:43 : client: [89] closed
+May 14 13:43 : client: [90] opened from 127.0.0.1:57878
+May 14 13:47 : player: played "Japanese/Nano - Now or Never.mp3"
+May 14 13:47 : client: [90] closed
+May 14 13:47 : client: [91] opened from 127.0.0.1:57982
+May 14 13:51 : player: played "Japanese/Nano No pain, No game.mp3"
+May 14 13:51 : client: [91] closed
+May 14 13:51 : client: [92] opened from 127.0.0.1:58070
+May 14 13:55 : player: played "Japanese/NevereverlandNano.mp3"
+May 14 13:55 : client: [92] closed
+May 14 13:55 : client: [93] opened from 127.0.0.1:58206
+May 14 14:00 : player: played "Japanese/No Game No Life Opening Full.mp3"
+May 14 14:00 : client: [93] closed
+May 14 14:00 : client: [94] opened from 127.0.0.1:58346
+May 14 14:04 : player: played "Japanese/OathSign.mp3"
+May 14 14:04 : client: [94] closed
+May 14 14:04 : client: [95] opened from 127.0.0.1:58458
+May 14 14:09 : player: played "Japanese/Out of Control.mp3"
+May 14 14:09 : client: [95] closed
+May 14 14:09 : client: [96] opened from 127.0.0.1:58670
+May 14 14:13 : player: played "Japanese/Genesis.mp3"
+May 14 14:13 : client: [96] closed
+May 14 14:13 : client: [97] opened from 127.0.0.1:58824
+May 14 14:17 : player: played "Japanese/Rock Mode.mp3"
+May 14 14:17 : client: [97] closed
+May 14 14:17 : client: [98] opened from 127.0.0.1:58926
+May 14 14:17 : client: [99] opened from 127.0.0.1:58932
+May 14 14:17 : client: [98] closed
+May 14 14:17 : client: [100] opened from 127.0.0.1:58934
+May 14 14:17 : client: [99] closed
+May 14 14:18 : client: [101] opened from 127.0.0.1:58966
+May 14 14:18 : client: [100] closed
+May 14 14:18 : client: [102] opened from 127.0.0.1:58968
+May 14 14:18 : client: [101] closed
+May 14 14:22 : player: played "Japanese/Serment.mp3"
+May 14 14:22 : client: [102] closed
+May 14 14:22 : client: [103] opened from 127.0.0.1:59124
+May 14 14:22 : client: [104] opened from 127.0.0.1:59128
+May 14 14:22 : client: [103] closed
+May 14 14:22 : client: [105] opened from 127.0.0.1:59130
+May 14 14:22 : client: [104] closed
+May 14 14:22 : client: [106] opened from 127.0.0.1:59132
+May 14 14:22 : client: [105] closed
+May 14 14:22 : client: [107] opened from 127.0.0.1:59134
+May 14 14:22 : client: [106] closed
+May 14 14:22 : client: [108] opened from 127.0.0.1:59136
+May 14 14:22 : client: [107] closed
+May 14 14:22 : client: [109] opened from 127.0.0.1:59138
+May 14 14:22 : client: [108] closed
+May 14 14:22 : client: [110] opened from 127.0.0.1:59142
+May 14 14:22 : client: [109] closed
+May 14 14:22 : client: [111] opened from 127.0.0.1:59144
+May 14 14:22 : client: [110] closed
+May 14 14:27 : player: played "Japanese/Out of Control.mp3"
+May 14 14:27 : client: [111] closed
+May 14 14:27 : client: [112] opened from 127.0.0.1:59374
+May 14 14:31 : player: played "Japanese/Genesis.mp3"
+May 14 14:31 : client: [113] opened from 127.0.0.1:59480
+May 14 14:31 : client: [112] closed
+May 14 14:31 : client: [114] opened from 127.0.0.1:59490
+May 14 14:31 : client: [113] closed
+May 14 14:31 : client: [115] opened from 127.0.0.1:59492
+May 14 14:31 : client: [114] closed
+May 14 14:31 : client: [116] opened from 127.0.0.1:59494
+May 14 14:31 : client: [115] closed
+May 14 14:31 : client: [117] opened from 127.0.0.1:59496
+May 14 14:31 : client: [116] closed
+May 14 14:31 : client: [118] opened from 127.0.0.1:59498
+May 14 14:31 : client: [117] closed
+May 14 14:31 : client: [119] opened from 127.0.0.1:59500
+May 14 14:31 : client: [118] closed
+May 14 14:35 : player: played "Japanese/Serment.mp3"
+May 14 14:35 : client: [119] closed
+May 14 14:35 : client: [120] opened from 127.0.0.1:59676
+May 14 14:40 : player: played "Japanese/SlowDance.mp3"
+May 14 14:40 : client: [120] closed
+May 14 14:40 : client: [121] opened from 127.0.0.1:59820
+May 14 14:44 : player: played "Japanese/Snow Fairy.mp3"
+May 14 14:44 : client: [121] closed
+May 14 14:44 : client: [122] opened from 127.0.0.1:59924
+May 14 14:49 : player: played "Japanese/Startear.mp3"
+May 14 14:49 : client: [122] closed
+May 14 14:49 : client: [123] opened from 127.0.0.1:60058
+May 14 14:53 : player: played "Japanese/Steins;Gate Opening Full.mp3"
+May 14 14:53 : client: [124] opened from 127.0.0.1:60170
+May 14 14:53 : client: [123] closed
+May 14 14:59 : player: played "Japanese/The Everlastin Guilty Crown - Egoist.mp3"
+May 14 14:59 : client: [124] closed
+May 14 14:59 : client: [125] opened from 127.0.0.1:60318
+May 14 15:03 : player: played "Japanese/ExpodLive.mp3"
+May 14 15:03 : client: [125] closed
+May 14 15:03 : client: [126] opened from 127.0.0.1:60490
+May 14 15:07 : player: played "Japanese/Unravel.mp3"
+May 14 15:07 : client: [126] closed
+May 14 15:07 : client: [127] opened from 127.0.0.1:60614
+May 14 15:07 : client: [128] opened from 127.0.0.1:60622
+May 14 15:07 : client: [127] closed
+May 14 15:07 : client: [129] opened from 127.0.0.1:60624
+May 14 15:07 : client: [128] closed
+May 14 15:11 : player: played "Japanese/Unravel.mp3"
+May 14 15:11 : client: [129] closed
+May 14 15:11 : client: [130] opened from 127.0.0.1:60744
+May 14 15:15 : player: played "Japanese/Yume Sekai.mp3"
+May 14 15:15 : client: [130] closed
+May 14 15:15 : client: [131] opened from 127.0.0.1:60926
+May 14 15:20 : player: played "Japanese/ao no exorcist opening 1 full.mp3"
+May 14 15:20 : client: [131] closed
+May 14 15:20 : client: [132] opened from 127.0.0.1:32804
+May 14 15:24 : player: played "Japanese/“‚Â“ÈÒ“‚Ω“È¶“È¨“‚˚“‚÷“‚Ω“È+“‚¨“ÈÛ OP FULL BURNFLOW.mp3"
+May 14 15:24 : client: [132] closed
+May 14 15:24 : client: [133] opened from 127.0.0.1:32910
+May 14 15:28 : player: played "Japanese/AccelWorldED1.mp3"
+May 14 15:28 : client: [133] closed
+May 14 15:28 : client: [134] opened from 127.0.0.1:33052
+May 14 15:32 : player: played "Japanese/AccelWorldED2.mp3"
+May 14 15:32 : client: [134] closed
+May 14 15:32 : client: [135] opened from 127.0.0.1:33166
+May 14 15:36 : player: played "Japanese/AccelWorldOP2.mp3"
+May 14 15:36 : client: [135] closed
+May 14 15:36 : client: [136] opened from 127.0.0.1:33286
+May 14 15:41 : player: played "Japanese/Again.mp3"
+May 14 15:41 : client: [136] closed
+May 14 15:41 : client: [137] opened from 127.0.0.1:33402
+May 14 15:46 : player: played "Japanese/All Alone with You.mp3"
+May 14 15:46 : client: [137] closed
+May 14 15:46 : client: [138] opened from 127.0.0.1:33558
+May 14 15:50 : player: played "Japanese/Attack on Titan opening 1.mp3"
+May 14 15:50 : client: [138] closed
+May 14 15:50 : client: [139] opened from 127.0.0.1:33648
+May 14 15:55 : player: played "Japanese/Blaze.mp3"
+May 14 15:55 : client: [139] closed
+May 14 15:55 : client: [140] opened from 127.0.0.1:33790
+May 14 15:59 : player: played "Japanese/ChaseTheWorld.mp3"
+May 14 15:59 : client: [140] closed
+May 14 15:59 : client: [141] opened from 127.0.0.1:33906
+May 14 16:01 : player: played "Japanese/Crossing Field Piano.mp3"
+May 14 16:01 : client: [141] closed
+May 14 16:01 : client: [142] opened from 127.0.0.1:33972
+May 14 16:05 : player: played "Japanese/Database.mp3"
+May 14 16:05 : client: [142] closed
+May 14 16:05 : client: [143] opened from 127.0.0.1:34082
+May 14 16:09 : player: played "Japanese/FLOW - Go!!!.mp3"
+May 14 16:09 : client: [143] closed
+May 14 16:09 : client: [144] opened from 127.0.0.1:34214
+May 14 16:14 : player: played "Japanese/Fallen.mp3"
+May 14 16:14 : client: [144] closed
+May 14 16:14 : client: [145] opened from 127.0.0.1:34416
+May 14 16:18 : player: played "Japanese/Feed A (God Eater OP) Full Song + LYRICS + DOWNLOAD.mp3"
+May 14 16:18 : client: [145] closed
+May 14 16:18 : client: [146] opened from 127.0.0.1:34538
+May 14 16:20 : player: played "Japanese/GARNiDELiA - Aria.mp3"
+May 14 16:20 : client: [146] closed
+May 14 16:20 : client: [147] opened from 127.0.0.1:34592
+May 14 16:24 : player: played "Japanese/GARNiDELiA - Blazing.mp3"
+May 14 16:24 : client: [147] closed
+May 14 16:24 : client: [148] opened from 127.0.0.1:34698
+May 14 16:28 : player: played "Japanese/GARNiDELiA - Grilletto.mp3"
+May 14 16:28 : client: [148] closed
+May 14 16:28 : client: [149] opened from 127.0.0.1:34808
+May 14 16:32 : player: played "Japanese/GARNiDELiA - Pride.mp3"
+May 14 16:32 : client: [149] closed
+May 14 16:32 : client: [150] opened from 127.0.0.1:34912
+May 14 16:34 : player: played "Japanese/GARNiDELiA - ambiguous short ver..mp3"
+May 14 16:34 : client: [150] closed
+May 14 16:34 : client: [151] opened from 127.0.0.1:34960
+May 14 16:38 : player: played "Japanese/HidanNoAriaAAOP1.mp3"
+May 14 16:38 : client: [151] closed
+May 14 16:38 : client: [152] opened from 127.0.0.1:35082
+May 14 16:39 : client: [153] opened from 127.0.0.1:35086
+May 14 16:39 : client: [152] closed
+May 14 16:39 : client: [154] opened from 127.0.0.1:35088
+May 14 16:39 : client: [153] closed
+May 14 16:39 : client: [155] opened from 127.0.0.1:35094
+May 14 16:39 : client: [154] closed
+May 14 16:39 : client: [156] opened from 127.0.0.1:35096
+May 14 16:39 : client: [155] closed
+May 14 16:43 : player: played "Japanese/HidanNoAriaED.mp3"
+May 14 16:43 : client: [156] closed
+May 14 16:43 : client: [157] opened from 127.0.0.1:35286
+May 14 16:47 : player: played "Japanese/Ignite.mp3"
+May 14 16:47 : client: [157] closed
+May 14 16:47 : client: [158] opened from 127.0.0.1:35396
+May 14 16:51 : player: played "Japanese/KLKOP1.mp3"
+May 14 16:51 : client: [158] closed
+May 14 16:51 : client: [159] opened from 127.0.0.1:35514
+May 14 16:56 : player: played "Japanese/Kalafina - to the beginning.mp3"
+May 14 16:56 : client: [159] closed
+May 14 16:56 : client: [160] opened from 127.0.0.1:35632
+May 14 17:00 : player: played "Japanese/Launcher.mp3"
+May 14 17:00 : client: [160] closed
+May 14 17:00 : client: [161] opened from 127.0.0.1:35764
+May 14 17:04 : player: played "Japanese/MirrorHeart.mp3"
+May 14 17:04 : client: [161] closed
+May 14 17:04 : client: [162] opened from 127.0.0.1:35928
+May 14 17:07 : player: played "Japanese/Noragami Opening - Hello Sleepwalkers (HD + Lyrics).mp3"
+May 14 17:07 : client: [162] closed
+May 14 17:07 : client: [163] opened from 127.0.0.1:36018
+May 14 17:12 : player: played "Japanese/Overfly.mp3"
+May 14 17:12 : client: [163] closed
+May 14 17:12 : client: [164] opened from 127.0.0.1:36140
+May 14 17:16 : player: played "Japanese/OverlordOP Clattanoia .mp3"
+May 14 17:16 : client: [164] closed
+May 14 17:16 : client: [165] opened from 127.0.0.1:36250
+May 14 17:21 : player: played "Japanese/PsychoPassED.mp3"
+May 14 17:21 : client: [165] closed
+May 14 17:21 : client: [166] opened from 127.0.0.1:36428
+May 14 17:25 : player: played "Japanese/RisingHope.mp3"
+May 14 17:25 : client: [166] closed
+May 14 17:25 : client: [167] opened from 127.0.0.1:36568
+May 14 17:29 : player: played "Japanese/Shakugan No Shana ED 1.mp3"
+May 14 17:29 : client: [167] closed
+May 14 17:29 : client: [168] opened from 127.0.0.1:36680
+May 14 17:35 : player: played "Japanese/Shakugan No Shana III ED 2.mp3"
+May 14 17:35 : client: [168] closed
+May 14 17:35 : client: [169] opened from 127.0.0.1:36846
+May 14 17:38 : client: [170] opened from 127.0.0.1:36938
+May 14 17:38 : client: [169] closed
+May 14 17:38 : client: [171] opened from 127.0.0.1:36940
+May 14 17:38 : client: [170] closed
+May 14 17:38 : client: [172] opened from 127.0.0.1:36942
+May 14 17:38 : client: [171] closed
+May 14 17:38 : client: [173] opened from 127.0.0.1:36944
+May 14 17:38 : client: [172] closed
+May 14 17:40 : player: played "Japanese/Shigatsu Wa Kimi No Uso (Your Lie In April) Ending 1 FULL.mp3"
+May 14 17:40 : client: [173] closed
+May 14 17:40 : client: [174] opened from 127.0.0.1:37004
+May 14 17:44 : player: played "Japanese/Shingeki no Kyojin.mp3"
+May 14 17:44 : client: [174] closed
+May 14 17:44 : client: [175] opened from 127.0.0.1:37094
+May 14 17:48 : player: played "Japanese/Skyreach.mp3"
+May 14 17:48 : client: [175] closed
+May 14 17:48 : client: [176] opened from 127.0.0.1:37212
+May 14 17:53 : player: played "Japanese/Steins;Gate Ending (Toki Tsukasadoru Juuni no Meiyaku).mp3"
+May 14 17:53 : client: [176] closed
+May 14 17:53 : client: [177] opened from 127.0.0.1:37350
+May 14 17:57 : client: [178] opened from 127.0.0.1:37432
+May 14 17:57 : client: [177] closed
+May 14 17:57 : client: [179] opened from 127.0.0.1:37434
+May 14 17:57 : client: [178] closed
+May 14 17:58 : client: [180] opened from 127.0.0.1:37476
+May 14 17:58 : client: [179] closed
+May 14 17:58 : client: [181] opened from 127.0.0.1:37478
+May 14 17:58 : client: [180] closed
+May 14 17:59 : client: [182] opened from 127.0.0.1:37494
+May 14 17:59 : client: [181] closed
+May 14 17:59 : client: [183] opened from 127.0.0.1:37496
+May 14 17:59 : client: [182] closed
+May 14 17:59 : client: [184] opened from 127.0.0.1:37500
+May 14 17:59 : client: [183] closed
+May 14 17:59 : client: [185] opened from 127.0.0.1:37502
+May 14 17:59 : client: [184] closed
+May 14 17:59 : player: played "Japanese/Stereopony - Hitohira No Hanabira.mp3"
+May 14 17:59 : client: [185] closed
+May 14 17:59 : client: [186] opened from 127.0.0.1:37506
+May 14 18:03 : player: played "Japanese/Sky Drive.mp3"
+May 14 18:03 : client: [186] closed
+May 14 18:03 : client: [187] opened from 127.0.0.1:37632
+May 14 18:04 : client: [188] opened from 127.0.0.1:37654
+May 14 18:04 : client: [187] closed
+May 14 18:04 : client: [189] opened from 127.0.0.1:37656
+May 14 18:04 : client: [188] closed
+May 14 18:04 : client: [190] opened from 127.0.0.1:37670
+May 14 18:04 : client: [189] closed
+May 14 18:04 : client: [191] opened from 127.0.0.1:37672
+May 14 18:04 : client: [190] closed
+May 14 18:05 : player: played "Japanese/TencentManhua.mp3"
+May 14 18:05 : client: [191] closed
+May 14 18:05 : client: [192] opened from 127.0.0.1:37692
+May 14 18:06 : player: played "Japanese/The Kings Avatar ¥+Í’‡øﬁ¸Ó⁄ΩµÎÔ¥+ÎQuan Zhi Gao Shou Ending.mp3"
+May 14 18:06 : client: [192] closed
+May 14 18:06 : client: [193] opened from 127.0.0.1:37732
+May 14 18:10 : player: played "Japanese/UVERworld - Massive (Live)-Shadorain.mp3"
+May 14 18:10 : client: [193] closed
+May 14 18:10 : client: [194] opened from 127.0.0.1:37858
+May 14 18:15 : player: played "Japanese/UVERworld -7th Trigger- 2017.mp3"
+May 14 18:15 : client: [194] closed
+May 14 18:15 : client: [195] opened from 127.0.0.1:37980
+May 14 18:15 : client: [196] opened from 127.0.0.1:37982
+May 14 18:15 : client: [195] closed
+May 14 18:15 : client: [197] opened from 127.0.0.1:37984
+May 14 18:15 : client: [196] closed
+May 14 18:19 : player: played "Japanese/UVERworld -7th Trigger- 2017.mp3"
+May 14 18:19 : client: [197] closed
+May 14 18:19 : client: [198] opened from 127.0.0.1:38160
+May 14 18:25 : player: played "Japanese/UVERworld IMPACT.mp3"
+May 14 18:25 : client: [198] closed
+May 14 18:25 : client: [199] opened from 127.0.0.1:38310
+May 14 18:28 : client: [200] opened from 127.0.0.1:38412
+May 14 18:28 : client: [199] closed
+May 14 18:28 : client: [201] opened from 127.0.0.1:38414
+May 14 18:28 : client: [200] closed
+May 14 18:49 : client: [202] opened from 127.0.0.1:38966
+May 14 18:49 : client: [201] closed
+May 14 18:49 : client: [203] opened from 127.0.0.1:38968
+May 14 18:49 : client: [202] closed
+May 14 18:50 : player: played "Japanese/UVERworld the truth.mp3"
+May 14 18:50 : client: [203] closed
+May 14 18:50 : client: [204] opened from 127.0.0.1:39042
+May 14 18:56 : player: played "Japanese/UVERworld “«ƒı©«˛É¶“È∆µËÚ“¸“ÈÔ Tokyo midnight sun“«≈.mp3"
+May 14 18:56 : client: [204] closed
+May 14 18:56 : client: [205] opened from 127.0.0.1:39204
+May 14 19:00 : player: played "Japanese/UVERworld“«Óearthy world“«Ï.mp3"
+May 14 19:00 : client: [205] closed
+May 14 19:00 : client: [206] opened from 127.0.0.1:39382
+May 14 19:03 : client: [207] opened from 127.0.0.1:39480
+May 14 19:03 : client: [206] closed
+May 14 19:03 : client: [208] opened from 127.0.0.1:39482
+May 14 19:03 : client: [207] closed
+May 14 19:04 : client: [209] opened from 127.0.0.1:39484
+May 14 19:04 : client: [208] closed
+May 14 19:04 : client: [210] opened from 127.0.0.1:39486
+May 14 19:04 : client: [209] closed
+May 14 19:07 : player: played "Japanese/’Û‚’£¶“‚◊“‚¶“‚Í“‚Æ Xmas 2011.mp3"
+May 14 19:07 : client: [210] closed
+May 14 19:07 : client: [211] opened from 127.0.0.1:39586
+May 14 19:11 : player: played "Japanese/Danmachi OP 1.mp3"
+May 14 19:11 : client: [211] closed
+May 14 19:11 : client: [212] opened from 127.0.0.1:39796
