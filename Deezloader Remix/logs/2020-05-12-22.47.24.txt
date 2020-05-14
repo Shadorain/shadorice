@@ -1,0 +1,163 @@
+linux - Linux 5.6.11-arch1-1 x64
+
+[Info] Server is running @ localhost:1730
+[Info] Connection received!
+[Info] Checking for country
+[Info] Checking for updates
+[Info] Running the latest version!
+[Info] Connection received!
+[Info] Connection language set to: en
+[Info] Logging in
+[Info] Checking for country
+[Info] Checking for updates
+[Info] Running the latest version!
+[Info] Logged in successfully
+[Info] Loading Personal Playlists
+[Info] Loaded 1 Playlist
+[Info] Added to Queue 131889392
+[Info] Registered album: 131889392:3 | Rap AR Anime - Anime Opening, Vol. 2
+[Info] Now downloading: Rap AR Anime - Dr Stone Opening 1: Good Morning World
+[Info] [Rap AR Anime - Dr Stone Opening 1: Good Morning World] Getting BPM
+[Info] Now downloading: Rap AR Anime - Fairy Tail Opening 1: Snow Fairy
+[Info] [Rap AR Anime - Fairy Tail Opening 1: Snow Fairy] Getting BPM
+[Info] Now downloading: Rap AR Anime - Fire Force Opening 1: Inferno
+[Info] [Rap AR Anime - Fire Force Opening 1: Inferno] Getting BPM
+[Info] [Rap AR Anime - Dr Stone Opening 1: Good Morning World] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/01 - Dr Stone Opening 1_ Good Morning World.mp3
+[Info] [Rap AR Anime - Fairy Tail Opening 1: Snow Fairy] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/02 - Fairy Tail Opening 1_ Snow Fairy.mp3
+[Info] [Rap AR Anime - Fire Force Opening 1: Inferno] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/03 - Fire Force Opening 1_ Inferno.mp3
+[Info] [Rap AR Anime - Fire Force Opening 1: Inferno] Cover downloaded!
+[Info] [Rap AR Anime - Fire Force Opening 1: Inferno] Starting the download process
+[Info] [Rap AR Anime - Fairy Tail Opening 1: Snow Fairy] Cover downloaded!
+[Info] [Rap AR Anime - Fairy Tail Opening 1: Snow Fairy] Starting the download process
+[Info] [Rap AR Anime - Dr Stone Opening 1: Good Morning World] Cover downloaded!
+[Info] [Rap AR Anime - Dr Stone Opening 1: Good Morning World] Starting the download process
+[Info] [Rap AR Anime - Fire Force Opening 1: Inferno] Downloaded
+[Info] Now downloading: Rap AR Anime - Fire Force Opening 2: Mayday
+[Info] [Rap AR Anime - Fire Force Opening 2: Mayday] Getting BPM
+[Info] [Rap AR Anime - Fire Force Opening 2: Mayday] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/04 - Fire Force Opening 2_ Mayday.mp3
+[Info] [Rap AR Anime - Fire Force Opening 2: Mayday] Cover already downloaded
+[Info] [Rap AR Anime - Fire Force Opening 2: Mayday] Starting the download process
+[Info] [Rap AR Anime - Fairy Tail Opening 1: Snow Fairy] Downloaded
+[Info] Now downloading: Rap AR Anime - Full Metal Alchemist Opening 1: Melissa
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 1: Melissa] Getting BPM
+[Info] [Rap AR Anime - Dr Stone Opening 1: Good Morning World] Downloaded
+[Info] Now downloading: Rap AR Anime - Full Metal Alchemist Opening 3: Golden Time Lover
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 3: Golden Time Lover] Getting BPM
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 1: Melissa] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/05 - Full Metal Alchemist Opening 1_ Melissa.mp3
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 1: Melissa] Cover already downloaded
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 1: Melissa] Starting the download process
+[Info] [Rap AR Anime - Fire Force Opening 2: Mayday] Downloaded
+[Info] Now downloading: Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 2: Hologram
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 2: Hologram] Getting BPM
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 3: Golden Time Lover] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/06 - Full Metal Alchemist Opening 3_ Golden Time Lover.mp3
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 3: Golden Time Lover] Cover already downloaded
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 3: Golden Time Lover] Starting the download process
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 2: Hologram] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/07 - Fullmetal Alchemist Brotherhood Opening 2_ Hologram.mp3
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 2: Hologram] Cover already downloaded
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 2: Hologram] Starting the download process
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 3: Golden Time Lover] Downloaded
+[Info] Now downloading: Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 4: Period
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 4: Period] Getting BPM
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 2: Hologram] Downloaded
+[Info] Now downloading: Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 5: Rain
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 5: Rain] Getting BPM
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 4: Period] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/08 - Fullmetal Alchemist Brotherhood Opening 4_ Period.mp3
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 4: Period] Cover already downloaded
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 4: Period] Starting the download process
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 5: Rain] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/09 - Fullmetal Alchemist Brotherhood Opening 5_ Rain.mp3
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 5: Rain] Cover already downloaded
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 5: Rain] Starting the download process
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 5: Rain] Downloaded
+[Info] Now downloading: Rap AR Anime - Fullmetal Alchemist Brotherhood Opening Full: Again
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening Full: Again] Getting BPM
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening Full: Again] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/10 - Fullmetal Alchemist Brotherhood Opening Full_ Again.mp3
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening Full: Again] Cover already downloaded
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening Full: Again] Starting the download process
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening 4: Period] Downloaded
+[Info] Now downloading: Rap AR Anime - Goblin Slayer Opening Full: Rightfully
+[Info] [Rap AR Anime - Goblin Slayer Opening Full: Rightfully] Getting BPM
+[Info] [Rap AR Anime - Goblin Slayer Opening Full: Rightfully] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/11 - Goblin Slayer Opening Full_ Rightfully.mp3
+[Info] [Rap AR Anime - Goblin Slayer Opening Full: Rightfully] Cover already downloaded
+[Info] [Rap AR Anime - Goblin Slayer Opening Full: Rightfully] Starting the download process
+[Info] [Rap AR Anime - Fullmetal Alchemist Brotherhood Opening Full: Again] Downloaded
+[Info] Now downloading: Rap AR Anime - Hunter X Hunter Opening 1: Departure
+[Info] [Rap AR Anime - Hunter X Hunter Opening 1: Departure] Getting BPM
+[Info] [Rap AR Anime - Hunter X Hunter Opening 1: Departure] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/12 - Hunter X Hunter Opening 1_ Departure.mp3
+[Info] [Rap AR Anime - Hunter X Hunter Opening 1: Departure] Cover already downloaded
+[Info] [Rap AR Anime - Hunter X Hunter Opening 1: Departure] Starting the download process
+[Info] [Rap AR Anime - Goblin Slayer Opening Full: Rightfully] Downloaded
+[Info] Now downloading: Rap AR Anime - Inuyashiki Opening Full: My Hero
+[Info] [Rap AR Anime - Inuyashiki Opening Full: My Hero] Getting BPM
+[Info] [Rap AR Anime - Inuyashiki Opening Full: My Hero] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/13 - Inuyashiki Opening Full_ My Hero.mp3
+[Info] [Rap AR Anime - Inuyashiki Opening Full: My Hero] Cover already downloaded
+[Info] [Rap AR Anime - Inuyashiki Opening Full: My Hero] Starting the download process
+[Info] [Rap AR Anime - Hunter X Hunter Opening 1: Departure] Downloaded
+[Info] Now downloading: Rap AR Anime - Jojo Vento Aureo Opening 1: Fighting Gold
+[Info] [Rap AR Anime - Jojo Vento Aureo Opening 1: Fighting Gold] Getting BPM
+[Info] [Rap AR Anime - Full Metal Alchemist Opening 1: Melissa] Downloaded
+[Info] Now downloading: Rap AR Anime - Jojo's Bizarre Adventure Opening 10: Traitors Requiem
+[Info] [Rap AR Anime - Jojo's Bizarre Adventure Opening 10: Traitors Requiem] Getting BPM
+[Info] [Rap AR Anime - Jojo Vento Aureo Opening 1: Fighting Gold] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/14 - Jojo Vento Aureo Opening 1_ Fighting Gold.mp3
+[Info] [Rap AR Anime - Jojo Vento Aureo Opening 1: Fighting Gold] Cover already downloaded
+[Info] [Rap AR Anime - Jojo Vento Aureo Opening 1: Fighting Gold] Starting the download process
+[Info] [Rap AR Anime - Jojo's Bizarre Adventure Opening 10: Traitors Requiem] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/15 - Jojo's Bizarre Adventure Opening 10_ Traitors Requiem.mp3
+[Info] [Rap AR Anime - Jojo's Bizarre Adventure Opening 10: Traitors Requiem] Cover already downloaded
+[Info] [Rap AR Anime - Jojo's Bizarre Adventure Opening 10: Traitors Requiem] Starting the download process
+[Info] [Rap AR Anime - Inuyashiki Opening Full: My Hero] Downloaded
+[Info] Now downloading: Rap AR Anime - Kimetsu No Yaiba Opening 1: Gurenge
+[Info] [Rap AR Anime - Kimetsu No Yaiba Opening 1: Gurenge] Getting BPM
+[Info] [Rap AR Anime - Jojo Vento Aureo Opening 1: Fighting Gold] Downloaded
+[Info] Now downloading: Rap AR Anime - Log Horizon Opening 1: Data Base
+[Info] [Rap AR Anime - Log Horizon Opening 1: Data Base] Getting BPM
+[Info] [Rap AR Anime - Kimetsu No Yaiba Opening 1: Gurenge] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/16 - Kimetsu No Yaiba Opening 1_ Gurenge.mp3
+[Info] [Rap AR Anime - Kimetsu No Yaiba Opening 1: Gurenge] Cover already downloaded
+[Info] [Rap AR Anime - Kimetsu No Yaiba Opening 1: Gurenge] Starting the download process
+[Info] [Rap AR Anime - Log Horizon Opening 1: Data Base] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/17 - Log Horizon Opening 1_ Data Base.mp3
+[Info] [Rap AR Anime - Log Horizon Opening 1: Data Base] Cover already downloaded
+[Info] [Rap AR Anime - Log Horizon Opening 1: Data Base] Starting the download process
+[Info] [Rap AR Anime - Kimetsu No Yaiba Opening 1: Gurenge] Downloaded
+[Info] Now downloading: Rap AR Anime - Love Is War Opening 1: Love Dramatic
+[Info] [Rap AR Anime - Love Is War Opening 1: Love Dramatic] Getting BPM
+[Info] [Rap AR Anime - Love Is War Opening 1: Love Dramatic] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/18 - Love Is War Opening 1_ Love Dramatic.mp3
+[Info] [Rap AR Anime - Love Is War Opening 1: Love Dramatic] Cover already downloaded
+[Info] [Rap AR Anime - Love Is War Opening 1: Love Dramatic] Starting the download process
+[Info] [Rap AR Anime - Jojo's Bizarre Adventure Opening 10: Traitors Requiem] Downloaded
+[Info] Now downloading: Rap AR Anime - Magi the Labyrinth of Magic Opening 1: V I P
+[Info] [Rap AR Anime - Magi the Labyrinth of Magic Opening 1: V I P] Getting BPM
+[Info] [Rap AR Anime - Magi the Labyrinth of Magic Opening 1: V I P] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/19 - Magi the Labyrinth of Magic Opening 1_ V I P.mp3
+[Info] [Rap AR Anime - Magi the Labyrinth of Magic Opening 1: V I P] Cover already downloaded
+[Info] [Rap AR Anime - Magi the Labyrinth of Magic Opening 1: V I P] Starting the download process
+[Info] [Rap AR Anime - Magi the Labyrinth of Magic Opening 1: V I P] Downloaded
+[Info] Now downloading: Rap AR Anime - Miss Kobayashi's Dragon Maid Opening Full: Aozora No Rhapsody
+[Info] [Rap AR Anime - Miss Kobayashi's Dragon Maid Opening Full: Aozora No Rhapsody] Getting BPM
+[Info] [Rap AR Anime - Log Horizon Opening 1: Data Base] Downloaded
+[Info] Now downloading: Rap AR Anime - Mob Psycho 100 Opening Full: 99
+[Info] [Rap AR Anime - Mob Psycho 100 Opening Full: 99] Getting BPM
+[Info] [Rap AR Anime - Miss Kobayashi's Dragon Maid Opening Full: Aozora No Rhapsody] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/20 - Miss Kobayashi's Dragon Maid Opening Full_ Aozora No Rhapsody.mp3
+[Info] [Rap AR Anime - Miss Kobayashi's Dragon Maid Opening Full: Aozora No Rhapsody] Cover already downloaded
+[Info] [Rap AR Anime - Miss Kobayashi's Dragon Maid Opening Full: Aozora No Rhapsody] Starting the download process
+[Info] [Rap AR Anime - Mob Psycho 100 Opening Full: 99] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/21 - Mob Psycho 100 Opening Full_ 99.mp3
+[Info] [Rap AR Anime - Mob Psycho 100 Opening Full: 99] Cover already downloaded
+[Info] [Rap AR Anime - Mob Psycho 100 Opening Full: 99] Starting the download process
+[Info] [Rap AR Anime - Love Is War Opening 1: Love Dramatic] Downloaded
+[Info] Now downloading: Rap AR Anime - Mob Psycho 100 Season 2 Opening Full: 99.9
+[Info] [Rap AR Anime - Mob Psycho 100 Season 2 Opening Full: 99.9] Getting BPM
+[Info] [Rap AR Anime - Mob Psycho 100 Season 2 Opening Full: 99.9] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/22 - Mob Psycho 100 Season 2 Opening Full_ 99.9.mp3
+[Info] [Rap AR Anime - Mob Psycho 100 Season 2 Opening Full: 99.9] Cover already downloaded
+[Info] [Rap AR Anime - Mob Psycho 100 Season 2 Opening Full: 99.9] Starting the download process
+[Info] [Rap AR Anime - Miss Kobayashi's Dragon Maid Opening Full: Aozora No Rhapsody] Downloaded
+[Info] Now downloading: Rap AR Anime - My Hero Academia Opening 3: Sora Ni Utaeba
+[Info] [Rap AR Anime - My Hero Academia Opening 3: Sora Ni Utaeba] Getting BPM
+[Info] [Rap AR Anime - Mob Psycho 100 Opening Full: 99] Downloaded
+[Info] Now downloading: Rap AR Anime - My Hero Academia Opening Full: The Day
+[Info] [Rap AR Anime - My Hero Academia Opening Full: The Day] Getting BPM
+[Info] [Rap AR Anime - My Hero Academia Opening 3: Sora Ni Utaeba] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/23 - My Hero Academia Opening 3_ Sora Ni Utaeba.mp3
+[Info] [Rap AR Anime - My Hero Academia Opening 3: Sora Ni Utaeba] Cover already downloaded
+[Info] [Rap AR Anime - My Hero Academia Opening 3: Sora Ni Utaeba] Starting the download process
+[Info] [Rap AR Anime - My Hero Academia Opening Full: The Day] Downloading file to /home/shadow/Music/Rap AR Anime - Anime Opening, Vol. 2/24 - My Hero Academia Opening Full_ The Day.mp3
+[Info] [Rap AR Anime - My Hero Academia Opening Full: The Day] Cover already downloaded
+[Info] [Rap AR Anime - My Hero Academia Opening Full: The Day] Starting the download process
+[Info] [Rap AR Anime - Mob Psycho 100 Season 2 Opening Full: 99.9] Downloaded
+[Info] [Rap AR Anime - My Hero Academia Opening 3: Sora Ni Utaeba] Downloaded
+[Info] [Rap AR Anime - My Hero Academia Opening Full: The Day] Downloaded
+[Info] Album finished downloading: Anime Opening, Vol. 2

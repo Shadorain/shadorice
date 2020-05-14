@@ -30,30 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shadow/Pictures/Backgrounds
-	forest.png
-38
-d/home/shadow/Pictures
-	Backgrounds
-1
-d/home/shadow
-	Downloads
-4
-d/home/shadow/Downloads
-	..
-0
-d/home/shadow
-	Music
-7
-d/home/shadow/Music
-	Alive in Color - To Stay Alive
-1
-d/home/shadow/Music/Alive in Color - To Stay Alive
-	05 - Into the Desert.mp3
-5
-d/home/shadow/Music
-	Alive in Color - To Stay Alive
-1
 d/home/shadow
 	Pictures
 9
@@ -330,6 +306,30 @@ d/tmp/mozilla_shadow0
 d/home/shadow/Downloads
 	SAOBackgrounds.zip
 13
+d/home/shadow/.config/nvim
+	colors
+1
+d/home/shadow/.config/nvim/colors
+	shadopurplesecond.vim
+4
+d/home/shadow/.config/nvim
+	colors
+1
+d/home/shadow/.config
+	vifm
+34
+d/home/shadow/.config/vifm
+	colors
+1
+d/home/shadow/.config/vifm/colors
+	..
+0
+d/home/shadow/.config/vifm
+	colors
+1
+d/home/shadow
+	.vim
+28
 d
 
 # Right window history (oldest to newest):
@@ -405,11 +405,11 @@ D
 :remame
 :h
 :H
-:q
 :execute
 :execute ./origin-latest
 :run origin-latest
 :run chmod +x origin-latest; ./origin-latest
+:q
 
 # Search history (oldest to newest):
 /.config

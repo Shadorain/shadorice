@@ -1,15 +1,15 @@
-[INF][5/12/2020, 11:30:40 AM] Hooking dom-ready
-[INF][5/12/2020, 11:30:45 AM] Hooked dom-ready
-[INF][5/12/2020, 11:30:45 AM] Getting updater
-[INF][5/12/2020, 11:30:45 AM] Getting hash from: https://api.github.com/repos/rauenzi/BetterDiscordApp/commits/injector
-[INF][5/12/2020, 11:30:45 AM] Getting version from: https://cdn.statically.io/gh/rauenzi/BetterDiscordApp/8b8108b64172adec53a5a954edd81d2c21b00ba7/betterdiscord/config.json
-[INF][5/12/2020, 11:30:45 AM] Latest Version: 0.4.1
-[INF][5/12/2020, 11:30:45 AM] Getting commit hash
-[INF][5/12/2020, 11:30:45 AM] Getting hash from: https://api.github.com/repos/rauenzi/BetterDiscordApp/commits/master
-[INF][5/12/2020, 11:30:45 AM] 83c28e26495e8d93d5bef19388a1780787c9cbe4
-[INF][5/12/2020, 11:30:45 AM] Using hash: 83c28e26495e8d93d5bef19388a1780787c9cbe4
-[INF][5/12/2020, 11:30:45 AM] Loading
-[INF][5/12/2020, 11:30:45 AM] Loading Resource (//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js)
-[INF][5/12/2020, 11:30:46 AM] Loading Resource (//cdn.staticaly.com/gh/rauenzi/BetterDiscordApp/83c28e26495e8d93d5bef19388a1780787c9cbe4/css/main.min.css)
-[INF][5/12/2020, 11:30:47 AM] Loading Resource (//cdn.staticaly.com/gh/rauenzi/BetterDiscordApp/83c28e26495e8d93d5bef19388a1780787c9cbe4/js/main.min.js)
-[INF][5/12/2020, 11:30:48 AM] Starting Up
+[INF][5/13/2020, 9:54:28 AM] Hooking dom-ready
+[INF][5/13/2020, 9:54:44 AM] Hooked dom-ready
+[INF][5/13/2020, 9:54:44 AM] Getting updater
+[INF][5/13/2020, 9:54:44 AM] Getting hash from: https://api.github.com/repos/rauenzi/BetterDiscordApp/commits/injector
+[INF][5/13/2020, 9:54:44 AM] Getting version from: https://cdn.statically.io/gh/rauenzi/BetterDiscordApp/8b8108b64172adec53a5a954edd81d2c21b00ba7/betterdiscord/config.json
+[INF][5/13/2020, 9:54:44 AM] Latest Version: 0.4.1
+[INF][5/13/2020, 9:54:44 AM] Getting commit hash
+[INF][5/13/2020, 9:54:44 AM] Getting hash from: https://api.github.com/repos/rauenzi/BetterDiscordApp/commits/master
+[INF][5/13/2020, 9:54:44 AM] 83c28e26495e8d93d5bef19388a1780787c9cbe4
+[INF][5/13/2020, 9:54:44 AM] Using hash: 83c28e26495e8d93d5bef19388a1780787c9cbe4
+[INF][5/13/2020, 9:54:44 AM] Loading
+[INF][5/13/2020, 9:54:44 AM] Loading Resource (//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js)
+[INF][5/13/2020, 9:54:52 AM] Loading Resource (//cdn.staticaly.com/gh/rauenzi/BetterDiscordApp/83c28e26495e8d93d5bef19388a1780787c9cbe4/css/main.min.css)
+[INF][5/13/2020, 9:54:52 AM] Loading Resource (//cdn.staticaly.com/gh/rauenzi/BetterDiscordApp/83c28e26495e8d93d5bef19388a1780787c9cbe4/js/main.min.js)
+[INF][5/13/2020, 9:54:52 AM] Starting Up

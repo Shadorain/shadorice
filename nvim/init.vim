@@ -8,12 +8,14 @@ call plug#begin('~/.local/share/nvim/plugged')
 	
     "<--General
 	Plug 'terryma/vim-multiple-cursors'
+    Plug 'liuchengxu/vim-which-key'
     Plug 'https://github.com/chrisbra/Colorizer.git'
     Plug 'itchyny/lightline.vim'
     Plug 'godlygeek/tabular'
     Plug 'mattn/calendar-vim'
     Plug 'vifm/vifm.vim'
     Plug 'vimwiki/vimwiki'
+    Plug 'metakirby5/codi.vim'
     Plug 'ap/vim-css-color'
     Plug 'plasticboy/vim-markdown'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
@@ -41,6 +43,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'davidhalter/jedi-vim'
     Plug 'vim-pandoc/vim-pandoc-syntax'
     Plug 'justinmk/vim-syntax-extra'    
+    Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 call plug#end()
 
@@ -60,7 +63,13 @@ set tabstop=4
 set number                     " Show current line number
 set relativenumber             " Show relative line numbers
 filetype plugin on
-let mapleader = "'"
+"let g:mapleader = " "
+"let mapleader = " "
+let g:mapleader = "\<Space>"
+let g:maplocalleader = ','
+nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
+nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
+"let mapleader = "'"
 "au ColorScheme * hi Normal ctermbg=none guibg=none
 set t_Co=256
 set t_ut=
@@ -70,13 +79,19 @@ highlight SignColumn guibg=none
 "au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
 set clipboard+=unnamedplus
 " Toggle side numbers
-noremap <F3> :set invnumber invrelativenumber<CR>
 set foldmethod=marker
-"set foldmethod=manual
-"au BufWinLeave * mkview
-"au BufWinEnter * silent_loadview
 "au BufRead,BufNewFile *.md		setfiletype md
+
+" --- Custom Key Commands! --- {{{
+" Copies selected text from split window and paste in other 
+vnoremap <F3> y<c-w>wp<c-w>pgv
+" Turns off all line numbers
+noremap <F3> :set invnumber invrelativenumber<CR>
+" Search and Replace
+nnoremap <leader>R :%s///gcI<left><left><left><left><left>
+
 " }}}
+"}}}
 " ----- Plug Config ----- " {{{
 " Plug >-- CoC " {{{
 " Use tab for trigger completion with characters ahead and navigate.
@@ -238,6 +253,86 @@ let g:mkdp_page_title = '「${name}」'
 nmap <F5> <Plug>MarkdownPreview
 "nmap <M-s> <Plug>MarkdownPreviewStop
 "nmap <C-p> <Plug>MarkdownPreviewToggle
+" }}}
+" Plug >-- Vim Which-Key " {{{
+" Hides statusbar while which-key is open
+call which_key#register('<Space>', "g:which_key_map")
+
+autocmd! FileType which_key
+autocmd  FileType which_key set laststatus=0 noshowmode noruler
+  \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
+
+nnoremap <silent> <leader> :silent WhichKey '<leader>'<CR>
+vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<leader>'<CR>
+
+" Define a separator
+let g:which_key_sep = '→'
+
+let g:which_key_map = {}
+
+let g:which_key_map['/'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
+let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
+
+" --- Setup Section --- " {{{
+" +Windows
+let g:which_key_map.W = {
+    \ 'name' : '+Windows' ,
+    \ 'w' : ['<C-W>w'     , 'other-window']                 ,
+    \ 'd' : ['<C-W>c'     , 'delete-window']                ,
+    \ '-' : ['<C-W>s'     , 'split-window-below']           ,
+    \ '|' : ['<C-W>v'     , 'split-window-right']           ,
+    \ '2' : ['<C-W>v'     , 'layout-double-columns']        ,
+    \ 'h' : ['<C-W>h'     , 'window-left']                  ,
+    \ 'j' : ['<C-W>j'     , 'window-below']                 ,
+    \ 'l' : ['<C-W>l'     , 'window-right']                 ,
+    \ 'k' : ['<C-W>k'     , 'window-up']                    ,
+    \ 'H' : ['<C-W>5<'    , 'expand-window-left']           ,
+    \ 'J' : ['resize +5'  , 'expand-window-below']          ,
+    \ 'L' : ['<C-W>5>'    , 'expand-window-right']          ,
+    \ 'K' : ['resize -5'  , 'expand-window-up']             ,
+    \ '=' : ['<C-W>='     , 'balance-window']               ,
+    \ 's' : ['<C-W>s'     , 'split-window-horizontally']    ,
+    \ 'v' : ['<C-W>v'     , 'split-window-vertically']      ,
+    \ }
+
+" +wiki
+nmap <Leader>wb <Plug>VimwikiTabIndex
+let g:which_key_map.w = {
+    \ 'name' : '+Wiki' ,
+    \ 'd' : ['<Plug>VimwikiDeleteLink'  , 'delete-link']        ,
+    \ 'h' : ['<Plug>Vimwiki2HTML'       , 'convert-to-html']    ,
+    \ 'hh': ['<Plug>Vimwiki2HTMLBrowse' , 'convert-and-browse'] ,
+    \ 'i' : ['<Plug>VimwikiDiaryIndex'  , 'opens-diary']        ,
+    \ 'r' : ['<Plug>VimwikiRenameLink'  , 'renames-link']       ,
+    \ 's' : ['<Plug>VimwikiUISelect'    , 'select-wiki']        ,
+    \ 'b' : ['<Plug>VimwikiTabIndex'    , 'opens-tab-of-index'] ,
+    \ 'w' : ['<Plug>VimwikiIndex'       , 'opens-index']        ,
+    \ 't' : {
+        \ 'name' : '+todo',
+        \ 'c' : ['<Plug>VimwikiToggleListItem^ddGo\<Esc>pI\<right>\<right>~~\<Esc>A~~\<Esc>^db' , 'complete']      ,
+        \ 't' : [':n ~/vimwiki/Life/TODO.md' , 'open-TODO']                 ,  
+        \ }
+    \ }
+
+
+" +lsp
+let g:which_key_map.l = {
+      \ 'name' : '+lsp',
+      \ 'f' : ['spacevim#lang#util#Format()'          , 'formatting']       ,
+      \ 'r' : ['spacevim#lang#util#FindReferences()'  , 'references']       ,
+      \ 'R' : ['spacevim#lang#util#Rename()'          , 'rename']           ,
+      \ 's' : ['spacevim#lang#util#DocumentSymbol()'  , 'document-symbol']  ,
+      \ 'S' : ['spacevim#lang#util#WorkspaceSymbol()' , 'workspace-symbol'] ,
+      \ 'g' : {
+        \ 'name': '+goto',
+        \ 'd' : ['spacevim#lang#util#Definition()'     , 'definition']      ,
+        \ 't' : ['spacevim#lang#util#TypeDefinition()' , 'type-definition'] ,
+        \ 'i' : ['spacevim#lang#util#Implementation()' , 'implementation']  ,
+        \ },
+      \ }
+
+
+"  }}}
 " }}}
 "}}}
 " ----------------------------------------------------- "
