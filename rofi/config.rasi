@@ -1,13 +1,16 @@
 configuration {
-/*  modi: "window,run,ssh";*/
+/*  modi: "window,run,ssh,drun";*/
 /*  width: 50;*/
 /*  lines: 15;*/
 /*  columns: 1;*/
+    show-icons: true;
+    icon-theme: "Papirus";
+    location: 3;
     font: "Iosevka 11";
 /*  bw: 1;*/
 /*  location: 0;*/
 /*  padding: 5;*/
-  yoffset: 35;
+    yoffset: 35;
 /*  xoffset: 0;*/
 /*  fixed-num-lines: true;*/
 /*  show-icons: true;*/

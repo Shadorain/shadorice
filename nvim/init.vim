@@ -79,6 +79,8 @@ set clipboard+=unnamedplus
 " Toggle side numbers
 set foldmethod=marker
 "au BufRead,BufNewFile *.md		setfiletype md
+" TEST PURPOSE
+"set viminfo='100,n$HOME/.config/nvim/autoload/plugged/vim-startify/test/viminfo'
 
 " --- Custom Key Commands! --- {{{
 " Copies selected text from split window and paste in other 

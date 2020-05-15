@@ -202,7 +202,8 @@ super + shift + {r,t}
 
 # Lockscreen
 super + p
-	betterlockscreen -l blur -r 1920x1080  -b 0.2 -t "Welcome back, Shado..."
+	/home/shadow/.i3/i3lock-multimonitor/lock
+    #betterlockscreen -l blur -r 1920x1080  -b 0.2 -t "Welcome back, Shado..."
 
 # System Polybar Toggle
 super + @Pause
