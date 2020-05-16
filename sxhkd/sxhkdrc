@@ -132,6 +132,16 @@ super + ctrl + @space
 # Rofi Windows Menu
 super + Tab
     /home/shadow/.config/scripts/launcher-window
+
+# - ROFI BLOCKS -
+# Apps menu
+alt + a
+    /home/shadow/.config/rofi/scripts/apps.sh
+
+# Power menu
+alt + s
+    /home/shadow/.config/rofi/scripts/menu_powermenu.sh
+
 # }}}
 
 # Calcurse

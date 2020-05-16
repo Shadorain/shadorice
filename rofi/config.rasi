@@ -10,8 +10,8 @@ configuration {
 /*  bw: 1;*/
 /*  location: 0;*/
 /*  padding: 5;*/
-    yoffset: 35;
-/*  xoffset: 0;*/
+    yoffset: 47;
+    /*xoffset: 16;*/
 /*  fixed-num-lines: true;*/
 /*  show-icons: true;*/
 /*  terminal: "kitty";*/

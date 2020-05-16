@@ -1,0 +1,2 @@
+#!/bin/sh
+kitty /home/shadow/.config/vifm/vifmrun /home/shadow/

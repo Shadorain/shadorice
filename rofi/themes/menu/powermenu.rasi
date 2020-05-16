@@ -30,12 +30,14 @@
 /* ########### */
 
 #window {
-  width: 40.5%;
+  width: 41%;
   height: 24.4%;
   anchor: center;
   location: center;
   x-offset: 0%;
   y-offset: 0%;
+  border: 2px;
+  border-color: #2f2f4a;
 }
 
 /* ########### */

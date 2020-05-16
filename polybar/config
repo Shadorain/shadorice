@@ -128,7 +128,7 @@ modules-left = launcher bspwm
 modules-center = mpd previous next spotify
 ; Mpd
 ; modules-center = mpd
-modules-right = time powermenu
+modules-right = time power
 
 [layout]
 icon-font = 12 
@@ -233,8 +233,8 @@ label-unfocused-padding = 1
 type = custom/text
 content = 
 content-foreground = ${colors.color3}
-click-left = /home/shadow/.config/scripts/powermenu
-content-padding = 2
+click-left = /home/shadow/.config/rofi/scripts/menu_powermenu.sh
+content-padding = 2.5
 
 [module/mpd]
 type = internal/mpd

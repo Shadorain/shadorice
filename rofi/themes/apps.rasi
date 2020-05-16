@@ -19,19 +19,21 @@
 
   option-6-listview-spacing:            10px;
 
-  menu-window-padding:                   5px 15px;
+  menu-window-padding:                   15px 25px;
   menu-inputbar-margin:                  10px 0px;
   menu-prompt-padding:                   10px 20px 10px 20px;
   menu-prompt-margin:                    0px 0px 0px -2px;
   menu-element-border:                   10px;
-  menu-element-padding:                  3px 8px -1px -40px;
+  menu-element-padding:                  15px 26px 5px -40px;
 }
 
 /* ########### */
 
 #window {
-  width: 34.5%;
-  height: 20%;
+  width: 25.8%;
+  height: 19%;
+  border: 2px;
+  border-color: #2f2f4a;
 }
 
 /* ########### */

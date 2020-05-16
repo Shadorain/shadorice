@@ -78835,3 +78835,170 @@ May 15 10:26 : client: [3] closed
 May 15 10:26 : client: [4] opened from 127.0.0.1:34658
 May 15 11:19 : client: [4] closed
 May 15 11:19 : client: [5] opened from 127.0.0.1:36660
+May 15 14:25 : client: [5] closed
+May 15 14:25 : client: [6] opened from 127.0.0.1:45190
+May 15 14:26 : client: [6] closed
+May 15 14:26 : client: [7] opened from 127.0.0.1:45228
+May 15 14:26 : client: [7] closed
+May 15 14:26 : client: [8] opened from 127.0.0.1:45240
+May 15 14:26 : client: [8] closed
+May 15 14:26 : client: [9] opened from 127.0.0.1:45246
+May 15 14:50 : client: [9] closed
+May 15 14:50 : client: [10] opened from 127.0.0.1:46638
+May 15 14:50 : client: [10] closed
+May 15 14:50 : client: [11] opened from 127.0.0.1:46640
+May 15 15:12 : client: [11] closed
+May 15 15:12 : client: [12] opened from 127.0.0.1:47928
+May 15 22:44 : client: [13] opened from 127.0.0.1:45478
+May 15 22:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 22:44 : client: [1] closed
+May 15 22:44 : client: [14] opened from 127.0.0.1:45480
+May 15 22:44 : client: [13] closed
+May 15 22:48 : player: played "Japanese/GARNiDELiA- Ambiguous.mp3"
+May 15 22:48 : client: [14] closed
+May 15 22:48 : client: [15] opened from 127.0.0.1:45718
+May 15 22:53 : player: played "Japanese/02 - Hello Alone -Yui Ballade-.mp3"
+May 15 22:53 : client: [15] closed
+May 15 22:53 : client: [16] opened from 127.0.0.1:45996
+May 15 22:54 : client: [12] closed
+May 15 22:54 : client: [17] opened from 127.0.0.1:46062
+May 15 22:54 : client: [17] closed
+May 15 22:54 : client: [18] opened from 127.0.0.1:46064
+May 15 22:54 : client: [18] closed
+May 15 22:54 : client: [19] opened from 127.0.0.1:46078
+May 15 22:54 : client: [19] closed
+May 15 22:54 : client: [20] opened from 127.0.0.1:46080
+May 15 22:57 : player: played "Japanese/01 - Everyday World.mp3"
+May 15 22:57 : client: [16] closed
+May 15 22:57 : client: [21] opened from 127.0.0.1:46218
+May 15 23:02 : player: played "Japanese/01 - One Light.mp3"
+May 15 23:02 : client: [21] closed
+May 15 23:02 : client: [22] opened from 127.0.0.1:46502
+May 15 23:06 : player: played "Japanese/01 - Gate ~Sore wa Akatsuki no You ni~.mp3"
+May 15 23:06 : client: [22] closed
+May 15 23:06 : client: [23] opened from 127.0.0.1:46722
+May 15 23:09 : player: played "Japanese/Lisa - Brave Freak Out.mp3"
+May 15 23:09 : client: [23] closed
+May 15 23:09 : client: [24] opened from 127.0.0.1:46906
+May 15 23:12 : player: played "Japanese/LiSA - Egoistic Shooter.mp3"
+May 15 23:12 : client: [24] closed
+May 15 23:12 : client: [25] opened from 127.0.0.1:47096
+May 15 23:16 : player: played "Japanese/[Forunesia] Empty MERMAiD.mp3"
+May 15 23:16 : client: [25] closed
+May 15 23:16 : client: [26] opened from 127.0.0.1:47302
+May 15 23:20 : player: played "Japanese/01 - traumerei.mp3"
+May 15 23:20 : client: [26] closed
+May 15 23:20 : client: [27] opened from 127.0.0.1:47582
+May 15 23:24 : player: played "Japanese/01. VERMILLION.mp3"
+May 15 23:24 : client: [27] closed
+May 15 23:24 : client: [28] opened from 127.0.0.1:47774
+May 15 23:28 : player: played "Japanese/Bull's Eyenano.mp3"
+May 15 23:28 : client: [28] closed
+May 15 23:28 : client: [29] opened from 127.0.0.1:47992
+May 15 23:32 : client: [20] closed
+May 15 23:32 : client: [30] opened from 127.0.0.1:48244
+May 15 23:33 : player: played "Japanese/No Game No Life Zero Movie Full Theme SongKonomi Suzuki - THERE IS A REASON.mp3"
+May 15 23:33 : client: [29] closed
+May 15 23:33 : client: [31] opened from 127.0.0.1:48286
+May 15 23:37 : client: [32] opened from 127.0.0.1:48516
+May 15 23:37 : client: [31] closed
+May 15 23:37 : client: [33] opened from 127.0.0.1:48518
+May 15 23:37 : client: [32] closed
+May 15 23:37 : client: [34] opened from 127.0.0.1:48522
+May 15 23:37 : client: [33] closed
+May 15 23:37 : client: [35] opened from 127.0.0.1:48524
+May 15 23:37 : client: [34] closed
+May 15 23:41 : player: played "Japanese/ONE OK ROCK Clock Strikes.mp3"
+May 15 23:41 : client: [35] closed
+May 15 23:41 : client: [36] opened from 127.0.0.1:48754
+May 15 23:45 : player: played "Japanese/Parasyte-let me hear- full theme song.mp3"
+May 15 23:45 : client: [36] closed
+May 15 23:45 : client: [37] opened from 127.0.0.1:48972
+May 15 23:49 : player: played "Japanese/[Forunesia] Sore wa Chiisana Hikari no you na.mp3"
+May 15 23:49 : client: [37] closed
+May 15 23:49 : client: [38] opened from 127.0.0.1:49240
+May 15 23:53 : player: played "Japanese/Shakugan_no_Shana_-_Hishoku_no_Sora.mp3"
+May 15 23:53 : client: [38] closed
+May 15 23:53 : client: [39] opened from 127.0.0.1:49492
+May 15 23:57 : player: played "Japanese/SiM - KiLLiNG ME (OFFICIAL VIDEO).mp3"
+May 15 23:57 : client: [39] closed
+May 15 23:57 : client: [40] opened from 127.0.0.1:49672
+May 16 00:02 : player: played "Japanese/01 - My Dearest.mp3"
+May 16 00:02 : client: [40] closed
+May 16 00:02 : client: [41] opened from 127.0.0.1:50048
+May 16 00:02 : client: [42] opened from 127.0.0.1:50054
+May 16 00:02 : client: [41] closed
+May 16 00:02 : client: [43] opened from 127.0.0.1:50056
+May 16 00:02 : client: [42] closed
+May 16 00:02 : client: [44] opened from 127.0.0.1:50060
+May 16 00:02 : client: [43] closed
+May 16 00:02 : client: [45] opened from 127.0.0.1:50062
+May 16 00:02 : client: [44] closed
+May 16 00:02 : client: [46] opened from 127.0.0.1:50064
+May 16 00:02 : client: [45] closed
+May 16 00:02 : client: [47] opened from 127.0.0.1:50066
+May 16 00:02 : client: [46] closed
+May 16 00:08 : player: played "Japanese/01 - My Dearest.mp3"
+May 16 00:08 : client: [47] closed
+May 16 00:08 : client: [48] opened from 127.0.0.1:50410
+May 16 00:13 : player: played "Japanese/Shirushi.mp3"
+May 16 00:13 : client: [48] closed
+May 16 00:13 : client: [49] opened from 127.0.0.1:50690
+May 16 00:18 : player: played "Japanese/Sword Art Online Ordinal Scale - Ubiquitous dB by Yuna [ENG SUB].mp3"
+May 16 00:18 : client: [49] closed
+May 16 00:18 : client: [50] opened from 127.0.0.1:50968
+May 16 00:20 : player: played "Japanese/Tales of Xillia 2 - Opening Theme [HD].mp3"
+May 16 00:20 : client: [50] closed
+May 16 00:20 : client: [51] opened from 127.0.0.1:51098
+May 16 00:23 : player: played "Japanese/01 - Kimi ni Todoke.mp3"
+May 16 00:23 : client: [51] closed
+May 16 00:23 : client: [52] opened from 127.0.0.1:51296
+May 16 00:27 : player: played "Japanese/04 - Sawakaze.mp3"
+May 16 00:27 : client: [52] closed
+May 16 00:27 : client: [53] opened from 127.0.0.1:51518
+May 16 00:31 : player: played "Japanese/Walk this Way.mp3"
+May 16 00:31 : client: [53] closed
+May 16 00:31 : client: [54] opened from 127.0.0.1:51726
+May 16 00:34 : player: played "Japanese/01 - Day you laugh.mp3"
+May 16 00:34 : client: [54] closed
+May 16 00:34 : client: [55] opened from 127.0.0.1:51960
+May 16 00:38 : player: played "Japanese/01 - Miraikei Answer.mp3"
+May 16 00:38 : client: [55] closed
+May 16 00:38 : client: [56] opened from 127.0.0.1:52202
+May 16 00:44 : player: played "Japanese/Kimi Ni Todoke Reaching youFrom me to you  Season 2 ending song.mp3"
+May 16 00:44 : client: [56] closed
+May 16 00:44 : client: [57] opened from 127.0.0.1:52554
+May 16 00:47 : player: played "Japanese/WHITE ASH - Insight (Mp3goo.com).mp3"
+May 16 00:47 : client: [58] opened from 127.0.0.1:52708
+May 16 00:47 : client: [57] closed
+May 16 00:51 : player: played "Japanese/Yanfly - Shadoburedo!.mp3"
+May 16 00:51 : client: [58] closed
+May 16 00:51 : client: [59] opened from 127.0.0.1:52930
+May 16 00:55 : player: played "Japanese/01 - Yuki Toki.mp3"
+May 16 00:55 : client: [59] closed
+May 16 00:55 : client: [60] opened from 127.0.0.1:53184
+May 16 01:00 : player: played "Japanese/01 - Harumodoki.mp3"
+May 16 01:00 : client: [60] closed
+May 16 01:00 : client: [61] opened from 127.0.0.1:53464
+May 16 01:00 : client: [62] opened from 127.0.0.1:53466
+May 16 01:00 : client: [61] closed
+May 16 01:00 : client: [63] opened from 127.0.0.1:53468
+May 16 01:00 : client: [62] closed
+May 16 01:00 : client: [64] opened from 127.0.0.1:53470
+May 16 01:00 : client: [63] closed
+May 16 01:00 : client: [65] opened from 127.0.0.1:53472
+May 16 01:00 : client: [64] closed
+May 16 01:00 : player: played "Japanese/01 - Harumodoki.mp3"
+May 16 01:00 : player: played "Japanese/GARNiDELiA- Ambiguous.mp3"
+May 16 01:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 01:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 01:00 : client: [0] opened from 127.0.0.1:53494
+May 16 01:00 : client: [1] opened from 127.0.0.1:53496
+May 16 01:00 : client: [1] closed
+May 16 01:00 : client: [2] opened from 127.0.0.1:53498
+May 16 01:00 : zeroconf: No global port, disabling zeroconf
+May 16 01:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 01:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 01:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 01:00 : client: [0] opened from [::1]:39140
+May 16 01:00 : client: [0] closed

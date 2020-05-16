@@ -5,7 +5,7 @@
 ## Github : @adi1090x
 ## Reddit : @adi1090x
 
-rofi_command="rofi -theme themes/menu/powermenu.rasi"
+rofi_command="rofi -show-icons -theme themes/menu/powermenu.rasi"
 uptime=$(uptime -p | sed -e 's/up //g')
 #mem=$( free -h | grep -i mem | awk -F ' ' '{print $3}')
 cpu=$(sh ~/.config/rofi/bin/usedcpu)

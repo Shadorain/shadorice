@@ -1,6 +1,7 @@
+
 // ----------------------------------------------------- \\
 //                                                       \\
-//             ROFI ShadoRain Theme Config               \\
+//          ROFI ShadoRain Window Theme Config           \\
 //                                                       \\
 // ----------------------------------------------------- \\
 /* Description {{{
@@ -29,20 +30,18 @@
 
   spacing: 0;
   background-color: #1B1B29; //#09090d; //rgb (28, 22, 46);
-  
+
   font: "Hack Nerd Font 12";
   text-color: #5ADECD;
   //text-color: @text;
   //border-color: #991559;
   //border: 2px;
-  //margin: 35px 0px 0px 0px;
+  /*margin: 0px 0px 0px 16px;*/
 }
 //}}}
 // Window {{{
 window {
-  /*xoffset: 20;*/
   //transparency: "real";
-  /*yoffset: 20;*/
   fullscreen: false;
   border-color: #2f2f4a; //#991559;
   border: 2px;
@@ -92,7 +91,7 @@ textbox-prompt-colon {
 // Textbox-Prompt-Colon {{{
 #textbox-prompt-colon {
   expand: false;
-  str: "Run";
+  str: " ";
   background-color: #7E57C0; //#2f2f4a;
   text-color: #1B1B29;
   padding: 10px 20px 10px 20px;

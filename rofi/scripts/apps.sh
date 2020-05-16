@@ -8,35 +8,47 @@
 rofi_command="rofi -theme themes/apps.rasi"
 
 # Links
-terminal=""
+#terminal=""
+#terminal=""
+terminal=""
+#terminal=""
 files="ﱮ"
-editor=""
+#files=""
+#files=""
+#files=""
+editor=""
+#editor=""
 browser=""
-music=""
-settings="漣"
+music=""
+#music=""
+#music=""
+#settings="漣"
+settings=""
 
 # Variable passed to rofi
-options="$terminal\n$files\n$editor\n$browser\n$music\n$settings"
+options="$files\n$editor\n$music\n$settings"
 
 chosen="$(echo -e "$options" | $rofi_command -p "Most Used" -dmenu -selected-row 0)"
 case $chosen in
     $terminal)
-        termite &
+        kitty &
         ;;
     $files)
-        thunar &
+        kitty /home/shadow/.config/vifm/scripts/vifmrun
         ;;
     $editor)
-        geany &
+        kitty nvim /home/shadow/vimwiki/Life/TODO.md
+        #kitty nvim &
         ;;
     $browser)
         firefox &
         ;;
     $music)
-        lxmusic &
+        kitty nvim /home/shadow/vimwiki/diary/diary.md
+         #bspc desktop -f V
         ;;
     $settings)
-        xfce4-settings-manager &
+        libreoffice &
         ;;
 esac
 
