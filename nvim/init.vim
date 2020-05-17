@@ -8,6 +8,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	
     "<--General
 	Plug 'terryma/vim-multiple-cursors'
+    Plug 'junegunn/goyo.vim'
     Plug 'liuchengxu/vim-which-key'
     Plug 'https://github.com/chrisbra/Colorizer.git'
     Plug 'itchyny/lightline.vim'
@@ -75,7 +76,7 @@ set nocompatible
 colorscheme shadopurplesecond
 highlight SignColumn guibg=none
 "au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
-set clipboard+=unnamedplus
+"set clipboard+=unnamedplus
 " Toggle side numbers
 set foldmethod=marker
 "au BufRead,BufNewFile *.md		setfiletype md

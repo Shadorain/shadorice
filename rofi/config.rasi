@@ -1,5 +1,5 @@
 configuration {
-/*  modi: "window,run,ssh,drun";*/
+/*  modi: "window,run,ssh,drun,calc";*/
 /*  width: 50;*/
 /*  lines: 15;*/
 /*  columns: 1;*/
@@ -10,7 +10,7 @@ configuration {
 /*  bw: 1;*/
 /*  location: 0;*/
 /*  padding: 5;*/
-    yoffset: 47;
+    yoffset: 42;
     /*xoffset: 16;*/
 /*  fixed-num-lines: true;*/
 /*  show-icons: true;*/

@@ -20,16 +20,18 @@ configuration {
 	bw: 0;
     fullscreen: true;
     show-icons: true;
-	terminal: "termite";
+	terminal: "kitty";
 	sidebar-mode: false;
 }
 
 // Blur 
 * {
-bg: #00000099;
+bg: #1B1B29AA;
+/*bg: #00000099;*/
 find: #00000099;
 txt: #e5e5e5;
-border: #e5e5e5;
+border: #7E57C0;
+/*border: #e5e5e5;*/
 bg-sel: #00000099;
 fg: #ffffff;
 }
@@ -37,11 +39,12 @@ fg: #ffffff;
 // black
 /*
 * {
-bg: #000000;
+bg: #242f4a;
+/*bg: #000000;*/
 find: #151515;
 txt: #e5e5e5;
 border: #e5e5e5;
-bg-sel: #151515;
+bg-sel: #242f4a; /*#151515;*/
 fg: #ffffff;
 }
 */
@@ -87,13 +90,13 @@ listview {
 element {
   border: 0;
   border-radius: 8;
-  text-color: @fg;
+  text-color: #BFAAE3;
   orientation: vertical;
   padding: 2% 2% 2% 3%;
 }
 
 element selected {
-  background-color: @bg-sel;
+  background-color: #2f2f4a;
   border: 0 0 2 0;
   border-radius: 8;
   border-color: @border;
@@ -116,6 +119,6 @@ prompt {
 
 entry {
   font: "FantasqueSansMono Nerd Font 12";
-  text-color: @txt;
+  text-color: #BFAAE3;
   padding: 8 12 8 12;
 }

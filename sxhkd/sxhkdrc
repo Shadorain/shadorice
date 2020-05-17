@@ -128,7 +128,7 @@ super + @space
 	/home/shadow/.config/scripts/launcher
 # Rofi Calc
 super + ctrl + @space
-    rofi -show calc
+    /home/shadow/.config/scripts/launcher-calc
 # Rofi Windows Menu
 super + Tab
     /home/shadow/.config/scripts/launcher-window
@@ -141,6 +141,19 @@ alt + a
 # Power menu
 alt + s
     /home/shadow/.config/rofi/scripts/menu_powermenu.sh
+
+# Launcher FS
+alt + e
+    /home/shadow/.config/rofi/launchers/launcher.sh
+
+alt + m
+    /home/shadow/.config/rofi/scripts/mpd.sh
+    
+alt + x
+    /home/shadow/.config/rofi/scripts/overflow_tray.sh
+
+alt + d
+    /home/shadow/.config/rofi/scripts/time.sh
 
 # }}}
 
@@ -207,8 +220,9 @@ super + y
 # --- System --- # {{{
 # Restart / Shutdown
 super + shift + {r,t}
-    onedrive 
-	~/.config/scripts/prompt {"Confirm Reboot?" "reboot", "Confirm shutdown?" "shutdown -h now"}
+    /home/shadow/.config/rofi/scripts/menu_powermenu.sh
+    #onedrive 
+	#~/.config/scripts/prompt {"Confirm Reboot?" "reboot", "Confirm shutdown?" "shutdown -h now"}
 
 # Lockscreen
 super + p
@@ -219,6 +233,10 @@ super + p
 super + @Pause
     polybar-msg -p $(pgrep polybar | cut -d $'\n' -f 2) cmd toggle
 
+XF86PowerDown
+    /home/shadow/.config/rofi/scripts/menu_powermenu.sh
+XF86PowerOff
+    /home/shadow/.config/rofi/scripts/menu_powermenu.sh
 # -- Audio Config -- # {{{
 XF86AudioLowerVolume
 	pulsemixer --change-volume -2
@@ -236,16 +254,16 @@ XF86MonBrightnessUp
 # -- Music Controls -- # {{{
 # Toggle Play/Pause
 XF86AudioPlay
-    mpc --host=127.0.0.1 --port=6601 toggle && dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+    mpc --host=127.0.0.1 --port=6600 toggle && dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
 # Next Track
 XF86AudioNext
-    mpc --host=127.0.0.1 --port=6601 next && dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+    mpc --host=127.0.0.1 --port=6600 next && dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
 # Previous Track
 XF86AudioPrev
-    mpc --host=127.0.0.1 --port=6601 prev && dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+    mpc --host=127.0.0.1 --port=6600 prev && dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
 # Stop Playing
 ctrl + XF86AudioStop
-    mpc --host=127.0.0.1 --port=6601 shuffle && notify-send "MPC" "Toggled Shuffle"
+    mpc --host=127.0.0.1 --port=6600 shuffle && notify-send "MPC" "Toggled Shuffle"
 # Start MPD
 super + alt + m
     kitty mpd

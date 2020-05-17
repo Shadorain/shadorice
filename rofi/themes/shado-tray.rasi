@@ -1,9 +1,10 @@
+
 /*
  *
- * Author : Aditya Shakya (adi1090x)
- * Mail : adi1090x@gmail.com
- * Github : @adi1090x
- * Reddit : @adi1090x
+ * Author : Shadorain (shado)
+ * Mail : shadorainwraith@gmail.com
+ * Github : @Shadorain
+ * Reddit : @Shadorain
  *
  */
 
@@ -13,28 +14,26 @@
 
 * {
   /* General */
-  text-font:                            "Comfortaa 12";
-  icon-font:                            "Hurmit Nerd Font Mono 32";
-  icon-font-small:                      "Hurmit Nerd Font Mono 24";
+  text-font:                            "Comfortaa 6";
+  icon-font:                            "Hurmit Nerd Font Mono 16";
+  icon-font-small:                      "Hurmit Nerd Font Mono 12";
 
-  option-6-listview-spacing:            10px;
+  option-6-listview-spacing:            2px;
 
-  menu-window-padding:                   5px 15px;
-  menu-inputbar-margin:                  10px 0px;
-  menu-prompt-padding:                   10px 20px 10px 20px;
-  menu-prompt-margin:                    0px 0px 0px -2px;
+  menu-window-padding:                   0px 0px;
   menu-element-border:                   10px;
-  menu-element-padding:                  15px 26px 5px -40px;
+  menu-element-padding:                  -3px 5px -8px -30px;
 }
 
 /* ########### */
 
 #window {
-  width: 24.8%;
-  height: 17.2%;
+  width: 9.4%;
+  height: 3.9%;
   border: 2px;
   border-color: #2f2f4a;
-  x-offset: -16px;
+  x-offset: -48px;
+  y-offset: 30px;
 }
 
 /* ########### */
@@ -67,29 +66,9 @@
 }
 #window {
   padding: @menu-window-padding;
-  children: [ inputbar, horibox ];
+  children: [ horibox ];
 }
-#inputbar {
-  children: [ textbox-prompt-colon, prompt ];
-  margin: @menu-inputbar-margin;
-}
-prompt,
-textbox-prompt-colon {
-  padding: @menu-prompt-padding;
-  border: 2px;
-  border-color: @accent;
-}
-#prompt {
-  margin: @menu-prompt-margin;
-  background-color: @background-light;
-  text-color: @accent;
-}
-#textbox-prompt-colon {
-  expand: false;
-  str: "Apps";
-  background-color: @accent;
-  text-color: @background;
-}
+
 #horibox {
   padding: 0px;
 }

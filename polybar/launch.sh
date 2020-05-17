@@ -8,7 +8,7 @@ killall polybar
 #    sleep 1;  
 # Launch polybar, using default config loc ~/.config/polybar/config
 polybar mybar &
-polybar bottom &
-polybar desktops &
+#polybar bottom &
+#polybar desktops &
 echo "Polybar Launched..."
 

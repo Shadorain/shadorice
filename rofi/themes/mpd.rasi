@@ -24,14 +24,18 @@
   menu-prompt-padding:                   10px 20px 10px 20px;
   menu-prompt-margin:                    0px 0px 0px -2px;
   menu-element-border:                   0px;
-  menu-element-padding:                  10px 15px 5px -35px;
+  menu-element-padding:                  12px 28px 7px -40px;
+  /*menu-element-padding:                  12px 0px 7px 0px;*/
 }
 
 /* ########### */
 
 #window {
-  width: 31%;
-  height: 19%;
+  border: 2px;
+  border-color: #2f2f4a;
+  width: 35.3%;
+  height: 15.5%;
+  x-offset: -16px;
 }
 
 /* ########### */
@@ -67,9 +71,10 @@
   children: [ inputbar, horibox ];
 }
 #inputbar {
-  children: [ textbox-prompt-colon, prompt ];
+  children: [ textbox-prompt-colon, prompt];
   margin: @menu-inputbar-margin;
 }
+
 prompt,
 textbox-prompt-colon {
   padding: @menu-prompt-padding;
@@ -92,7 +97,7 @@ textbox-prompt-colon {
 }
 #listview {
   spacing: @option-6-listview-spacing;
-  lines: 6;
+  lines: 7;
 }
 #element {
   font: @icon-font;

@@ -5,7 +5,7 @@
 ## browser : @adi1090x
 ## music : @adi1090x
 
-rofi_command="rofi -theme themes/apps.rasi"
+rofi_command="rofi -theme /home/shadow/.config/rofi/themes/apps.rasi"
 
 # Links
 #terminal=""

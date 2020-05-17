@@ -5,7 +5,7 @@
 ## browser : @adi1090x
 ## music : @adi1090x
 
-rofi_command="rofi -theme android/three.rasi"
+rofi_command='rofi -theme /home/shadow/.config/rofi/themes/shado-tray.rasi'
 
 # Links
 network=""
@@ -16,12 +16,12 @@ quicklinks=""
 # Variable passed to rofi
 options="$network\n$mpd\n$recents\n$quicklinks"
 
-chosen="$(echo -e "$options" | $rofi_command -p "Most Used" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "" -dmenu -selected-row 0)"
 case $chosen in
     $network)
         /home/shadow/.config/rofi/scripts/network.sh
         ;;
-    $editor)
+    $mpd)
         /home/shadow/.config/rofi/scripts/mpd.sh
         ;;
     $recents)

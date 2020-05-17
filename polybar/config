@@ -78,26 +78,26 @@ override-redirect = true
 offset-y = 97.4% 
 offset-x = 77.4%
 
-font-0=Iosevka:size=11;3
-font-1=Font Awesome 5 Free Solid:size=11;3
-font-2=Font Awesome 5 Free Regular:size=11;3
-font-3=Font Awesome 5 Brands:size=11;3
-font-4=font\-logos:size=14;3
-font-5=IPAGothic:size=12:antialias=true;3
-font-6=icomoon\-feather:size10;2
-font-7="M+\1m:style=Medium:size=16;3"
-font-8="M+\1m:style=Medium:size=12;3"
-font-10="M+ 1m:style=Medium:size=10;3"
-font-11="M+ 1m:style=Medium:size=11;3"
-font-12="M+ 1m:style=Medium:size=16;3"
-font-13="M+ 1m:style=Medium:size=12;3"
-font-14="M+ 1m:style=Medium:size=7;3"
+font-0=Iosevka:size=9;3
+font-1=Font Awesome 5 Free Solid:size=9;3
+font-2=Font Awesome 5 Free Regular:size=9;3
+font-3=Font Awesome 5 Brands:size=9;3
+font-4=font\-logos:size=12;3
+font-5=IPAGothic:size=9:antialias=true;3
+font-6=icomoon\-feather:size=9;2
+font-7="M+\1m:style=Medium:size=12;3"
+font-8="M+\1m:style=Medium:size=10;3"
+font-10="M+ 1m:style=Medium:size=8;3"
+font-11="M+ 1m:style=Medium:size=9;3"
+font-12="M+ 1m:style=Medium:size=14;3"
+font-13="M+ 1m:style=Medium:size=10;3"
+font-14="M+ 1m:style=Medium:size=6;3"
 
 modules-right = cpu memory pulseaudio battery
 
 [bar/mybar]
 enable-ipc=true
-height = 35
+height = 30
 width = 100%
 
 background = ${colors.background}
@@ -109,7 +109,7 @@ line-size = 2
 
 font-0=Iosevka:size=11;3
 font-1=Font Awesome 5 Free Solid:size=11;3
-font-2=Font Awesome 5 Free Regular:size=11;3
+font-2=Font Awesome 5 Free Regular:size=10;3
 font-3=Font Awesome 5 Brands:size=11;3
 font-4=font\-logos:size=14;3
 font-5=IPAGothic:size=12:antialias=true;3
@@ -126,14 +126,13 @@ font-14="M+ 1m:style=Medium:size=7;3"
 
 modules-left = launcher bspwm 
 modules-center = mpd previous next spotify
-; Mpd
-; modules-center = mpd
-modules-right = time power
+modules-right = date time overflow power
+/*padding-right = 2*/
 
 [layout]
 icon-font = 12 
 icon-padding = 1 
-module-padding = 2 
+/*module-padding = 2 */
 
 bar-format = %{T14}%fill%%indicator%%{F#dc404040}%empty%%{F-}%{T10}
 ;bar-fill-icon = ﭳ  
@@ -166,7 +165,7 @@ type = internal/xwindow
 label = %title:0:40:...%
 label-color1 = ${colors.color1} 
 label-background = ${colors.background} 
-label-padding = 2
+/*label-padding = 2 */
 
 [module/bspwm]
 type = internal/bspwm
@@ -183,7 +182,7 @@ label-focused-overline = ${colors.color1}
 label-focused-padding = 2
 
 label-unfocused = %index%
-label-unfocused-padding = 2
+label-unfocused-padding = 1
 
 label-urgent = 
 label-urgent-padding = 2
@@ -231,15 +230,26 @@ label-unfocused-padding = 1
 
 [module/power]
 type = custom/text
-content = 
+content =   
 content-foreground = ${colors.color3}
 click-left = /home/shadow/.config/rofi/scripts/menu_powermenu.sh
-content-padding = 2.5
+content-padding = 3
+/*margin = 3*/
+/*content-padding = 0 2.5*/
+
+[module/overflow]
+type = custom/text
+content =   |
+content-foreground = ${colors.color3}
+click-left = /home/shadow/.config/rofi/scripts/overflow_tray.sh
+content-padding-right = 2
+
+format-margin = 2
 
 [module/mpd]
 type = internal/mpd
 host = 127.0.0.1
-port = 6601
+port = 6600
 format-online = <icon-prev> <toggle> <icon-next> <label-song> <label-time>
 format-online-padding = 2
 format-online-foreground = ${colors.color2}
@@ -353,20 +363,23 @@ format-disconnected =
 
 [module/time]
 type = internal/date
-;type = custom/menu
-interval = 10
+interval = 1.0
 format-margin = 0
 
-expand-right = true 
-time = "%H:%M"
-date = "%d %b"
+time = %H:%M
+date = %d %b
 
-label =  %date% | %time% |
+label =  %time% |
+/*label =  %date% | %time% |*/
 label-foreground = ${colors.color3}
 label-background = ${colors.background}
-label-padding = 0 
+label-padding = 2
 
-click-left = /usr/bin/osmo 
+[module/date]
+type = custom/text
+content =   
+click-left = /home/shadow/.config/rofi/scripts/time.sh
+padding-right = 1
 
 [module/pulseaudio]
 type = internal/pulseaudio
