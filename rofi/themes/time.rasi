@@ -24,14 +24,17 @@
   menu-prompt-padding:                   10px 20px 10px 20px;
   menu-prompt-margin:                    0px 0px 0px -2px;
   menu-element-border:                   10px;
-  menu-element-padding:                  10px 10px -1px -40px;
+  menu-element-padding:                  10px 18px 8px -50px;
 }
 
 /* ########### */
 
 #window {
-  width: 28%;
-  height: 20.5%;
+  width: 21.8%;
+  height: 17%;
+  x-offset: -16px;
+  border: 2px;
+  border-color: #2f2f4a;
 }
 
 /* ########### */

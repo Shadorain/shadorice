@@ -18,7 +18,7 @@
   icon-font:                            "Hurmit Nerd Font Mono 16";
   icon-font-small:                      "Hurmit Nerd Font Mono 12";
 
-  option-6-listview-spacing:            2px;
+  option-6-listview-spacing:            0px;
 
   menu-window-padding:                   0px 0px;
   menu-element-border:                   10px;
@@ -32,8 +32,8 @@
   height: 3.9%;
   border: 2px;
   border-color: #2f2f4a;
-  x-offset: -48px;
-  y-offset: 30px;
+  x-offset: -66px;
+  y-offset: 26px;
 }
 
 /* ########### */

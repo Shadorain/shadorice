@@ -14,6 +14,7 @@ alias lg="ls --grid"
 alias ll="ls -lahF --git"
 alias llt="ll --tree --level=2"
 alias llg="ll --grid"
+alias la="ls -a"
 alias diary="nvim ~/vimwiki/diary/diary.md"
 alias t="nvim ~/vimwiki/Life/TODO.md"
 #}}}
@@ -27,7 +28,9 @@ export PATH=~/.config/bin/:$PATH
 export PATH=~/.config/scripts/:$PATH
 export PATH=~/.config/vifm/scripts/:$PATH
 
-ZSH_THEME=""
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
+ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE="Hack Nerd Font"
 
 plugins=(

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 HideBar() {
 	if pgrep "polybar"; then

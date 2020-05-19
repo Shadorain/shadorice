@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 ## Author : Aditya Shakya (adi1090x)
 ## Mail : adi1090x@gmail.com
@@ -36,20 +36,24 @@ fi
 ICON_UP="ﱛ"
 ICON_DOWN="ﱜ"
 ICON_MUTED="ﱝ"
+ICON_MIXER=""
 
-options="$ICON_UP\n$ICON_MUTED\n$ICON_DOWN"
+options="$ICON_UP\n$ICON_MUTED\n$ICON_DOWN\n$ICON_MIXER"
 
 ## Main
-chosen="$(echo -e "$options" | $rofi_command -p "$VOLUME" -dmenu $active $urgent -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "$VOLUME" -dmenu $active $urgent -selected-row 3)"
 case $chosen in
     $ICON_UP)
-        amixer -Mq set Master,0 5%+ unmute && notify-send -u low -t 1500 "Volume Up $ICON_UP"
+        "pulesemixer --change-volume +10"
         ;;
     $ICON_DOWN)
-        amixer -Mq set Master,0 5%- unmute && notify-send -u low -t 1500 "Volume Down $ICON_DOWN"
+        "pulesemixer --change-volume -10"
         ;;
     $ICON_MUTED)
-        amixer -q set Master toggle
+        pulsemixer --toggle-mute
+        ;;
+    $ICON_MIXER)
+        kitty pulsemixer
         ;;
 esac
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ $(echo -e "No\nYes" | rofi -dmenu -i -p "$1") == "Yes" ]; then
 	$2

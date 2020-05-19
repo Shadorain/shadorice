@@ -149,12 +149,17 @@ alt + e
 alt + m
     /home/shadow/.config/rofi/scripts/mpd.sh
     
-alt + x
-    /home/shadow/.config/rofi/scripts/overflow_tray.sh
-
 alt + d
     /home/shadow/.config/rofi/scripts/time.sh
 
+alt + v    
+    /home/shadow/.config/rofi/scripts/volume.sh
+
+alt + b
+    /home/shadow/.config/rofi/scripts/battery.sh
+
+alt + w
+    /home/shadow/.config/rofi/scripts/etwork.sh
 # }}}
 
 # Calcurse
@@ -192,7 +197,8 @@ super + @Print
     scrot -u '/home/shadow/Pictures/Screenshots/%F_%T.png' && notify-send -a Scrot "Window" "Took a screenshot."
 # Area Clipboard
 shift + ctrl + @Print
-    scrot -s -e 'xclip -selection clipboard -target image/png -i $f' && notify-send -a Scrot "Area Clip" "Took clip."
+    flameshot gui && notify-send -a Flameshot "Area Clip" "Took Clip."
+    #scrot -s -e 'xclip -selection clipboard -target image/png -i $f' && notify-send -a Scrot "Area Clip" "Took clip."
 # Area Shot then Wipe
 shift + alt + @Print
     scrot '/tmp/%F_%T.png' -e 'xclip -selection clipboard -target image/png -i $f && rm $f' && notify-send -a Scrot "Area Wipe" "Took clip, deleted image."

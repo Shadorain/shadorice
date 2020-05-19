@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 ## Author : Aditya Shakya (adi1090x)
 ## Mail : adi1090x@gmail.com
@@ -12,7 +12,8 @@ IFACE="$(nmcli | grep -i interface | awk '/interface/ {print $2}')"
 #SSID="$(iwgetid -r)"
 #LIP="$(nmcli | grep -i server | awk '/server/ {print $2}')"
 #PIP="$(dig +short myip.opendns.com @resolver1.opendns.com )"
-STATUS="$(nmcli radio wifi)"
+STATUS="$(mcli radio wifi)"
+ESSID=`${iwlist wlp0s20f3 scan | grep "ESSID:" | sed -e 's/"//g' | cut -d':' -f 2}`
 
 active=""
 urgent=""
@@ -25,7 +26,7 @@ if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 bitbucket.org |
             connected="直"
         fi
 	active="-a 0"
-	MSG="﬉ Online"
+	MSG="$ESSID"
 	PIP="$(dig +short myip.opendns.com @resolver1.opendns.com )"
 	fi
 else
@@ -37,10 +38,10 @@ fi
 
 ## Icons
 bmon="龍"
-launch_cli=""
-launch="歷"
+launch_cli="歷"
+airplane=""
 
-options="$connected\n$bmon\n$launch_cli\n$launch"
+options="$connected\n$bmon\n$launch_cli\n$airplane"
 
 ## Main
 chosen="$(echo -e "$options" | $rofi_command -p "$MSG" -dmenu $active $urgent -selected-row 1)"
@@ -53,13 +54,17 @@ case $chosen in
 		fi 
         ;;
     $bmon)
-        termite -e bmon
+        kitty bmon
         ;;
     $launch_cli)
-        termite -e nmtui
+        kitty netctl edit wlp0s20f3ionit5
         ;;
-    $launch)
-        nm-connection-editor
+    $airplane)
+        if [[ $STATE == *"enable"* ]]; then
+            kitty sudo rfkill block 1 2 3 4
+        else
+            kitty sudo rfkill unblock 1 2 3 4
+        fi
         ;;
 esac
 

@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 # Terminate already running bar instances
-killall polybar
+#killall polybar
 
 # Wait until procs have been shut down
 #if pgrep polybar; then

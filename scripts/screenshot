@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #uses maim to take screenshots
 output=$HOME/Pictures/Screenshots/"$(date +%s_%h%d_%H:%M:%S).png"
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 rofi_command="rofi -theme themes/mpd.rasi"
 

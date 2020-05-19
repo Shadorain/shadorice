@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # get all nodes on current desktop
 NODES=$(bspc query -N -n .tiled -d focused)
