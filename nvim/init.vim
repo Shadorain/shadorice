@@ -66,26 +66,25 @@ filetype plugin on
 "let mapleader = " "
 let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
-nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
-nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
+nnoremap <silent> <leader>      :<C-u>WhichKey '<Space>'<CR>
+nnoremap <silent> <localleader> :<C-u>WhichKey  ','<CR>
 "let mapleader = "'"
-"au ColorScheme * hi Normal ctermbg=none guibg=none
 set t_Co=256
 set t_ut=
 set nocompatible
+au ColorScheme * hi Normal ctermbg=none guibg=none
 colorscheme shadopurplesecond
 highlight SignColumn guibg=none
-"au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
 "set clipboard+=unnamedplus
 " Toggle side numbers
 set foldmethod=marker
 "au BufRead,BufNewFile *.md		setfiletype md
-" TEST PURPOSE
+" TEST CRAP
 "set viminfo='100,n$HOME/.config/nvim/autoload/plugged/vim-startify/test/viminfo'
 
 " --- Custom Key Commands! --- {{{
 " Copies selected text from split window and paste in other 
-vnoremap <F3> y<c-w>wp<c-w>pgv
+vnoremap <F3> y<c-w>wp<c-w>gv
 " Turns off all line numbers
 noremap <F3> :set invnumber invrelativenumber<CR>
 
@@ -275,6 +274,7 @@ nnoremap <leader>R :%s///gcI<left><left><left><left><left>
 let g:which_key_map['R'] = [ ':%s///gcI<left><left><left><left><left>' , 'Search & Replace' ]
 let g:which_key_map['S'] = [ ':Startify' , 'Startify' ]
 let g:which_key_map['V'] = [ ':Vifm' , 'Vifm' ]
+let g:which_key_map['Z'] = [ ':au ColorScheme * hi Normal ctermbg=none guibg=none<CR>' , 'BG Toggle' ]
 
 " --- Setup Section --- " {{{
 " +Calendar {{{

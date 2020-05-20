@@ -13,6 +13,10 @@
 	/home/shadow/
 	..
 1587824602
+'v
+	/home/shadow
+	2020-05-16-112706_3840x1080_scrot.png
+1589903926
 
 # Bookmarks:
 
@@ -26,30 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shadow/unixporn
-	screeny3.png
-4
-d/home/shadow
-	unixporn
-14
-d/home/shadow/unixporn
-	screeny4.png
-6
-d/
-	home
-4
-d/home
-	shadow
-1
-d/home/shadow
-	Pictures
-9
-d/home/shadow/Pictures
-	Screenshots
-3
-d/home/shadow
-	unixporn
-14
 d/home/shadow/unixporn
 	screeny5.png
 7
@@ -326,6 +306,30 @@ d/home/shadow/Pictures
 d/home/shadow/Pictures/Backgrounds
 	at-the-edge.jpg
 13
+d/home/shadow/Pictures
+	Backgrounds
+1
+d/home/shadow
+	Pictures
+22
+d/home/shadow/Pictures
+	Screenshots
+3
+d/home/shadow/Pictures/Screenshots
+	2020-05-16-145914_923x1079_scrot.png
+40
+d/home/shadow/Pictures
+	Screenshots
+3
+d/home/shadow
+	.config
+5
+d/home/shadow/.config
+	polybar
+39
+d/home/shadow/.config/polybar
+	screeny3.png
+10
 d
 
 # Right window history (oldest to newest):
@@ -407,6 +411,7 @@ D
 :run chmod +x origin-latest; ./origin-latest
 :Q
 :q
+:wq
 
 # Search history (oldest to newest):
 /.config
@@ -417,6 +422,7 @@ D
 /balls
 /.
 /Pic
+/pol
 
 # Prompt history (oldest to newest):
 p7 Intro to Johns Revelation -- 1 Enoch Reading Spring 2019.pdf
@@ -443,7 +449,6 @@ pstars.jpg
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/shadow/Pictures/Backgrounds/5.jpg
 
 # Directory stack (oldest to newest):
 
@@ -528,6 +533,50 @@ t/home/shadow/.local/share/vifm/Trash/000_betterdiscordctl
 	/home/shadow/betterdiscordctl
 t/home/shadow/.local/share/vifm/Trash/000_.xinitrc.bak
 	/home/shadow/.xinitrc.bak
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-15-150400_3840x1080_scrot.png
+	/home/shadow/2020-05-15-150400_3840x1080_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-16-164941_918x1079_scrot.png
+	/home/shadow/2020-05-16-164941_918x1079_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-16-170157_921x366_scrot.png
+	/home/shadow/2020-05-16-170157_921x366_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-16-172644_1921x1005_scrot.png
+	/home/shadow/2020-05-16-172644_1921x1005_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-17-114527_1927x1079_scrot.png
+	/home/shadow/2020-05-17-114527_1927x1079_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-17-153659_864x617_scrot.png
+	/home/shadow/2020-05-17-153659_864x617_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-17-152539_890x502_scrot.png
+	/home/shadow/2020-05-17-152539_890x502_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-16-213406_1920x38_scrot.png
+	/home/shadow/2020-05-16-213406_1920x38_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-17-224234_887x95_scrot.png
+	/home/shadow/2020-05-17-224234_887x95_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-17-224333_877x115_scrot.png
+	/home/shadow/2020-05-17-224333_877x115_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-103907_601x187_scrot.png
+	/home/shadow/2020-05-18-103907_601x187_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-17-231437_443x123_scrot.png
+	/home/shadow/2020-05-17-231437_443x123_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-104757_896x1018_scrot.png
+	/home/shadow/2020-05-18-104757_896x1018_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-104806_878x123_scrot.png
+	/home/shadow/2020-05-18-104806_878x123_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-143306_1920x33_scrot.png
+	/home/shadow/2020-05-18-143306_1920x33_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-162614_1920x31_scrot.png
+	/home/shadow/2020-05-18-162614_1920x31_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-175403_358x28_scrot.png
+	/home/shadow/2020-05-18-175403_358x28_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-231508_1558x269_scrot.png
+	/home/shadow/2020-05-18-231508_1558x269_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-175340_1920x31_scrot.png
+	/home/shadow/2020-05-18-175340_1920x31_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-162600_1911x37_scrot.png
+	/home/shadow/2020-05-18-162600_1911x37_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-130200_1919x1079_scrot.png
+	/home/shadow/2020-05-18-130200_1919x1079_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-125913_427x40_scrot.png
+	/home/shadow/2020-05-18-125913_427x40_scrot.png
 
 # State:
 f

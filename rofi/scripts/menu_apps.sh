@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
-## Author : Aditya Shakya (adi1090x)
-## Mail : adi1090x@gmail.com
-## browser : @adi1090x
-## music : @adi1090x
+## Author : Shadorain
+## Mail : Shadorain@gmail.com
+## browser : @Shadorain
+## music : @Shadorain
 
 rofi_command="rofi -theme themes/menu/apps.rasi"
 

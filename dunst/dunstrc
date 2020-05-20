@@ -41,7 +41,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 30
+    transparency = 0
 
     # The height of the entire notification.  If the height is smaller
     # than the font height and padding combined, it will be raised
@@ -61,7 +61,7 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 1
+    frame_width = 2
 
     # Defines color of the frame around the notification window.
     #frame_color = "#3d36a8"
@@ -126,7 +126,8 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>┈─━║ %a ║━─┈\n⎡</b> <i>%s</i> ❱ %b <b>⎦</b>"
+    #format = "<b>┈─━║ %a ║━─┈\n⎡</b> <i>%s</i> ❱ %b <b>⎦</b>"
+    format = "<b>║ %a ║\n⎡</b> <i>%s</i> ❱ %b <b>⎦</b>"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -290,17 +291,20 @@
     #foreground = "#888888"
     #frame_color = "#0d6573"
     #background = "#1e133b" purple-y
-    background = "#09090d"
-    foreground = "#5ADECD"
-    frame_color = "#b03356"
+    #background = "#09090d"
+    #foreground = "#5ADECD"
+    #frame_color = "#b03356"
+    background = "#1B1B29"
+    foreground = "#BFAAE3"
+    frame_color = "#2f2f4a"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#09090d"
-    foreground = "#5ADECD"
-    frame_color = "#b03356"
+    background = "#1B1B29"
+    foreground = "#BFAAE3"
+    frame_color = "#2f2f4a"
     #frame_color = "#3d36a8" purple
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable

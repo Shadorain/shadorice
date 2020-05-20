@@ -1,3 +1,0 @@
-# Script to choose how long to hold off suspend, with Rofi
-# systemd-inhibit --what=handle-lid-switch sleep 3600 
-# turn off via "killall systemd-inhibit-"

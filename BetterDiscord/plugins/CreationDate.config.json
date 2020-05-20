@@ -5,6 +5,9 @@
 	"choices": {
 		"creationDateLang": "$discord"
 	},
+	"formats": {
+		"ownFormat": "$hour:$minute:$second, $day.$month.$year"
+	},
 	"settings": {
 		"addInUserPopout": true,
 		"addInUserProfil": true,

@@ -2,8 +2,8 @@ sw_volume: 94
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 60
-time: 0.330000
+current: 54
+time: 44.667000
 random: 0
 repeat: 0
 single: 0
@@ -34,44 +34,43 @@ playlist_begin
 19:Fit For A King - Descendants - Redux/11 - Unchanging.mp3
 20:Fit For A King - Descendants - Redux/12 - Keep Me Alive.mp3
 21:Fit For A King - A Greater Sense of Self.mp3
-22:Fit For A King - Slave to Nothing.mp3
-23:Fit For A King - Slave to Nothing/01 - Kill the Pain.mp3
-24:Fit For A King - Slave to Nothing/02 - Young & Undeserving.mp3
-25:Fit For A King - Slave to Nothing/03 - Slave to Nothing.mp3
-26:Fit For A King - Slave to Nothing/04 - Break Away.mp3
-27:Fit For A King - Slave to Nothing/05 - Hooked.mp3
-28:Fit For A King - Slave to Nothing/06 - Selfish Eyes.mp3
-29:Fit For A King - Slave to Nothing/07 - A Greater Sense of Self.mp3
-30:Fit For A King - Slave to Nothing/08 - Forever Unbroken.mp3
-31:Fit For A King - Slave to Nothing/09 - Impostor.mp3
-32:Fit For A King - Slave to Nothing/10 - Cleanse My Soul.mp3
-33:Fit For A King - Slave to Nothing/11 - The Final Thoughts of a Dying Man.mp3
-34:Fit For A King - God Rest Ye Merry Gentlemen.mp3
-35:Fit For A King - Pissed Off.mp3
-36:Fit For A King - Shadows & Echoes.mp3
-37:Fit For A King - Deathgrip/01 - The End's Beginning.mp3
-38:Fit For A King - Deathgrip/02 - Pissed Off.mp3
-39:Fit For A King - Deathgrip/04 - Cold Room.mp3
-40:Fit For A King - Deathgrip/05 - Disease.mp3
-41:Fit For A King - Deathgrip/06 - Shadows & Echoes.mp3
-42:Fit For A King - Deathgrip/07 - More Than Nameless.mp3
-43:Fit For A King - Deathgrip/08 - We Are All Lost.mp3
-44:Fit For A King - Deathgrip/09 - Unclaimed, Unloved.mp3
-45:Fit For A King - Deathgrip/11 - Deathgrip.mp3
-46:Fit For A King - Tower of Pain.mp3
-47:Fit For A King - The Price of Agony.mp3
-48:Fit For A King - Backbreaker.mp3
-49:Fit For A King - When Everything Means Nothing.mp3
-50:Fit For A King - Oblivion.mp3
-51:Fit For A King - Dark Skies/01 - Engraved.mp3
-52:Fit For A King - Dark Skies/02 - The Price of Agony.mp3
-53:Fit For A King - Dark Skies/03 - Backbreaker.mp3
-54:Fit For A King - Dark Skies/04 - Anthem of the Defeated.mp3
-55:Fit For A King - Dark Skies/05 - When Everything Means Nothing.mp3
-56:Fit For A King - Dark Skies/06 - Youth _ Division.mp3
-57:Fit For A King - Dark Skies/07 - Shattered Glass.mp3
-58:Fit For A King - Dark Skies/08 - Tower of Pain.mp3
-59:Fit For A King - Dark Skies/09 - Debts of the Soul.mp3
-60:Fit For A King - Dark Skies/10 - Oblivion.mp3
-61:Fit For A King - Breaking the Mirror.mp3
+22:Fit For A King - Slave to Nothing/01 - Kill the Pain.mp3
+23:Fit For A King - Slave to Nothing/02 - Young & Undeserving.mp3
+24:Fit For A King - Slave to Nothing/03 - Slave to Nothing.mp3
+25:Fit For A King - Slave to Nothing/04 - Break Away.mp3
+26:Fit For A King - Slave to Nothing/05 - Hooked.mp3
+27:Fit For A King - Slave to Nothing/06 - Selfish Eyes.mp3
+28:Fit For A King - Slave to Nothing/07 - A Greater Sense of Self.mp3
+29:Fit For A King - Slave to Nothing/08 - Forever Unbroken.mp3
+30:Fit For A King - Slave to Nothing/09 - Impostor.mp3
+31:Fit For A King - Slave to Nothing/10 - Cleanse My Soul.mp3
+32:Fit For A King - Slave to Nothing/11 - The Final Thoughts of a Dying Man.mp3
+33:Fit For A King - God Rest Ye Merry Gentlemen.mp3
+34:Fit For A King - Pissed Off.mp3
+35:Fit For A King - Shadows & Echoes.mp3
+36:Fit For A King - Deathgrip/01 - The End's Beginning.mp3
+37:Fit For A King - Deathgrip/02 - Pissed Off.mp3
+38:Fit For A King - Deathgrip/04 - Cold Room.mp3
+39:Fit For A King - Deathgrip/05 - Disease.mp3
+40:Fit For A King - Deathgrip/06 - Shadows & Echoes.mp3
+41:Fit For A King - Deathgrip/07 - More Than Nameless.mp3
+42:Fit For A King - Deathgrip/08 - We Are All Lost.mp3
+43:Fit For A King - Deathgrip/09 - Unclaimed, Unloved.mp3
+44:Fit For A King - Deathgrip/11 - Deathgrip.mp3
+45:Fit For A King - Tower of Pain.mp3
+46:Fit For A King - The Price of Agony.mp3
+47:Fit For A King - Backbreaker.mp3
+48:Fit For A King - When Everything Means Nothing.mp3
+49:Fit For A King - Oblivion.mp3
+50:Fit For A King - Dark Skies/01 - Engraved.mp3
+51:Fit For A King - Dark Skies/02 - The Price of Agony.mp3
+52:Fit For A King - Dark Skies/03 - Backbreaker.mp3
+53:Fit For A King - Dark Skies/04 - Anthem of the Defeated.mp3
+54:Fit For A King - Dark Skies/05 - When Everything Means Nothing.mp3
+55:Fit For A King - Dark Skies/06 - Youth _ Division.mp3
+56:Fit For A King - Dark Skies/07 - Shattered Glass.mp3
+57:Fit For A King - Dark Skies/08 - Tower of Pain.mp3
+58:Fit For A King - Dark Skies/09 - Debts of the Soul.mp3
+59:Fit For A King - Dark Skies/10 - Oblivion.mp3
+60:Fit For A King - Breaking the Mirror.mp3
 playlist_end

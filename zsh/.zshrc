@@ -25,13 +25,11 @@ fi
 
 export ZSH=$HOME/.oh-my-zsh
 export PATH=~/.config/bin/:$PATH
-export PATH=~/.config/scripts/:$PATH
 export PATH=~/.config/vifm/scripts/:$PATH
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_MODE="Hack Nerd Font"
 
 plugins=(
     git

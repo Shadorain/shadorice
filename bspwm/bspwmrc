@@ -10,9 +10,7 @@ xrdb ~/.Xresources &
 killall "picom"
 picom --experimental-backend &
 killall polybar
-killall "dunst"
 feh --bg-scale --no-fehbg ~/Pictures/Backgrounds/forest.png &
-dunst &
 $HOME/.config/polybar/launch.sh
 #polybar-msg -p $(pgrep polybar | cut -d $'\n' -f 2) cmd hide
 # }}}

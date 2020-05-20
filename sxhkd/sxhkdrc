@@ -46,6 +46,10 @@ super + g
 super + grave
 	bspc node -f last
 
+# Useful for monocle: change previous/next window
+alt + f
+    bspc node -f last
+
 # }}}
 
 # -- Floating Windows -- # {{{
@@ -159,7 +163,13 @@ alt + b
     /home/shadow/.config/rofi/scripts/battery.sh
 
 alt + w
-    /home/shadow/.config/rofi/scripts/etwork.sh
+    /home/shadow/.config/rofi/scripts/network.sh
+
+alt + q
+    /home/shadow/.config/rofi/scripts/quicklinks.sh
+
+alt + g
+    /home/shadow/.config/rofi/scripts/gitrepos.sh
 # }}}
 
 # Calcurse
@@ -191,7 +201,7 @@ super + ctrl + {a,t,i}
     scrot '/home/shadow/Pictures/Screenshots/%F_%T.png' && notify-send -a Scrot "Fullscreen" "Took a screenshot." 
 # Monitor Shot
 super + alt + @Print
-    flameshot screen -r -c -p /home/shadow/Pictures/Screenshots && notify-send -a Flameshot "Monitor" "Took a screenshot."
+    flameshot screen -r -c -p /home/shadow/Pictures/Screenshots # && notify-send -a Flameshot "Monitor" "Took a screenshot."
 # Window Shot
 super + @Print
     scrot -u '/home/shadow/Pictures/Screenshots/%F_%T.png' && notify-send -a Scrot "Window" "Took a screenshot."
@@ -287,9 +297,9 @@ super + @F9
 
 # Show / Hide Polybar {{{
 super + ctrl + p
-    /home/shadow/.config/scripts/pbar_hide.sh
+    /home/shadow/.config/scripts/pbar_hide
 super + alt + p
-    /home/shadow/.config/scripts/pbar_show.sh
+    /home/shadow/.config/scripts/pbar_show
 # }}}
 #}}}
 # ----------------------------------------------------- #
