@@ -1,6 +1,10 @@
 #!/bin/sh
-for window_id in $(bspc query -W); do
-	bspc window $window_id -c
+for window_id in $(bspc query -N); do
+	bspc node $window_id -c
 done
 
-bspc quit
+killall polybar
+killall dunst
+killall picom
+killall flameshot
+killall Discord

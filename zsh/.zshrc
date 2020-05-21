@@ -17,6 +17,9 @@ alias llg="ll --grid"
 alias la="ls -a"
 alias diary="nvim ~/vimwiki/diary/diary.md"
 alias t="nvim ~/vimwiki/Life/TODO.md"
+
+alias startx='startx; /home/shadow/.pswitch'
+
 #}}}
 # ----- PowerLevel10k Config ----- # {{{
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then

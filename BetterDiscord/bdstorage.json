@@ -9,7 +9,7 @@
                 "bda-gs-5": true,
                 "bda-gs-6": false,
                 "bda-gs-7": false,
-                "bda-gs-8": true,
+                "bda-gs-8": false,
                 "bda-es-0": true,
                 "bda-es-1": true,
                 "bda-es-2": true,
@@ -30,11 +30,11 @@
                 "fork-ps-5": true,
                 "fork-es-2": false,
                 "fork-es-3": true,
-                "fork-wp-1": true,
+                "fork-wp-1": false,
                 "fork-wp-2": false,
                 "fork-beta": true,
                 "reactDevTools": false,
-                "transparency": true
+                "transparency": false
             },
             "plugins": {
                 "CreationDate": true

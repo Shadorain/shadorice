@@ -1,21 +1,21 @@
-#! /bin/sh
+#!/bin/sh
 # ----------------------------------------------------- #
 #                                                       #
 #                     BSPWM CONFIG                      #                     
 #                                                       #                        
 # ----------------------------------------------------- #
 #--AutoStart--# {{{
-sxhkd &
-xrdb ~/.Xresources &
+#xrdb ~/.Xresources &
 killall "picom"
-picom --experimental-backend &
+picom --experimental-backends &
 killall polybar
 feh --bg-scale --no-fehbg ~/Pictures/Backgrounds/forest.png &
 $HOME/.config/polybar/launch.sh
-#polybar-msg -p $(pgrep polybar | cut -d $'\n' -f 2) cmd hide
 # }}}
 #--Monitors--# {{{
-bspc monitor DP-2 -d 1 2 3 4 5 6 7 
+bspc monitor eDP-1-1 -d 1 2 3 4 5 6 7 
+bspc monitor eDP-1 -d 1 2 3 4 5 6 7 
+#bspc monitor DP-2 -d 1 2 3 4 5 6 7 
 #bspc monitor HDMI-0 -d I II III IV V VI VII
 bspc monitor HDMI-0 -d I V X L C D M
 # 一, 二, 三, 四, 五, 六, 七 
@@ -49,13 +49,19 @@ bspc config focused_border_color "#b03356"  #"#ab153f"
 # }}}
 #--Monitor and Desktop Settings--# {{{
 bspc config border_width    0 
-bspc config -m DP-2 window_gap      12
-bspc config -m HDMI-0 window_gap 0
+#bspc config -m DP-2 window_gap      12
+bspc config -m eDP-1-1 window_gap      12
+bspc config -m eDP-1   window_gap      4
+bspc config -m HDMI-0  window_gap      0
 # Mon 1 {{{ 
-bspc config -m DP-2 top_padding 30 
-bspc config -m DP-2 bottom_padding 2.5 
-bspc config -m DP-2 left_padding  2.5
-bspc config -m DP-2 right_padding 2.5
+bspc config -m eDP-1-1 top_padding 30
+bspc config -m eDP-1-1 bottom_padding 2.5
+bspc config -m eDP-1-1 left_padding  2.5
+bspc config -m eDP-1-1 right_padding 2.5
+bspc config -m eDP-1   top_padding    30
+bspc config -m eDP-1   bottom_padding 0
+bspc config -m eDP-1   left_padding   0
+bspc config -m eDP-1   right_padding  0
 # }}}
 # Mon 2 {{{
 bspc config -m HDMI-0 top_padding 0 #-15

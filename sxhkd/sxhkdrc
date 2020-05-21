@@ -15,6 +15,10 @@ super + shift + Escape
 # Reload BSPWM
 super + shift + q
     bspc wm -r
+
+super + ctrl + @F12
+    /home/shadow/.config/scripts/switch_gpu
+
 #}}}
 # --- Window Controls --- # {{{
 # Kill Window
