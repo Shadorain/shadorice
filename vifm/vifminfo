@@ -30,12 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shadow/unixporn
-	screeny5.png
-7
-d/home/shadow
-	unixporn
-14
 d/home
 	shadow
 1
@@ -328,8 +322,14 @@ d/home/shadow/.config
 	polybar
 39
 d/home/shadow/.config/polybar
-	screeny3.png
-10
+	..
+0
+d/home/shadow/.config
+	polybar
+39
+d/home/shadow
+	out
+43
 d
 
 # Right window history (oldest to newest):
@@ -410,8 +410,8 @@ D
 :run origin-latest
 :run chmod +x origin-latest; ./origin-latest
 :Q
-:q
 :wq
+:q
 
 # Search history (oldest to newest):
 /.config

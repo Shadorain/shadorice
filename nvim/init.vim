@@ -43,6 +43,9 @@ call plug#begin('~/.local/share/nvim/plugged')
     "Plug 'davidhalter/jedi-vim'
     Plug 'vim-pandoc/vim-pandoc-syntax'
     Plug 'justinmk/vim-syntax-extra'    
+    "<--Snippets
+    Plug 'SirVer/ultisnips'
+    Plug 'honza/vim-snippets'
 
 call plug#end()
 
@@ -91,6 +94,11 @@ noremap <F3> :set invnumber invrelativenumber<CR>
 " }}}
 "}}}
 " ----- Plug Config ----- " {{{
+" Plug >-- Snippets " {{{
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" }}}
 " Plug >-- CoC " {{{
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
@@ -169,10 +177,6 @@ let g:signify_sign_show_text = 1  "-+--- Gets rid of extra numbers
 "nmap <leader>gk <plug>(signify-prev-hunk)
 "nmap <leader>gJ 9999<leader>gJ
 "nmap <leader>gK 9999<leader>gK
-" Highlight > Numbers
-highlight SignifySignAdd    ctermfg=green  guifg=#03fc7f guibg=none
-highlight SignifySignDelete ctermfg=red    guifg=#db1f4e guibg=none
-highlight SignifySignChange ctermfg=yellow guifg=#dbc893 guibg=none
 " }}}
 " Plug >-- Fugitive/Rhubarb " {{{
 " }}}
