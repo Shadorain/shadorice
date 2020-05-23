@@ -7,9 +7,11 @@
 #--AutoStart--# {{{
 #xrdb ~/.Xresources &
 killall "picom"
-picom --experimental-backends &
 killall polybar
+killall flameshot
+picom --experimental-backends &
 feh --bg-scale --no-fehbg ~/Pictures/Backgrounds/forest.png &
+flameshot &
 $HOME/.config/polybar/launch.sh
 # }}}
 #--Monitors--# {{{

@@ -2,3 +2,149 @@ dc675b9b33ac202a98b0e167a5c251ad|file:///home/shadow/.config/polybar/README.md|2
 	2. cd into polybar directory:
 3386dd7e68c2a1acc6708c5e414faebb|file:///home/shadow/.config/polybar/README.md|9|103|v|vimwiki
 	just 
+52ab06d6c6b1e80b77c8c3bf82bd042c|file:///home/shadow/vimwiki/Life/TODO.md|68|1|V|vimwiki
+	    * [X] _Add more leader commands_
+945256fa100d61fff00418491fa51e8a|file:///home/shadow/vimwiki/Life/TODO.md|68|1|v|vimwiki
+	* 
+	    
+d2ed057a9677f196761e6414edd841d6|file:///home/shadow/vimwiki/Life/TODO.md|18|2|V|vimwiki
+	        * [X] i3?
+ce94e6b4a7a17204c135a81437ac3bd5|file:///home/shadow/vimwiki/Life/TODO.md|67|1|V|vimwiki
+	    * [X] make more User friendly
+c9207774e715dee47fd2af16607d85ad|file:///home/shadow/vimwiki/Life/TODO.md|67|1|V|vimwiki
+	        * [ ] /home/shadow
+b9ad2d43effc7eda69c125b63e48744f|file:///home/shadow/vimwiki/Life/TODO.md|67|1|v|vimwiki
+	* 
+	        
+9b759559cf8feeac6733a6fb70c1c77c|file:///home/shadow/vimwiki/Life/TODO.md|67|5|V|vimwiki
+	        * [ ] spotify
+49c203740bedf7eed7db5e3c8a368f2e|file:///home/shadow/vimwiki/Life/TODO.md|67|5|V|vimwiki
+	    * [X] fix up install/deps page
+513b9758b58065ed44242f9e48c142d3|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-monocle = "%{A1:bspc desktop -l next:}  %{A}"
+cad24eb1974853d9f7b80535346cd177|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-foreground = ${colors.foreground}
+f067ddb945728adf3031af2075df202b|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-tiled = "%{A1:bspc desktop -l next:}  %{A}"
+ba497f102b4f5eb48c566423cd5cae9e|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-tiled-foreground = ${colors.tile_grid}
+95a4c7db1720823ef58a22bad81338bb|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-floating = "%{A1:bspc node focused.tiled -t floating || bspc node focused.floating -t tiled:}  %{A}"
+67feb7afcad352570d468d848f6820ab|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-floating-foreground = ${colors.foreground}
+15a6f198148199208916c4ab75bf3da6|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-fullscreen = "%{A1:~/.config/scripts/bspfullscreen:}  %{A}"
+729efc85a7d5e07e4624c3f65c2abe6a|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-fullscreen-foreground = ${colors.mint_accent}
+2b7d3ca1758a67ff7a4d54cb7bd3d023|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-locked = "%{A1:bspc desktop -l next:}  %{A}"
+93b844cffa8b6897acc093a32f76f080|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-locked-foreground = ${colors.mint_accent}
+532854c564c8df80791e634a790285b4|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-sticky = "%{A1:bspc desktop -l next:}  %{A}"
+23f590f1fd3e9ab0ba02b8954fed134e|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-sticky-foreground = ${colors.foreground}
+54160c4c08fdf9adcc860127ff94f243|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-private = "%{A1:bspc desktop -l next:}  %{A}"
+c8ac15a2a19c5ec842563246e3107ac1|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-private-foreground = ${colors.mint_accent}
+305318339c0efd5190975878ad4190f6|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-hidden = "%{A1:bspc desktop -l next:}  %{A}"
+7ec7f3c79241b4fcdebab1aa3d795999|file:///home/shadow/.config/polybar/config-i3|123|1|V|
+	label-hidden-foreground = ${colors.foreground}
+19720068325217260a50cce194f4b481|file:///home/shadow/vimwiki/Life/TODO.md|67|1|V|vimwiki
+	    * [X] i3 PR?
+16be9f6237c2fefe3272d55d898b5611|file:///home/shadow/vimwiki/Life/TODO.md|67|1|V|vimwiki
+	    * [X] _Rebind CAPS to Esc_
+15bff68bb0ad037acabff15da9c4fefe|file:///home/shadow/vimwiki/Life/TODO.md|3|1|V|vimwiki
+	DDdd### Tomorrow
+6eb9e6b846a33dae07a279998f56a869|file:///home/shadow/vimwiki/Life/TODO.md|66|1|V|vimwiki
+	* [X] New colorscheme? (#BFAAE3, #7E57C0, #2f2f4a, #1B1B29)
+0b023fd4a13da0f37479347d1e62b9bb|file:///home/shadow/vimwiki/Life/TODO.md|66|1|V|vimwiki
+	    * [X] Kitty?
+45a75baa86a5196194bb1f8ef4370329|file:///home/shadow/vimwiki/Life/TODO.md|66|1|V|vimwiki
+	    * [X] Vim?
+62d900f589e4a22db9b6ca11bfa15bac|file:///home/shadow/vimwiki/Life/TODO.md|66|1|V|vimwiki
+	    * [X] Everything else? (have a standard)
+b61e2286458a228564871f0fb7d06232|file:///home/shadow/vimwiki/Life/TODO.md|66|5|V|vimwiki
+	* [X] Better/easier install for shadobar
+9cc9518da47a854f4b599504a3f31dfc|file:///home/shadow/vimwiki/Life/TODO.md|66|5|V|vimwiki
+	    * 
+310e4d628d1f6261a89e90d1a06e0139|file:///home/shadow/vimwiki/Life/TODO.md|66|1|V|vimwiki
+	    * [ ] Fix /home/shadow/ and other hardcoded parts
+d9bdfa8eede3a8c1d9a1f297eb164719|file:///home/shadow/vimwiki/Life/TODO.md|3|1|V|vimwiki
+	### VimWiki
+	* [O] _Add a section to document findings_ 
+cda089aafb035f49879dedc896572879|file:///home/shadow/.config/polybar/config|49|22|v|
+	irevious 
+d0cab90d8d20d57e2f2b9be52f7dd25d|file:///home/shadow/.config/polybar/config|49|22|v|
+	next
+67f760b74356914863f79ad6ee1cbad5|file:///home/shadow/.config/polybar/config-i3|49|21|v|
+	 previous next spotify
+54b8043fa99b425b8a80386be0ba07cb|file:///home/shadow/.config/polybar/config-i3|388|13|v|
+	 bspc desktop -f II
+0e419a37b247aeb0741d9f0158799815|file:///home/shadow/.config/polybar/config-i3|388|1|V|
+	click-left =
+2a255b9741adcbf44d1ca0d39b689659|file:///home/shadow/.config/polybar/config|70|1|V|
+	content-font=5
+99f9e2c108dfb32a8e3f2fe20a223638|file:///home/shadow/.xinitrc|9|1|V|sh
+	exec_always --no-startup-id setxkbmap -layout us -variant altgr-intl -option caps:esc
+8ed78909b33352c9873891427ef86931|file:///home/shadow/.config/nvim/custom_snips/markdown.snippets|2|1|V|snippets
+	$(date | awk '{print $3,$2,$4,":",$1}')
+5dd2da0bc100757972c5b7dc147fb007|file:///home/shadow/.config/bspwm/bspwmrc|11|1|V|sh
+	killall polybar
+058f30d8a6c4b3a18225112fe4bc9df0|file:///home/shadow/.config/bspwm/bspwmrc|11|9|v|sh
+	polybar
+6791edcde5b35e2cff0dae5411360d7d|file:///home/shadow/.config/polybar/config|97|1|V|
+	ws-icon-7 = 8;
+2a6486ead102bf29da57eedf025e94b8|file:///home/shadow/.xinitrc|6|1|V|sh
+	flameshot &
+6bdd966f364eda932bfb2521ed5be310|file:///home/shadow/.config/polybar/config-i3|111|1|V|
+	label-focused = %icon%
+	label-focused-background = ${colors.workspace_focused}
+	label-focused-overline = ${colors.uo_linecolor}
+	label-focused-padding = 2
+	label-focused-foreground = ${colors.uo_linecolor}
+f3b716795215c16a97e58c6a2fe32a65|file:///home/shadow/.config/polybar/config-i3|117|7|^v|
+	f
+	f
+	f
+	f
+	f
+0038ce780b2b7f244a7e164826bb734e|file:///home/shadow/.config/polybar/config-i3|119|1|V|
+	label-unfocused-overline = ${colors.uo_linecolor}
+0c37d3c9e380d8626b582f37b0a09407|file:///home/shadow/.config/polybar/config-i3|119|1|V|
+	label-unfocused-padding = 2
+9e8855e3ad9e7db80c686e2ddac9d6fe|file:///home/shadow/vimwiki/Life/TODO.md|71|1|V|vimwiki
+	* [X] Fixed up readme
+0a173cbeea72e4db41922deeaacf62c4|file:///home/shadow/vimwiki/Life/TODO.md|57|1|v|vimwiki
+	* ~~[X] _LETS GO: KEYBIND TO TOGGLE MY GPUS, HOW INSANE!_~~
+bde5e890c9e478660b8a861ec8845eaa|file:///home/shadow/vimwiki/Life/TODO.md|57|1|V|vimwiki
+	* ~~[X] _LETS GO: KEYBIND TO TOGGLE MY GPUS, HOW INSANE!_~~
+	* ~~[X] _Add more leader commands_~~
+	* ~~[X] make more User friendly~~ (sbar)
+	    * ~~[X] /home/shadow~~
+	    * ~~[X] spotify~~
+	    * ~~[X] fix up install/deps page~~
+	    * ~~[X] i3 PR? (ended up making my own conf-i3)~~
+	* ~~[X] _Rebind CAPS to Esc_~~
+	* ~~[X] New colorscheme? (#BFAAE3, #7E57C0, #2f2f4a, #1B1B29)~~
+	    * ~~[X] Kitty?~~
+	    * ~~[X] Vim?~~
+	    * ~~[X] Everything else? (have a standard)~~
+	* ~~[X] Better/easier install for shadobar~~
+	* ~~[X] Fix /home/shadow/ and other hardcoded parts~~
+	* ~~[X] Fixed up readme~~ (r@m)
+9dc00ad4afb681a09acd7a7ff794d50a|file:///home/shadow/vimwiki/Life/TODO.md|62|1|V|vimwiki
+	* ~~[X] make more User friendly~~
+	    * ~~[X] /home/shadow~~
+	    * ~~[X] spotify~~
+	* ~~[X] fix up install/deps page~~
+	* ~~[X] i3 PR? (ended up making my own conf-i3)~~
+	* ~~[X] _Rebind CAPS to Esc_~~
+	* ~~[X] New colorscheme? (#BFAAE3, #7E57C0, #2f2f4a, #1B1B29)~~
+	    * ~~[X] Kitty?~~
+	    * ~~[X] Vim?~~
+	    * ~~[X] Everything else? (have a standard)~~
+	* ~~[X] Better/easier install for shadobar~~
+	* ~~[X] Fix /home/shadow/ and other hardcoded parts~~

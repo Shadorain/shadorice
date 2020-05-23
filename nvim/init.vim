@@ -98,6 +98,8 @@ noremap <F3> :set invnumber invrelativenumber<CR>
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "custom_snips"]
 " }}}
 " Plug >-- CoC " {{{
 " Use tab for trigger completion with characters ahead and navigate.

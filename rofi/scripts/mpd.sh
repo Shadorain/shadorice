@@ -74,10 +74,10 @@ case $chosen in
         mpc -q random
         ;;
     $seek_for)
-        mpc seek +5
+        mpc seek +10
         ;;
     $seek_back)
-        mpc seek -5
+        mpc seek -10
         ;;
 esac
 
