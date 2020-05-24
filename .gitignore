@@ -2,14 +2,13 @@
 alacritty/
 autostart/
 bash-bak/
-baloofileinformationrc/
+baloofileinformationrc
 BetterDiscord/
 calendar/
 calendars/
 cef_user_data/
 chromium/
 coc/
-comptop-bak/
 configstore/
 conky-manager.json
 dconf/
@@ -23,6 +22,7 @@ enchant/
 galculator/
 gconf/
 google-chrome/
+geany/
 htop/
 inkscape/
 Kvantum/
