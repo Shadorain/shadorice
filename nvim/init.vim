@@ -65,26 +65,19 @@ set tabstop=4
 set number                     " Show current line number
 set relativenumber             " Show relative line numbers
 filetype plugin on
-"let g:mapleader = " "
-"let mapleader = " "
 let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
 nnoremap <silent> <leader>      :<C-u>WhichKey '<Space>'<CR>
 nnoremap <silent> <localleader> :<C-u>WhichKey  ','<CR>
-"let mapleader = "'"
 set t_Co=256
 set t_ut=
 set nocompatible
-au ColorScheme * hi Normal ctermbg=none guibg=none
-colorscheme shadopurplesecond
-highlight SignColumn guibg=none
+colorscheme shado
 "set clipboard+=unnamedplus
-" Toggle side numbers
 set foldmethod=marker
 "au BufRead,BufNewFile *.md		setfiletype md
 " TEST CRAP
 "set viminfo='100,n$HOME/.config/nvim/autoload/plugged/vim-startify/test/viminfo'
-
 " --- Custom Key Commands! --- {{{
 " Copies selected text from split window and paste in other 
 vnoremap <F3> y<c-w>wp<c-w>gv

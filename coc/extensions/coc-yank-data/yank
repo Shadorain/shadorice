@@ -193,3 +193,26 @@ d569475f3abecfe32060bf3be9d23398|file:///home/shadow/.config/nvim/snips/markdown
 	${2:code}
 	\`\`\`
 	endsnippet
+ac4f2e7b463af7f2e9cad0bf52fdb7d1|file:///home/shadow/.config/nvim/init.vim|74|1|V|vim
+	"let mapleader = "'"
+14e3acb6ba618c7ddc6abaed067e5240|file:///home/shadow/.config/nvim/init.vim|68|1|V|vim
+	"let g:mapleader = " "
+96757fff41345f68078073282b7226a1|file:///home/shadow/.config/nvim/init.vim|68|1|V|vim
+	"let mapleader = " "
+1755c2699fff1ee35f9b520fd3b95f55|file:///home/shadow/.config/nvim/init.vim|79|1|V|vim
+	" Toggle side numbers
+07960ba69c4f43a8c1fa59e4432515b3|file:///home/shadow/.config/nvim/init.vim|77|1|V|vim
+	"highlight SignColumn guibg=none
+4894462be95b6c4bdb33a587c54cbdb1|file:///home/shadow/.config/nvim/init.vim|75|1|V|vim
+	"au ColorScheme * hi Normal ctermbg=none guibg=none
+22931d2a78e7f37030cbcdc148e01760|file:///home/shadow/.config/nvim/colors/shado2.vim|1|1|^v|vim
+	 
+	 
+	 
+	 
+3d4b9bffe578b26182688f5622d34ae0|file:///home/shadow/.config/nvim/init.vim|72|1|V|vim
+	set t_Co=256
+9d459888c991229b5e478d0e17ac9076|file:///home/shadow/.config/.gitignore|31|1|V|
+	osmo/
+da3e67c2a68a674d15e3d82ddec721fc|file:///home/shadow/.config/.gitignore|25|1|V|
+	Joplin/
