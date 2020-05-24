@@ -1,5 +1,0 @@
-system: {}
-wine:
-  esync: true
-  system_winetricks: true
-  vkd3d: true

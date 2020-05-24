@@ -1,1 +1,0 @@
-{"net":{"http_server_properties":{"servers":[{"https://www.google.com":{"supports_spdy":true}},{"https://www.gstatic.com":{"supports_spdy":true}},{"https://cdnjs.cloudflare.com":{"supports_spdy":true}},{"https://cdns-images.dzcdn.net":{"supports_spdy":true}},{"https://e-cdns-images.dzcdn.net":{"supports_spdy":true}}],"version":5}}}

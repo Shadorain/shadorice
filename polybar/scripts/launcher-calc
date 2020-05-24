@@ -1,3 +1,0 @@
-#!/bin/sh
-
-rofi -show calc -display-calc '' -no-show-icons -theme ~/.config/rofi/themes/shado-calc.rasi 
