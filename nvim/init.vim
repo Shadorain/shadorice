@@ -44,7 +44,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'vim-pandoc/vim-pandoc-syntax'
     Plug 'justinmk/vim-syntax-extra'    
     "<--Snippets
-    Plug 'SirVer/ultisnips'
+    "Plug 'SirVer/ultisnips'
     Plug 'honza/vim-snippets'
 
 call plug#end()
@@ -95,21 +95,47 @@ noremap <F3> :set invnumber invrelativenumber<CR>
 "}}}
 " ----- Plug Config ----- " {{{
 " Plug >-- Snippets " {{{
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" COC Snippets
+"" <tab> to trigger and
+let g:UltiSnipsExpandTrigger = "<NUL>"
+inoremap <silent><expr> <C-l>
+      \ pumvisible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<C-l>" :
+      \ coc#refresh()
 
-let g:UltiSnipsSnippetDirectories=["UltiSnips", "custom_snips"]
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+let g:coc_snippet_next = '<tab>'
+
+" Use <C-l> for trigger snippet expand.
+"imap <C-l> <Plug>(coc-snippets-expand)
+
+" Use <C-j> for select text for visual placeholder of snippet.
+"vmap <C-j> <Plug>(coc-snippets-select)
+
+" Use <C-j> for jump to next placeholder, it's default of coc.nvim
+"let g:coc_snippet_next = '<c-j>'
+
+" Use <C-k> for jump to previous placeholder, it's default of coc.nvim
+"let g:coc_snippet_prev = '<c-k>'
+
+" Use <C-j> for both expand and jump (make expand higher priority.)
+"imap <C-j> <Plug>(coc-snippets-expand-jump)
+
 " }}}
 " Plug >-- CoC " {{{
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
-"inoremap <silent><expr> <TAB>
-"      \ pumvisible() ? "\<C-n>" :
-"      \ <SID>check_back_space() ? "\<TAB>" :
-"      \ coc#refresh()
-"inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 "}}}
 " Plug >-- Sneak " {{{
 let g:sneak#prompt = '❱'
@@ -371,6 +397,7 @@ let g:which_key_map.w = {
 " +lsp {{{
 let g:which_key_map.l = {
       \ 'name' : '+lsp',
+      \ 'A' : [':<Plug>(coc-codeaction-selected)'     , 'Selection']        ,
       \ 'f' : ['spacevim#lang#util#Format()'          , 'formatting']       ,
       \ 'r' : ['spacevim#lang#util#FindReferences()'  , 'references']       ,
       \ 'R' : ['spacevim#lang#util#Rename()'          , 'rename']           ,

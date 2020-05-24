@@ -30,12 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home
-	shadow
-1
-d/home/shadow
-	unixporn
-14
 d/home/shadow/unixporn
 	..
 0
@@ -328,8 +322,14 @@ d/home/shadow/.config
 	polybar
 39
 d/home/shadow
-	out
-43
+	Pictures
+12
+d/home/shadow/Pictures
+	Screenshots
+3
+d/home/shadow/Pictures/Screenshots
+	2020-05-23_13-28.png
+42
 d
 
 # Right window history (oldest to newest):
@@ -409,8 +409,8 @@ D
 :execute ./origin-latest
 :run origin-latest
 :run chmod +x origin-latest; ./origin-latest
-:Q
 :wq
+:Q
 :q
 
 # Search history (oldest to newest):
@@ -449,6 +449,7 @@ pstars.jpg
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/shadow/.local/share/vifm/Trash/000_2020-05-23_13:27:56.png
 
 # Directory stack (oldest to newest):
 
@@ -577,6 +578,16 @@ t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-130200_1919x1079_scrot.png
 	/home/shadow/2020-05-18-130200_1919x1079_scrot.png
 t/home/shadow/.local/share/vifm/Trash/000_2020-05-18-125913_427x40_scrot.png
 	/home/shadow/2020-05-18-125913_427x40_scrot.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-22_17:51:17.png
+	/home/shadow/Pictures/Screenshots/2020-05-22_17:51:17.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-23_13:06:39.png
+	/home/shadow/Pictures/Screenshots/2020-05-23_13:06:39.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-23_12-47.png
+	/home/shadow/Pictures/Screenshots/2020-05-23_12-47.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-19_17:12:58.png
+	/home/shadow/Pictures/Screenshots/2020-05-19_17:12:58.png
+t/home/shadow/.local/share/vifm/Trash/000_2020-05-23_13:27:56.png
+	/home/shadow/Pictures/Screenshots/2020-05-23_13:27:56.png
 
 # State:
 f

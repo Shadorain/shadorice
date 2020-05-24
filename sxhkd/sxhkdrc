@@ -205,13 +205,13 @@ super + ctrl + {a,t,i}
     scrot '/home/shadow/Pictures/Screenshots/%F_%T.png' && notify-send -a Scrot "Fullscreen" "Took a screenshot." 
 # Monitor Shot
 super + alt + @Print
-    flameshot screen -r -c -p /home/shadow/Pictures/Screenshots # && notify-send -a Flameshot "Monitor" "Took a screenshot."
+    flameshot screen -r -c -p /home/shadow/Pictures/Screenshots && notify-send -a Flameshot "Monitor" "Took a screenshot."
 # Window Shot
 super + @Print
     scrot -u '/home/shadow/Pictures/Screenshots/%F_%T.png' && notify-send -a Scrot "Window" "Took a screenshot."
 # Area Clipboard
 shift + ctrl + @Print
-    flameshot gui --path ~/Screenshots
+    flameshot gui --path /home/shadow/Pictures/Screenshots
     #scrot -s -e 'xclip -selection clipboard -target image/png -i $f' && notify-send -a Scrot "Area Clip" "Took clip."
 # Area Shot then Wipe
 shift + alt + @Print

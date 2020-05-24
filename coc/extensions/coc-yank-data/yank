@@ -148,3 +148,48 @@ bde5e890c9e478660b8a861ec8845eaa|file:///home/shadow/vimwiki/Life/TODO.md|57|1|V
 	    * ~~[X] Everything else? (have a standard)~~
 	* ~~[X] Better/easier install for shadobar~~
 	* ~~[X] Fix /home/shadow/ and other hardcoded parts~~
+fd125ee2e3df20f1284baf3d8dcb7959|file:///home/shadow/.config/nvim/coc-settings.json|10|5|V|jsonc
+	    "UltiSnips", "~/.config/nvim/utils/snips"
+e860e69139fa37745aa0475234e80320|file:///home/shadow/.config/nvim/init.vim|98|1|V|vim
+	"let g:UltiSnipsExpandTrigger="<tab>"
+1bc6e8fd3f903400597cd3415b713331|file:///home/shadow/.config/nvim/init.vim|98|1|V|vim
+	"let g:UltiSnipsJumpForwardTrigger="<c-b>"
+f31eab22aee97d57bfbd458472129330|file:///home/shadow/.config/nvim/init.vim|98|1|V|vim
+	"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+b822f0e449f7f2a3b858812ea53faef6|file:///home/shadow/.config/nvim/init.vim|98|1|V|vim
+	"let g:UltiSnipsSnippetDirectories=["UltiSnips", "custom_snips"]
+3cd2a148edb337a77c800212db04d859|file:///home/shadow/.config/nvim/snips/markdown.snippets|2|2|v|snippets
+	 `!v strftime("%Y-%m-%d")`
+a978e63824e566f597b60d6a2ccf5d87|file:///home/shadow/.config/nvim/coc-settings.json|18|1|V|json
+	  //"snippets.ultisnips.directories": [ "UltiSnips", "~/.config/nvim/utils/snips" ]
+81db9d909877e9d2510735700851724e|file:///home/shadow/.config/nvim/coc-settings.json|18|3|V|json
+	  //SNIPPETS
+e8b5ce692cfb521dbe4a5c0f9aa10033|file:///home/shadow/.config/nvim/coc-settings.json|14|3|V|json
+	  // python config
+943a612abba786de99723149a4ff60be|file:///home/shadow/.config/nvim/snips/markdown.snippets|3|1|v|snippets
+	one line to give the program's name and a brief description
+b9af7d5ef9c7f5528bcfdb624d034662|file:///home/shadow/.config/nvim/snips/markdown.snippets|4|3|v|snippets
+	Fold description
+0cf31b2c283ce3431794586df7b0996d|file:///home/shadow/.config/nvim/snips/markdown.snippets|17|10|v|snippets
+	    
+d569475f3abecfe32060bf3be9d23398|file:///home/shadow/.config/nvim/snips/markdown.snippets|1|1|V|snippets
+	snippet day "Snippet for diary days"
+	# `!v strftime("%b %d, %Y")`
+	
+	## Other
+	
+	## Tech
+	
+	
+	## Completed TODO's
+	
+	
+	~~Shado Out~~
+	endsnippet
+8bb3155f43e9ae9750b129c3baef592b|file:///home/shadow/.config/nvim/snips/markdown.snippets|14|1|V|snippets
+	
+	snippet helllo
+	\`\`\`${1:language}
+	${2:code}
+	\`\`\`
+	endsnippet
