@@ -1,6 +1,6 @@
+/home/shadow/.config/.gitignore
 /home/shadow/.config/nvim/snips/markdown.snippets
 /home/shadow/.config/polybar/config
-/home/shadow/.config/.gitignore
 /home/shadow/.config/nvim/colors/shado2.vim
 /home/shadow/.config/nvim/init.vim
 /home/shadow/vimwiki/diary/2020-05-24.md

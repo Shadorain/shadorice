@@ -34,10 +34,7 @@ lutris/
 menus/
 mimeapps.list
 mpv/
-mpd/mpd.db
-mpd/mpd.log
-mpd/mpd.pid
-mpd/mpdstate
+mpd/
 ncmpcpp/bindings-luke-smith
 neofetch/
 nnn/
@@ -61,4 +58,4 @@ VirtualBox/
 zathura/
 yay/
 zoomus.conf
-
+nvim/snips/

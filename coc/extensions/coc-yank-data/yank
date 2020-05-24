@@ -216,3 +216,9 @@ ac4f2e7b463af7f2e9cad0bf52fdb7d1|file:///home/shadow/.config/nvim/init.vim|74|1|
 	osmo/
 da3e67c2a68a674d15e3d82ddec721fc|file:///home/shadow/.config/.gitignore|25|1|V|
 	Joplin/
+6d05e99e4d89abc3fad75bbb4007c7db|file:///home/shadow/.config/.gitignore|37|1|V|
+	mpd/mpd.db
+bbae45a8d1462c2393cdc264e3caa69c|file:///home/shadow/.config/.gitignore|37|1|V|
+	mpd/mpd.log
+b20334a85a81a890aef1f58f7c587539|file:///home/shadow/.config/.gitignore|37|1|V|
+	mpd/mpd.pid
