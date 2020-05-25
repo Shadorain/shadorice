@@ -16,6 +16,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mattn/calendar-vim'
     Plug 'vifm/vifm.vim'
     Plug 'vimwiki/vimwiki'
+    "Plug 'https://github.com/vimwiki/vimwiki.git'
     Plug 'metakirby5/codi.vim'
     Plug 'ap/vim-css-color'
     Plug 'plasticboy/vim-markdown'
@@ -69,7 +70,6 @@ let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
 nnoremap <silent> <leader>      :<C-u>WhichKey '<Space>'<CR>
 nnoremap <silent> <localleader> :<C-u>WhichKey  ','<CR>
-set t_Co=256
 set t_ut=
 set nocompatible
 colorscheme shado
@@ -147,27 +147,27 @@ let g:startify_lists = [
 
 " Bookmarks
 let g:startify_bookmarks = [
-    \ { 'n':  '~/.config/nvim/init.vim'                        },
-    \ { 's':  '~/.config/sxhkd/sxhkdrc'                        },
-    \ { 'b':  '~/.config/bspwm/bspwmrc'                        },
-    \ { 'k':  '~/.config/kitty/kitty.conf'                     },
-    \ { 'p':  '~/.config/polybar/config'                       },
-    \ { 'c':  '~/.config/picom.conf'                           },
-    \ { 'S':  '~/Documents/PY-Projects/Shadochan/shadochan.py' },
-    \ { 'w':  '~/vimwiki/index.md'                             },
-    \ { 'm':  '~/.config/miscellaneous'                        },
-    \ { 'r':  '~/.config/rofi/themes/onedark.rasi'             },
-    \ { 'Z':  '~/.config/zsh/.zshrc'                           },
-    \ { 'z':  '~/.zshenv'                                      },
-    \ { 'd':  '~/Documents/'                                   },
+    \ { 'n' : '~/.config/nvim/init.vim'                        },
+    \ { 's' : '~/.config/sxhkd/sxhkdrc'                        },
+    \ { 'b' : '~/.config/bspwm/bspwmrc'                        },
+    \ { 'k' : '~/.config/kitty/kitty.conf'                     },
+    \ { 'p' : '~/.config/polybar/config'                       },
+    \ { 'c' : '~/.config/picom.conf'                           },
+    \ { 'S' : '~/Documents/PY-Projects/Shadochan/shadochan.py' },
+    \ { 'sc': '~/.config/nvim/colors/shado.vim'                },
+    \ { 'w' : '~/vimwiki/index.md'                             },
+    \ { 'm' : '~/.config/miscellaneous'                        },
+    \ { 'r' : '~/.config/rofi/themes/onedark.rasi'             },
+    \ { 'Z' : '~/.config/zsh/.zshrc'                           },
+    \ { 'z' : '~/.zshenv'                                      },
+    \ { 'd' : '~/Documents/'                                   },
     \ { 'ds': '~/Documents/SchoolWork/'                        },
     \ { 'dh': '~/Documents/HTB/'                               },
-    \ { 'dc': '~/Documents/CTF/'                               },
-    \ { 'D':  '~/Downloads/'                                   },
+    \ { 'D' : '~/Downloads/'                                   },
     \ { 'ps':  '~/Pictures/Screenshots/'                       },
-    \ { 'P':  '~/Pictures/'                                    },
-    \ { 'M':  '~/Music/'                                       },
-    \ { 'sc': '~/Documents/Shadochan/'                         },
+    \ { 'P' : '~/Pictures/'                                    },
+    \ { 'M' : '~/Music/'                                       },
+    \ { 'dc': '~/Documents/Shadochan/'                         },
     \ ]
 " Ascii Art
 let g:startify_custom_header = [
