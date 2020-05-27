@@ -1,0 +1,17 @@
+# ----- Aliases ----- #
+alias icat="kitty +kitten icat"
+alias vim="nvim"
+alias v="nvim"
+alias mpcd="mpc --host=127.0.0.1 --port=6601"
+alias ls="exa -F --group-directories-first --icons"
+alias lt="ls --tree --level=2"
+alias lg="ls --grid"  
+alias ll="ls -lahF --git"   
+alias llt="ll --tree --level=2"
+alias llg="ll --grid"
+alias la="ls -a"
+alias diary="nvim ~/vimwiki/diary/diary.md"
+alias vw="nvim ~/vimwiki/index.md"
+alias t="nvim ~/vimwiki/Life/TODO.md"
+
+alias startx='startx; /home/shadow/.pswitch'

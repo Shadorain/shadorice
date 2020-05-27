@@ -5,8 +5,10 @@
 " ----------------------------------------------------- "
 " ----- Plugs ----- " {{{
 call plug#begin('~/.local/share/nvim/plugged')
-	
+
     "<--General
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
 	Plug 'terryma/vim-multiple-cursors'
     Plug 'junegunn/goyo.vim'
     Plug 'liuchengxu/vim-which-key'
@@ -22,7 +24,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'plasticboy/vim-markdown'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
     Plug 'unblevable/quick-scope'
-    Plug 'ctrlpvim/ctrlp.vim'
+    "Plug 'ctrlpvim/ctrlp.vim'
     Plug 'tpope/vim-surround'
     Plug 'sainnhe/lightline_foobar.vim'
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
@@ -68,6 +70,7 @@ set relativenumber             " Show relative line numbers
 filetype plugin on
 let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
+set splitright
 nnoremap <silent> <leader>      :<C-u>WhichKey '<Space>'<CR>
 nnoremap <silent> <localleader> :<C-u>WhichKey  ','<CR>
 set t_ut=
@@ -76,14 +79,14 @@ colorscheme shado
 "set clipboard+=unnamedplus
 set foldmethod=marker
 "au BufRead,BufNewFile *.md		setfiletype md
-" TEST CRAP
-"set viminfo='100,n$HOME/.config/nvim/autoload/plugged/vim-startify/test/viminfo'
 " --- Custom Key Commands! --- {{{
 " Copies selected text from split window and paste in other 
 vnoremap <F3> y<c-w>wp<c-w>gv
 " Turns off all line numbers
-noremap <F3> :set invnumber invrelativenumber<CR>
-
+nnoremap <F3> :set invnumber invrelativenumber<CR>
+map <C-f> <esc><esc>:Files!<CR>
+inoremap <C-f> <esc><esc>:BLines!<CR>
+nnoremap g<C-c> <esc><esc>:BCommits!<CR>
 " }}}
 "}}}
 " ----- Plug Config ----- " {{{
@@ -158,8 +161,9 @@ let g:startify_bookmarks = [
     \ { 'w' : '~/vimwiki/index.md'                             },
     \ { 'm' : '~/.config/miscellaneous'                        },
     \ { 'r' : '~/.config/rofi/themes/onedark.rasi'             },
-    \ { 'Z' : '~/.config/zsh/.zshrc'                           },
-    \ { 'z' : '~/.zshenv'                                      },
+    \ { 'za' : '~/.config/zsh/zsh_aliases'                     },
+    \ { 'zc' : '~/.config/zsh/.zshrc'                          },
+    \ { 'ze' : '~/.zshenv'                                     },
     \ { 'd' : '~/Documents/'                                   },
     \ { 'ds': '~/Documents/SchoolWork/'                        },
     \ { 'dh': '~/Documents/HTB/'                               },
@@ -214,7 +218,19 @@ if !has('gui_running')
 endif
 set noshowmode
 
-let g:lightline = { 'colorscheme': 'palenight_alter' }
+let g:lightline = { 
+    \ 'colorscheme': 'palenight_alter',
+    \ 'active': {
+    \   'left': [ [ 'mode', 'paste' ],
+    \       [ 'readonly', 'filename', 'helloworld' ] ],
+    \   'right': [ [ 'lineinfo' ],
+    \               [ 'percent' ] ]
+    \ },
+    \ 'component_function': {
+    \   'gitbranch': 'FugitiveHead'
+    \ },
+    \ }
+
 " }}}
 " Plug >-- Vifm " {{{
 "map <Leader>vf :Vifm<CR>
