@@ -27,7 +27,7 @@ highlight SignColumn guibg=none
 " Foreground
 hi Normal guifg=#dfb7e8 guibg=none
 " Cursor Color
-hi Cursor guifg=#8d9be0 guibg=#6161b3 guisp=#6161b3
+hi Cursor guifg=#dfb7e8 guibg=#6161b3 guisp=#6161b3
 
 
 " Visual Mode

@@ -33,7 +33,6 @@ case $chosen in
         /home/shadow/.i3/i3lock-multimonitor/lock
         ;;
     $suspend)
-        /home/shadow/.i3/i3lock-multimonitor/lock
         mpc -q pause
         amixer set Master mute
         systemctl suspend

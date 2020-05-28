@@ -1,0 +1,3 @@
+#!/bin/sh
+sed -i 's|inoremap <expr><buffer> <Tab> vimwiki#tbl#kbd_tab()|"inoremap <expr><buffer> <Tab> vimwiki#tbl#kbd_tab()|g' ~/.local/share/nvim/plugged/vimwiki/ftplugin/vimwiki.vim
+sed -i 's|inoremap <expr><buffer> <S-Tab> vimwiki#tbl#kbd_shift_tab()|"inoremap <expr><buffer> <S-Tab> vimwiki#tbl#kbd_shift_tab()|g' ~/.local/share/nvim/plugged/vimwiki/ftplugin/vimwiki.vim

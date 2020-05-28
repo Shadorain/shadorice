@@ -15,3 +15,8 @@ alias vw="nvim ~/vimwiki/index.md"
 alias t="nvim ~/vimwiki/Life/TODO.md"
 
 alias startx='startx; /home/shadow/.pswitch'
+
+alias gpam='git push all master'
+alias gpa='git push all'
+alias gpo='git push origin'
+alias gpom='git push origin master'

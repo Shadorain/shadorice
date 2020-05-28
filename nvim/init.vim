@@ -5,7 +5,7 @@
 " ----------------------------------------------------- "
 " ----- Plugs ----- " {{{
 call plug#begin('~/.local/share/nvim/plugged')
-
+    Plug 'masukomi/vim-markdown-folding'
     "<--General
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -19,7 +19,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'vifm/vifm.vim'
     Plug 'vimwiki/vimwiki'
     "Plug 'https://github.com/vimwiki/vimwiki.git'
-    Plug 'metakirby5/codi.vim'
+    Plug 'ChristianChiarulli/codi.vim'
+    "Plug 'metakirby5/codi.vim'
     Plug 'ap/vim-css-color'
     Plug 'plasticboy/vim-markdown'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
@@ -87,6 +88,42 @@ nnoremap <F3> :set invnumber invrelativenumber<CR>
 map <C-f> <esc><esc>:Files!<CR>
 inoremap <C-f> <esc><esc>:BLines!<CR>
 nnoremap g<C-c> <esc><esc>:BCommits!<CR>
+
+" Remap arrow keys to resize splits
+nnoremap <silent><Up>    :resize +2<CR>
+nnoremap <silent><Down>  :resize -2<CR>
+nnoremap <silent><Left>  :vertical resize +2<CR>
+nnoremap <silent><Right> :vertical resize -2<CR>
+
+nmap <leader>bl :ls<CR>
+nmap <silent><leader>bn :bnext<CR>
+nmap <silent><leader>bp :bprevious<CR>
+nmap <silent><leader>bd :bdelete<CR>
+
+nmap <leader>ga :Gwrite<CR>
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gd :Gdiff<CR>
+nmap <leader>gc :Gcommit<CR>
+nmap <leader>gp :Gpush<CR>
+nmap <leader>gb :Gblame<CR>
+nmap <leader>gl :Glog<CR>
+
+inoremap <A-,> <Esc>A;<Esc>
+nnoremap <A-,> A;<Esc>
+
+tnoremap <C-A-h> <C-\><C-N><C-w>h
+tnoremap <C-A-j> <C-\><C-N><C-w>j
+tnoremap <C-A-k> <C-\><C-N><C-w>k
+tnoremap <C-A-l> <C-\><C-N><C-w>l
+inoremap <C-A-h> <C-\><C-N><C-w>h
+inoremap <C-A-j> <C-\><C-N><C-w>j
+inoremap <C-A-k> <C-\><C-N><C-w>k
+inoremap <C-A-l> <C-\><C-N><C-w>l
+nnoremap <C-A-h> <C-w>h
+nnoremap <C-A-j> <C-w>j
+nnoremap <C-A-k> <C-w>k
+nnoremap <C-A-l> <C-w>l
+
 " }}}
 "}}}
 " ----- Plug Config ----- " {{{
@@ -150,28 +187,29 @@ let g:startify_lists = [
 
 " Bookmarks
 let g:startify_bookmarks = [
-    \ { 'n' : '~/.config/nvim/init.vim'                        },
-    \ { 's' : '~/.config/sxhkd/sxhkdrc'                        },
-    \ { 'b' : '~/.config/bspwm/bspwmrc'                        },
-    \ { 'k' : '~/.config/kitty/kitty.conf'                     },
-    \ { 'p' : '~/.config/polybar/config'                       },
-    \ { 'c' : '~/.config/picom.conf'                           },
-    \ { 'S' : '~/Documents/PY-Projects/Shadochan/shadochan.py' },
-    \ { 'sc': '~/.config/nvim/colors/shado.vim'                },
-    \ { 'w' : '~/vimwiki/index.md'                             },
-    \ { 'm' : '~/.config/miscellaneous'                        },
-    \ { 'r' : '~/.config/rofi/themes/onedark.rasi'             },
-    \ { 'za' : '~/.config/zsh/zsh_aliases'                     },
-    \ { 'zc' : '~/.config/zsh/.zshrc'                          },
-    \ { 'ze' : '~/.zshenv'                                     },
-    \ { 'd' : '~/Documents/'                                   },
-    \ { 'ds': '~/Documents/SchoolWork/'                        },
-    \ { 'dh': '~/Documents/HTB/'                               },
-    \ { 'D' : '~/Downloads/'                                   },
-    \ { 'ps':  '~/Pictures/Screenshots/'                       },
-    \ { 'P' : '~/Pictures/'                                    },
-    \ { 'M' : '~/Music/'                                       },
-    \ { 'dc': '~/Documents/Shadochan/'                         },
+    \ { 'nv' : '~/.config/nvim/init.vim'                                                         },
+    \ { 's' : '~/.config/sxhkd/sxhkdrc'                                                          },
+    \ { 'b' : '~/.config/bspwm/bspwmrc'                                                          },
+    \ { 'k' : '~/.config/kitty/kitty.conf'                                                       },
+    \ { 'p' : '~/.config/polybar/config'                                                         },
+    \ { 'c' : '~/.config/picom.conf'                                                             },
+    \ { 'S' : '~/Documents/PY-Projects/Shadochan/shadochan.py'                                   },
+    \ { 'nc': '~/.config/nvim/colors/shado.vim'                                                  },
+    \ { 'nl': '.local/share/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim'  },
+    \ { 'w' : '~/vimwiki/index.md'                                                               },
+    \ { 'm' : '~/.config/miscellaneous'                                                          },
+    \ { 'r' : '~/.config/rofi/themes/onedark.rasi'                                               },
+    \ { 'za': '~/.config/zsh/zsh_aliases'                                                        },
+    \ { 'zc': '~/.config/zsh/.zshrc'                                                             },
+    \ { 'ze': '~/.zshenv'                                                                        },
+    \ { 'd' : '~/Documents/'                                                                     },
+    \ { 'ds': '~/Documents/SchoolWork/'                                                          },
+    \ { 'dh': '~/Documents/HTB/'                                                                 },
+    \ { 'dc': '~/Documents/Shadochan/'                                                           },
+    \ { 'D' : '~/Downloads/'                                                                     },
+    \ { 'pc' : '~/Pictures/'                                                                     },
+    \ { 'ps':  '~/Pictures/Screenshots/'                                                         },
+    \ { 'M' : '~/Music/'                                                                         },
     \ ]
 " Ascii Art
 let g:startify_custom_header = [
@@ -219,10 +257,10 @@ endif
 set noshowmode
 
 let g:lightline = { 
-    \ 'colorscheme': 'palenight_alter',
+    \ 'colorscheme': 'deus',
     \ 'active': {
     \   'left': [ [ 'mode', 'paste' ],
-    \       [ 'readonly', 'filename', 'helloworld' ] ],
+    \       [ 'filename', 'helloworld' ] ],
     \   'right': [ [ 'lineinfo' ],
     \               [ 'percent' ] ]
     \ },
@@ -230,6 +268,10 @@ let g:lightline = {
     \   'gitbranch': 'FugitiveHead'
     \ },
     \ }
+
+let g:lightline.tabline = { 
+            \ 'left': [ [ 'tabs' ] ],
+            \ 'right': [ [  ] ] }
 
 " }}}
 " Plug >-- Vifm " {{{
@@ -244,6 +286,15 @@ let g:lightline = {
 "let g:loaded_netrw       = 1                                                                  
 "let g:loaded_netrwPlugin = 1
 " }}}
+" Plug >-- Codi " {{{
+" Change the color
+highlight CodiVirtualText guifg=cyan
+let g:codi#virtual_text_prefix = "❯ "
+
+let g:codi#aliases = {
+                   \ 'javascript.jsx': 'javascript',
+                   \ }
+" }}}
 " Plug >-- VimWiki " {{{
 let g:vimwiki_list = [{'path': '~/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
@@ -256,8 +307,9 @@ augroup vimwikigroup
 augroup end
 
 set foldenable
-let g:markdown_folding=1
+"let g:markdown_folding=2
 let g:vim_markdown_folding_level=6
+let g:vimwiki_folding='syntax'
 
 "let g:vimwiki_listsyms = '✗○◐●✓'
 let g:vim_markdown_strikethrough = 1
@@ -309,14 +361,13 @@ let g:which_key_sep = '→'
 
 let g:which_key_map = {}
 
-
 " Search and Replace
-nnoremap <leader>R :%s///gcI<left><left><left><left><left>
+nnoremap <leader>R <esc><esc>:%s///gcI<left><left><left><left><left>
 let g:which_key_map['R'] = [ ':%s///gcI<left><left><left><left><left>' , 'Search & Replace' ]
 let g:which_key_map['S'] = [ ':Startify' , 'Startify' ]
 let g:which_key_map['V'] = [ ':Vifm' , 'Vifm' ]
 let g:which_key_map['Z'] = [ ':au ColorScheme * hi Normal ctermbg=none guibg=none<CR>' , 'BG Toggle' ]
-
+let g:which_key_map['t'] = [ ':tabnew', 'New Tab']
 " --- Setup Section --- " {{{
 " +Calendar {{{
 let g:which_key_map.c = {
@@ -398,7 +449,7 @@ let g:which_key_map.w = {
     \ 'w' : ['<Plug>VimwikiIndex'       , 'Opens index']        ,
     \ 't' : {
         \ 'name' : '+todo',
-        \ 'c' : ['<Plug>VimwikiToggleListItem^ddGo\<Esc>pI\<right>\<right>~~\<Esc>A~~\<Esc>^db' , 'Complete TODO']      ,
+        \ 'c' : ["<Plug>VimwikiToggleListItem^ddmaGo\<Esc>pI\<right>\<right>~~\<Esc>A~~\<Esc>^db'a" , 'Complete TODO']      ,
         \ 't' : [':n ~/vimwiki/Life/TODO.md' , 'Open TODO']                 ,  
         \ }
     \ }
@@ -423,4 +474,4 @@ let g:which_key_map.l = {
 "  }}}
 " }}}
 "}}}
-" ----------------------------------------------------- "
+" ---------------------------------------------------- "
