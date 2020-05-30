@@ -86,6 +86,7 @@ vnoremap <F3> y<c-w>wp<c-w>gv
 " Turns off all line numbers
 nnoremap <F3> :set invnumber invrelativenumber<CR>
 map <C-f> <esc><esc>:Files!<CR>
+map <C-A-f> <esc><esc><C-w>v:Files!<CR>
 inoremap <C-f> <esc><esc>:BLines!<CR>
 nnoremap g<C-c> <esc><esc>:BCommits!<CR>
 
@@ -123,6 +124,9 @@ nnoremap <C-A-h> <C-w>h
 nnoremap <C-A-j> <C-w>j
 nnoremap <C-A-k> <C-w>k
 nnoremap <C-A-l> <C-w>l
+
+map <leader>th <C-w>t<C-w>H
+map <leader>tk <C-w>t<C-w>K
 
 " }}}
 "}}}
@@ -243,6 +247,22 @@ let g:signify_sign_show_text = 1  "-+--- Gets rid of extra numbers
 " }}}
 " Plug >-- Fugitive/Rhubarb " {{{
 " }}}
+" Plug >-- FZF " {{{
+let g:fzf_colors =
+    \ { 'fg':      ['fg', 'Normal'],
+    \ 'bg':      ['bg', 'Normal'],
+    \ 'hl':      ['fg', 'Comment'],
+    \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+    \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+    \ 'hl+':     ['fg', 'Statement'],
+    \ 'info':    ['fg', 'PreProc'],
+    \ 'border':  ['fg', 'Ignore'],
+    \ 'prompt':  ['fg', 'Conditional'],
+    \ 'pointer': ['fg', 'Exception'],
+    \ 'marker':  ['fg', 'Keyword'],
+    \ 'spinner': ['fg', 'Label'],
+    \ 'header':  ['fg', 'Comment'] }
+" }}}
 " Plug >-- NERDTree " {{{
 "autocmd vimenter * NERDTree  " will auto open nerdtree
 map <C-t> :NERDTreeToggle<CR> 
@@ -299,17 +319,17 @@ let g:codi#aliases = {
 let g:vimwiki_list = [{'path': '~/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 
-command! Diary VimwikiDiaryIndex
-augroup vimwikigroup
-    autocmd!
-    " automatically update links on read diary
-    autocmd BufRead,BufNewFile diary.md VimwikiDiaryGenerateLinks
-augroup end
+"command! Diary VimwikiDiaryIndex
+"augroup vimwikigroup
+    "autocmd!
+    "" automatically update links on read diary
+    "autocmd BufRead,BufNewFile diary.md VimwikiDiaryGenerateLinks
+"augroup end
 
 set foldenable
 "let g:markdown_folding=2
 let g:vim_markdown_folding_level=6
-let g:vimwiki_folding='syntax'
+"let g:vimwiki_folding='syntax'
 
 "let g:vimwiki_listsyms = '✗○◐●✓'
 let g:vim_markdown_strikethrough = 1
@@ -367,7 +387,7 @@ let g:which_key_map['R'] = [ ':%s///gcI<left><left><left><left><left>' , 'Search
 let g:which_key_map['S'] = [ ':Startify' , 'Startify' ]
 let g:which_key_map['V'] = [ ':Vifm' , 'Vifm' ]
 let g:which_key_map['Z'] = [ ':au ColorScheme * hi Normal ctermbg=none guibg=none<CR>' , 'BG Toggle' ]
-let g:which_key_map['t'] = [ ':tabnew', 'New Tab']
+let g:which_key_map['T'] = [ ':tabnew', 'New Tab']
 " --- Setup Section --- " {{{
 " +Calendar {{{
 let g:which_key_map.c = {
@@ -447,6 +467,7 @@ let g:which_key_map.w = {
     \ 's' : ['<Plug>VimwikiUISelect'    , 'Select wiki']        ,
     \ 'b' : ['<Plug>VimwikiTabIndex'    , 'Opens tab of index'] ,
     \ 'w' : ['<Plug>VimwikiIndex'       , 'Opens index']        ,
+    \ 'g' : ['<Plug>VimwikiDiaryGenerateLinks', 'Generate Diary'],
     \ 't' : {
         \ 'name' : '+todo',
         \ 'c' : ["<Plug>VimwikiToggleListItem^ddmaGo\<Esc>pI\<right>\<right>~~\<Esc>A~~\<Esc>^db'a" , 'Complete TODO']      ,

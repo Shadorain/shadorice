@@ -45,18 +45,18 @@
   # Right prompt on the last prompt line (where you are typing your commands) gets
   # automatically hidden when the input line reaches it. Right prompt above the
   # last prompt line gets hidden if it would overlap with left prompt.
-  typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
+  typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS= #(
     # =========================[ Line #1 ]=========================
     #CUSTOM_IP
     #CUSTOM_IP_TUN
     #status                  # exit code of the last command
-    command_execution_time  # duration of the last command
-    background_jobs         # presence of background jobs
+    #*command_execution_time  # duration of the last command
+    #*background_jobs         # presence of background jobs
     #direnv                  # direnv status (https://direnv.net/)
     #asdf                    # asdf version manager (https://github.com/asdf-vm/asdf)
-    virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html)
+    #*virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html)
     #anaconda                # conda environment (https://conda.io/)
-    pyenv                   # python environment (https://github.com/pyenv/pyenv)
+    #*pyenv                   # python environment (https://github.com/pyenv/pyenv)
     #goenv                   # go environment (https://github.com/syndbg/goenv)
     #nodenv                  # node.js version from nodenv (https://github.com/nodenv/nodenv)
     #nvm                     # node.js version from nvm (https://github.com/nvm-sh/nvm)
@@ -87,10 +87,10 @@
     #nordvpn                 # nordvpn connection status, linux only (https://nordvpn.com/)
     #ranger                  # ranger shell (https://github.com/ranger/ranger)
     #nnn                     # nnn shell (https://github.com/jarun/nnn)
-    vim_shell               # vim shell indicator (:sh)
+    #*vim_shell               # vim shell indicator (:sh)
     #midnight_commander      # midnight commander shell (https://midnight-commander.org/)
     #nix_shell               # nix shell (https://nixos.org/nixos/nix-pills/developing-with-nix-shell.html)
-    vpn_ip                # virtual private network indicator
+    #*vpn_ip                # virtual private network indicator
     #load                  # CPU load
     # disk_usage            # disk usage
     # ram                   # free RAM
@@ -107,7 +107,7 @@
     # battery               # internal battery
     # wifi                  # wifi speed
     # example               # example user-defined segment (see prompt_example function below)
-  )
+  #)
 
   # Defines character set used by powerlevel10k. It's best to let `p10k configure` set it for you.
   typeset -g POWERLEVEL9K_MODE="Hack Nerd Font"
@@ -154,8 +154,8 @@
   #typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%7F╭─\u23A1'
   #typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX='%7F├─'
   #typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%7F╰─'
-  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%7F\uF755 ' #F114 '
-  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%7F'
+  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='  %7F\uF755 ' #F114 '
+  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='   %7F'
   # Connect right prompt lines with these symbols.
   typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_SUFFIX=
   typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_SUFFIX=

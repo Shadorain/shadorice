@@ -47,8 +47,8 @@ hi FoldColumn guifg=#7676cd guibg=#2e292e guisp=#2e292e
 " Wild Menu
 hi WildMenu guifg=#eed6ee guibg=#5d5daf
 " Status Line
-hi StatusLine guifg=#edc7ed guibg=#35355e guisp=#35355e gui=bold
-hi StatusLineNC guifg=#cfc3cf guibg=#35355e guisp=#35355e
+hi StatusLine guifg=#1B1B29 guibg=#35355e guisp=#35355e gui=bold
+hi StatusLineNC guifg=#1B1B29 guibg=#35355e guisp=#35355e
 " Non Text extra characters
 hi NonText guifg=#73daff guibg=NONE
 " Diff (Text, Delete, Add, Change)
@@ -117,7 +117,7 @@ hi PMenuThumb guifg=#eed6ee guibg=#2e2e40 guisp=#2e2e40
 " File Structure
 hi Directory guifg=#00bbff guibg=NONE
 " Splits
-hi VertSplit guifg=#35355E guibg=#b9a6b9 guisp=#35355e
+hi VertSplit guifg=#1B1B29 guibg=#35355E guisp=#35355e
 " Prompt
 hi Question guifg=#90ebba guibg=NONE
 hi MoreMsg guifg=#6c6cae guibg=NONE
