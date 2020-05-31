@@ -147,24 +147,24 @@
   typeset -g POWERLEVEL9K_ICON_BEFORE_CONTENT=true
 
   # Add an empty line before each prompt.
-  typeset -g POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+  typeset -g POWERLEVEL9K_PROMPT_ADD_NEWLINE=false
 
   # Connect left prompt lines with these symbols.
   #typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%7F╭─\u239B '
   #typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%7F╭─\u23A1'
   #typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX='%7F├─'
   #typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%7F╰─'
-  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='  %7F\uF755 ' #F114 '
-  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='   %7F'
+  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=' %7F\uF755 ' #F114 '
+  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=' %7F'
   # Connect right prompt lines with these symbols.
   typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_SUFFIX=
   typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_SUFFIX=
   typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_SUFFIX=
 
   # The left end of left prompt.
-  typeset -g POWERLEVEL9K_LEFT_PROMPT_FIRST_SEGMENT_START_SYMBOL=' '
+  typeset -g POWERLEVEL9K_LEFT_PROMPT_FIRST_SEGMENT_START_SYMBOL=''
   # The right end of right prompt.i
-  typeset -g POWERLEVEL9K_RIGHT_PROMPT_FIRST_SEGMENT_START_SYMBOL=' '
+  typeset -g POWERLEVEL9K_RIGHT_PROMPT_FIRST_SEGMENT_START_SYMBOL=''
   typeset -g POWERLEVEL9K_RIGHT_PROMPT_LAST_SEGMENT_END_SYMBOL=''   #'  ' #' \uF1D1' #' '
 
   # Ruler, a.k.a. the horizontal line before each prompt. If you set it to true, you'll

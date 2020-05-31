@@ -81,6 +81,7 @@ colorscheme shado
 set foldmethod=marker
 "au BufRead,BufNewFile *.md		setfiletype md
 " --- Custom Key Commands! --- {{{
+autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
 " Copies selected text from split window and paste in other 
 vnoremap <F3> y<c-w>wp<c-w>gv
 " Turns off all line numbers

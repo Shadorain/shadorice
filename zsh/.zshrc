@@ -3,6 +3,7 @@
 #                     ZSHRC CONFIG                      #
 #                                                       #
 # ----------------------------------------------------- #
+export PATH=$PATH:/home/shadow/dwm/scripts/
 # Codi Config {{{
 codi() {
    local syntax="${1:-python}"
