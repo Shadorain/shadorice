@@ -28,7 +28,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     "Plug 'ctrlpvim/ctrlp.vim'
     Plug 'tpope/vim-surround'
     Plug 'sainnhe/lightline_foobar.vim'
-    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    "Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'justinmk/vim-sneak'
     Plug 'mhinz/vim-startify'
@@ -81,7 +81,6 @@ colorscheme shado
 set foldmethod=marker
 "au BufRead,BufNewFile *.md		setfiletype md
 " --- Custom Key Commands! --- {{{
-autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
 " Copies selected text from split window and paste in other 
 vnoremap <F3> y<c-w>wp<c-w>gv
 " Turns off all line numbers
