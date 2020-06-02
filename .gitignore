@@ -3,6 +3,7 @@ alacritty/
 autostart/
 bash-bak/
 balena-etcher-electron/
+bin/
 baloofileinformationrc
 BetterDiscord/
 calendar/
@@ -13,17 +14,17 @@ coc/
 configstore/
 conky-manager.json
 dconf/
+deadbeef/
 dolphinrc
 Deezloader\ Remix/
 Dharkael/
-deadbeef/
-dconf/
 discord/
 enchant/
+fontconfig/
 galculator/
 gconf/
-google-chrome/
 geany/
+google-chrome/
 htop/
 inkscape/
 Kvantum/
@@ -34,11 +35,11 @@ LogiGSK/
 lutris/
 menus/
 mimeapps.list
-mpv/
 mpd/
+mpv/
 ncmpcpp/bindings-luke-smith
 neofetch/
-nnn/
+nvim/
 obs-studio/
 onedrive/
 pcmanfm/
@@ -47,6 +48,7 @@ procps/
 pulse/
 qalculate/
 qt5ct/
+qutebrowser/
 QtProject.conf
 smplayer/
 spicetify/
@@ -56,10 +58,10 @@ teams-for-linux/
 trashrc
 Unknown\ Organization/
 vdirsyncer/
-vifm/colors/
+vifm/
 VirtualBox/
+vis/
+yay/
 zathura/
 zsh/
-yay/
 zoomus.conf
-nvim/snips/
