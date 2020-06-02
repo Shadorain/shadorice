@@ -3,7 +3,6 @@ alacritty/
 autostart/
 bash-bak/
 balena-etcher-electron/
-bin/
 baloofileinformationrc
 BetterDiscord/
 calendar/
@@ -45,6 +44,7 @@ onedrive/
 pcmanfm/
 picom/
 procps/
+polybar/
 pulse/
 qalculate/
 qt5ct/
