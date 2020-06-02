@@ -30,9 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shadow/.config
-	zsh
-38
 d/home/shadow
 	Pictures
 21
@@ -330,6 +327,9 @@ d/home/shadow/Pictures
 d/home/shadow/Pictures/Backgrounds
 	warrior-2560x1440-gun-sword-4k-18296.jpg
 27
+d/home/shadow/.config/nvim
+	colors
+2
 d
 
 # Right window history (oldest to newest):
@@ -412,6 +412,7 @@ D
 :wq
 :Q
 :q
+::q
 
 # Search history (oldest to newest):
 /.config

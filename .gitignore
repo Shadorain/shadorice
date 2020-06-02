@@ -39,6 +39,7 @@ mpd/
 ncmpcpp/bindings-luke-smith
 neofetch/
 nnn/
+obs-studio/
 onedrive/
 pcmanfm/
 picom/
@@ -58,7 +59,7 @@ vdirsyncer/
 vifm/colors/
 VirtualBox/
 zathura/
-zsh/.zinit/
+zsh/
 yay/
 zoomus.conf
 nvim/snips/
