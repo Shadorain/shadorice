@@ -42,7 +42,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'ryanoasis/vim-devicons'
-    Plug 'scrooloose/nerdcommenter'
+    Plug 'tpope/vim-commentary'
     "<--Syntax
     "Plug 'davidhalter/jedi-vim'
     Plug 'vim-pandoc/vim-pandoc-syntax'
@@ -128,6 +128,10 @@ nnoremap <C-A-l> <C-w>l
 map <leader>th <C-w>t<C-w>H
 map <leader>tk <C-w>t<C-w>K
 
+" Will create a commented line the size of the line below/above
+let @l='4lr#'
+noremap <C-\>k <esc><esc>kyypxVr=A #<esc>:Commentary<CR>
+noremap <C-\>j <esc><esc>jyyPxVr=A #<esc>:Commentary<CR>
 " }}}
 "}}}
 " ----- Plug Config ----- " {{{
@@ -425,11 +429,10 @@ let g:which_key_map.s = {
     \ }
 
 " }}}
-" +NERDCommenter {{{
-let g:NERDCreateDefaultMappings = 0
+" +Commentary {{{
 let g:which_key_map['/'] = {
     \ 'name' : '+Commenter' ,
-    \ '/' : ['<Plug>NERDCommenterToggle'    , 'Toggles Comment']    ,
+    \ '/' : ['Commentary'    , 'Toggles Comment']    ,
     \ '$' : ['<Plug>NERDCommenterToEOL'     , 'Comment to EOL']     ,
     \ 'A' : ['<Plug>NERDCommenterAppend'    , 'Append to EOL']      ,
     \ 's' : ['<Plug>NERDCommenterSexy'      , 'Sexy']               ,
