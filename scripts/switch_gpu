@@ -5,10 +5,10 @@ STATUS=$(optimus-manager --status | grep "Current GPU mode : " | awk '{print $5}
 case $STATUS in
     nvidia)
         optimus-manager --switch intel --no-confirm
-        bspc quit
+        killall xinit
         ;;
     intel)
         optimus-manager --switch nvidia --no-confirm
-        bspc quit
+        killall xinit
         ;;
 esac
