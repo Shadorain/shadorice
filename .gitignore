@@ -7,6 +7,7 @@ baloofileinformationrc
 BetterDiscord/
 calendar/
 calendars/
+calcurse/.calcurse.pid
 cef_user_data/
 chromium/
 coc/
@@ -26,6 +27,8 @@ geany/
 google-chrome/
 htop/
 inkscape/
+kritadisplayrc
+kritarc
 Kvantum/
 leafpad/
 libfm/
