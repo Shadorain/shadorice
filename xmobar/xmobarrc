@@ -1,10 +1,10 @@
-Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
-       , additionalFonts = []
+Config { font = "xft:Agave:pixelsize=18:antialias=true:hinting=true"
+       , additionalFonts = ["monospace"]
        , borderColor = "black"
        , border = TopB
        , bgColor = "black"
        , fgColor = "grey"
-       , alpha = 255
+       , alpha = 200
        , position = Top
        , textOffset = -1
        , iconOffset = -1
