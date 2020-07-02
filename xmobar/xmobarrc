@@ -1,39 +1,34 @@
 Config { font = "xft:Agave:pixelsize=18:antialias=true:hinting=true"
-       , additionalFonts = ["monospace"]
-       , borderColor = "black"
-       , border = TopB
-       , bgColor = "black"
-       , fgColor = "grey"
-       , alpha = 200
-       , position = Top
-       , textOffset = -1
-       , iconOffset = -1
-       , lowerOnStart = True
-       , pickBroadest = False
-       , persistent = False
-       , hideOnStart = False
-       , iconRoot = "."
-       , allDesktops = True
+       , additionalFonts  = ["monospace"]
+       , borderColor      = "black"
+       , border           = NoBorder
+       , bgColor          = "black"
+       , fgColor          = "#8897F4"
+       , alpha            = 200
+       , position         = Top
+       , textOffset       = -1
+       , iconOffset       = -1
+       , lowerOnStart     = True
+       , pickBroadest     = False
+       , persistent       = False
+       , hideOnStart      = False
+       , iconRoot         = "."
+       , allDesktops      = True
        , overrideRedirect = True
-       , commands = [ Run Weather "EGPF" ["-t","<station>: <tempC>C",
-                                          "-L","18","-H","25",
-                                          "--normal","green",
-                                          "--high","red",
-                                          "--low","lightblue"] 36000
-                    , Run Network "eth0" ["-L","0","-H","32",
-                                          "--normal","green","--high","red"] 10
-                    , Run Network "eth1" ["-L","0","-H","32",
-                                          "--normal","green","--high","red"] 10
-                    , Run Cpu ["-L","3","-H","50",
-                               "--normal","green","--high","red"] 10
-                    , Run Memory ["-t","Mem: <usedratio>%"] 10
-                    , Run Swap [] 10
-                    , Run Com "uname" ["-s","-r"] "" 36000
-                    , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
-                    ]
-       , sepChar = "%"
+       , commands         = 
+               [ Run Network "wlp0s20f3" ["-t", "<tx>kB/s", "-L","0","-H","5000",
+                                      "--normal","#37d4a7","--high","#c9083f"] 10
+                , Run Cpu ["-L","0","-H","50",
+                           "--normal","#37d4a7","--high","#c9083f"] 10
+                , Run Memory ["-t","Mem: <usedratio>%","-L","0","-H","50",
+                           "--normal","#37d4a7","--high","#c9083f"] 10
+                , Run Date "%I:%M" "date" 10
+                , Run Battery ["-t","bat: <left>%","-L","20","-H","80",
+                           "--low","#c9083f","--","-o","D<left>%","-O","C<left>%"] 50
+                , Run MPD ["-t","<artist> - <track>"] 10
+                ]
+       , sepChar  = "%"
        , alignSep = "}{"
-       , template = "%cpu% | %memory% * %swap% | %eth0% - %eth1% }\
-                    \{ <fc=#ee9a00>%date%</fc>| %EGPF% | %uname%"
+       , template = " %mpd% }{ <fc=#ee9a00>%date%</fc> | %cpu% | %memory% | %wlp0s20f3% | %battery% "
        }
 
