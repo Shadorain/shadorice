@@ -1,0 +1,31 @@
+-- http://projects.haskell.org/xmobar/
+-- install xmobar with these flags: --flags="with_alsa" --flags="with_mpd" --flags="with_xft"  OR --flags="all_extensions"
+-- you can find weather location codes here: http://weather.noaa.gov/index.html
+
+Config { font    = "xft:Agave:pixelsize=16:antialias=true:hinting=true"
+       , additionalFonts = [ "xft:FontAwesome:pixelsize=13" ]
+       , bgColor = "#282A36"
+       , fgColor = "#B45BCF"
+       , position = Top
+       , lowerOnStart = True
+       , hideOnStart = False
+       , allDesktops = True
+       , persistent = True
+       , iconRoot = "/home/shadow/.xmonad/xpm/"  -- default: "."
+       , commands = [ 
+                      -- Time and date
+                      Run Date "%b %d %Y (%H:%M)" "date" 50
+                      -- Network up and down
+                    , Run Network "wlp0s20f3" ["-t", "<rx>kb:<tx>kb"] 20
+                      -- Cpu usage in percent
+                    , Run Cpu ["-t", "(<total>%)","-H","50","--high","red"] 20
+                      -- Ram used number and percent
+                    , Run Memory ["-t", "<used>M (<usedratio>%)"] 20
+                      -- Prints out the left side items such as workspaces, layout, etc.
+                      -- The workspaces are 'clickable' in my configs.
+                    , Run UnsafeStdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = " <icon=haskell_20.xpm/> <fc=#666666>|</fc> %UnsafeStdinReader% }{ <fc=#666666>| </fc><fc=#FFB86C><icon=cpu.xbm/>%cpu% </fc><fc=#666666>| </fc><fc=#FF5555><icon=mem.xbm/>%memory% </fc><fc=#666666>| </fc><fc=#c3e88d><icon=net_up_03.xbm/>%wlp0s20f3% </fc><fc=#666666>| </fc><fc=#e1acff><icon=clock.xbm/>%date%</fc> "
+       }

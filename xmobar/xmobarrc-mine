@@ -12,7 +12,7 @@ Config { font = "xft:Agave:pixelsize=18:antialias=true:hinting=true"
        , pickBroadest     = False
        , persistent       = False
        , hideOnStart      = False
-       , iconRoot         = "."
+       , iconRoot = "/home/shadow/.xmonad/xpm/"
        , allDesktops      = True
        , overrideRedirect = True
        , commands         = 
@@ -20,15 +20,16 @@ Config { font = "xft:Agave:pixelsize=18:antialias=true:hinting=true"
                                       "--normal","#37d4a7","--high","#c9083f"] 10
                 , Run Cpu ["-L","0","-H","50",
                            "--normal","#37d4a7","--high","#c9083f"] 10
-                , Run Memory ["-t","Mem: <usedratio>%","-L","0","-H","50",
+                , Run Memory ["-t"," <usedratio>%","-L","0","-H","50",
                            "--normal","#37d4a7","--high","#c9083f"] 10
                 , Run Date "%I:%M" "date" 10
                 , Run Battery ["-t","bat: <left>%","-L","20","-H","80",
                            "--low","#c9083f","--","-o","D<left>%","-O","C<left>%"] 50
                 , Run MPD ["-t","<artist> - <track>"] 10
+                , Run UnsafeStdinReader
                 ]
        , sepChar  = "%"
        , alignSep = "}{"
-       , template = " %mpd% }{ <fc=#ee9a00>%date%</fc> | %cpu% | %memory% | %wlp0s20f3% | %battery% "
+       , template = " <icon=haskell_20.xpm/> | %mpd% }{ <fc=#f0416d>%date%</fc> | <fc=#e1acff><icon=cpu_20.xpm/>%cpu%</fc> | <fc=#87b0d6><icon=cust_mem-module.xpm/>Mem:%memory%</fc> | <fc=#9188ff>%wlp0s20f3%</fc> | <fc=#ff79c6>%battery% </fc>"
        }
 
