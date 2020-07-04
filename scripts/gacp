@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-DATE=$(date | awk '{print $3,$2,$4}')
+DATE=$(date | awk '{print $3"-"$2"-"$4}')
 git add .
 git status
 git commit -a -m "$DATE"
