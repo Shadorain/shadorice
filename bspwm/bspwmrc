@@ -15,7 +15,7 @@ killall flameshot
 picom --experimental-backends &
 feh --bg-scale --no-fehbg ~/Pictures/Backgrounds/forest.png &
 flameshot &
-$HOME/.config/polybar/launch.sh
+polybar -c ~/.config/shadobar/config &
 # }}}
 #--Monitors--# {{{
 bspc monitor eDP-1-1 -d 1 2 3 4 5 6 7 

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# client id at imgur.com
+client=be4b2cfd01377f0
+
+# tmp file to store image
+img=$(mktemp --suffix .png)
+trap "rm $img" EXIT
+
+# shot. use import from imagemagick as scrot has some keybinding problem
+import $img || exit 1
+
+# upload
+link=$(curl -s -X POST -H "Authorization: Client-ID $client" -F "image=@$img" https://api.imgur.com/3/upload.xml | grep -oE '<link>([^<]+)</link>' | sed 's#</\?link>##g')
+
+[ -z "$link" ] && echo 'upload failed!' && exit
+
+# save link in clipboard 
+(echo $link | xclip -selection clipboard) || exit 1
+
+notify-send "Scrot saved to $link"
+
