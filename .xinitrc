@@ -7,9 +7,9 @@ killall dunst
 source ~/.zshenv
 
 session=${1:-xmonad}
-jack_control start
+# jack_control start
 # kdeconnect-handler &
-exec dbus-run-session pulseaudio &
+# exec dbus-run-session pulseaudio &
 
 mpd &                                                                                  
 dunst &
