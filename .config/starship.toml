@@ -1,0 +1,128 @@
+add_newline = false
+
+format = """
+ $directory\
+$git_branch\
+$git_status\
+$character
+"""
+# $line_break\
+
+[character]
+format         = " $symbol "
+success_symbol = "[❱](cyan)"
+error_symbol   = "[❱](red)"
+vicmd_symbol   = "[❮](blue)"
+
+[directory]
+format = "[ ](white)[$path]($style)($read_only_style) "
+style = "blue"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = " "
+style  = "bold purple"
+disabled = false
+
+[git_status]
+format    = '[$deleted $renamed $modified $staged $untracked $ahead]($style)'
+ahead     = "[${count}](yellow)"
+untracked = "[?${count}](bold)"
+modified  = "[!${count}](bold)"
+staged    = "[+${count}](bold green)"
+deleted   = "[✘${count}](bold red)"
+renamed   = "[»${count}](bold magenta)"
+style     = "bold blue"
+
+[git_commit]
+disabled = true
+# only_detached = false
+# commit_hash_length = 4
+# tag_symbol = "🏷 "
+
+[package]
+disabled = true
+[aws]
+disabled = true
+[battery]
+disabled = true
+[cmake]
+disabled = true
+[gcloud]
+disabled = true
+[erlang]
+disabled = true
+[env_var]
+disabled = true
+[elm]
+disabled = true
+[elixer]
+disabled = true
+[dotnet]
+disabled = true
+[docker_context]
+disabled = true
+[dart]
+disabled = true
+[crystal]
+disabled = true
+[conda]
+disabled = true
+[cmd_duration]
+disabled = true
+[golang]
+disabled = true
+[helm]
+disabled = true
+[hostname]
+disabled = true
+[java]
+disabled = true
+[jobs]
+disabled = true
+[julia]
+disabled = true
+[kubernetes]
+disabled = true
+[lua]
+disabled = true
+[memory_usage]
+disabled = true
+[hg_branch]
+disabled = true
+[nim]
+disabled = true
+[nix_shell]
+disabled = true
+[nodejs]
+disabled = true
+[ocaml]
+disabled = true
+[openstack]
+disabled = true
+[perl]
+disabled = true
+[php]
+disabled = true
+[python]
+disabled = true
+[ruby]
+disabled = true
+[rust]
+disabled = true
+[shlvl]
+disabled = true
+[singularity]
+disabled = true
+[swift]
+disabled = true
+[status]
+disabled = true
+[terraform]
+disabled = true
+[time]
+disabled = true
+[username]
+disabled = true
+[zig]
+disabled = true

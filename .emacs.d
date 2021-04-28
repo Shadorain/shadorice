@@ -1,0 +1,1 @@
+/home/shadow/.emacs.d

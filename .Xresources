@@ -1,0 +1,65 @@
+! Base16 One Light
+
+#define base00 #282936
+#define base01 #3a3c4e
+#define base02 #4d4f68
+#define base03 #626483
+#define base04 #62d6e8
+#define base05 #e9e9f4
+#define base06 #f1f2f8
+#define base07 #f7f7fb
+#define base08 #ea51b2
+#define base09 #b45bcf
+#define base0A #00f769
+#define base0B #ebff87
+#define base0C #a1efe4
+#define base0D #62d6e8
+#define base0E #b45bcf
+#define base0F #00f769
+
+#define col00 #6272a4
+#define col01 #F37F97
+#define col02 #5ADECD
+#define col03 #8897F4
+#define col04 #bd93f9
+#define col05 #ff79c6
+#define col06 #8be9fd
+#define col07 #bfaae3
+#define col08 #6272a4
+#define col09 #FF4971
+#define col10 #18E3C8
+#define col11 #8897F4
+#define col12 #bd93f9
+#define col13 #ff79c6
+#define col14 #8be9fd
+#define col15 #bfaae3
+#define col256 #09090d
+#define col257 #e3c7fc
+#define col258 #c6b3e6
+
+*foreground:   col257
+#ifdef background_opacity
+*background_opacity: 0.9
+*background:   [background_opacity]col256
+#else
+*background:   col256
+#endif
+*cursorColor:  col04
+
+*color0:       col00
+*color1:       col01
+*color2:       col02
+*color3:       col03
+*color4:       col04
+*color5:       col05
+*color6:       col06
+*color7:       col07
+
+*color8:       col08
+*color9:       col09
+*color10:      col10
+*color11:      col11
+*color12:      col12
+*color13:      col13
+*color14:      col14
+*color15:      col15

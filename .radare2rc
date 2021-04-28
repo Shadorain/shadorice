@@ -1,0 +1,11 @@
+$wiki=#!pipe python /home/shadow/.local/share/radare2/r2pm/gitr2wiki/r2wiki.py
+e scr.color=1
+e scr.utf8=true
+e scr.utf8.curvy=true
+e asm.bits=64
+e asm.segoff=false
+
+e graph.offset=true
+
+v shado
+# $charpp:="tk char **=type; tk type.char **=p"
