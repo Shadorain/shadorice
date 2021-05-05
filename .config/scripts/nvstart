@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo tee /proc/acpi/bbswitch <<<ON
+sudo sh -c "echo '\\_SB.PCI0.PEG0.PEGP._ON' > /proc/acpi/call; echo 1 > /sys/bus/pci/rescan"
+sleep 1
+sudo modprobe nvidia

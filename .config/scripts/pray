@@ -1,0 +1,2 @@
+#!/bin/bash
+/bin/notify-send -i /home/shadow/.config/dunst/images/heart.png "Prayer" "I am broken before you Lord! Teach me, Change me, Show me! <br>Lord! Awake my soul! I will become whole!"

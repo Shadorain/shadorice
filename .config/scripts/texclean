@@ -1,0 +1,5 @@
+#!/bin/bash
+# printf "%s" "Give dir: "
+# read input
+cd $1 && rm -r *.aux *.log *.bcf *.out *.xml
+

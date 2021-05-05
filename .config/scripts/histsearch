@@ -1,0 +1,2 @@
+#!/bin/bash
+history | awk '{$1=""; print $0}' | awk '{$1=$1; print}' | dmenu | xargs -r xclip

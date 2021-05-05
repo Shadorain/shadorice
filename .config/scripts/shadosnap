@@ -1,0 +1,152 @@
+#!/bin/bash
+#+TITLE: ShadoSnap
+#+DESC: Snapper wrapper! Snapper is a wonderful tool for creating and managing snapshots on btrfs
+#       This tool is intended to simplify the amount of typing snapper requires though lol!
+
+# -- Variables -->
+CONFs=$(sudo snapper list-configs | wc -l);
+CONF_NUM=$(($CONFs - 2));
+CONF_NAME=$(sudo snapper list-configs);
+# --- Colors --->
+green=$(tput setaf 2)
+blue=$(tput setaf 4)
+magenta=$(tput setaf 5)
+cyan=$(tput setaf 6)
+normal=$(tput sgr0)
+
+
+sList () {
+    # printf "%s\n-#> " "${cyan}1)${normal} List     ${cyan}2)${normal} ";
+    printf "%s\n" "$(sudo snapper -c $config list)"
+}
+
+sCreate () {
+    printf "%s\n-#> " "${cyan}1)${normal} create-config" #    ${cyan}2)${normal} create-config";
+    read create;
+    case $create in
+        1)  printf "%s" "Directory: "
+            read dir;
+            $(sudo snapper -c $config create-config $dir)
+            ;;
+        *) printf "%s\n" "<-- Error: Please give valid input -->" ;;
+    esac
+}
+
+sCompare () {
+    printf "%s\n-#> " "${cyan}1)${normal} status     ${cyan}2)${normal} diff";
+    read comp;
+    case $comp in
+        1)  printf "%s" "Snapshots (0..1): "
+            read snp;
+            printf "%s\n" "${blue}$(sudo snapper -c $config status $snp)${normal}"
+            ;;
+        2)  printf "%s" "Snapshots (0..1): "
+            read snp2;
+            printf "%s\n" "${blue}$(sudo snapper -c $config diff $snp2)${normal}"
+            ;;
+        *) printf "%s\n" "<-- Error: Please give valid input -->" ;;
+    esac
+}
+
+sRevert () { 
+    printf "%s\n-#> " "${cyan}1)${normal} undochange"; #     ${cyan}2)${normal} diff";
+    read rev;
+    case $rev in
+        1)  printf "%s" "Snapshots (0..1): "
+            read snp;
+            printf "%s\n" "${blue}$(sudo snapper -c $config undochange $snp)${normal}"
+            ;;
+        # 2)  printf "%s" "Snapshots (0..1): "
+        #     read snp2;
+        #     printf "%s\n" "${blue}$(sudo snapper -c $config diff $snp2)${normal}"
+        #     ;;
+        *) printf "%s\n" "<-- Error: Please give valid input -->" ;;
+    esac
+}
+
+sRemove () { 
+    printf "%s\n-#> " "${cyan}1)${normal} Snapshot     ${magenta}2)${normal} Submodule     ${cyan}2)${normal} Config";
+    read rev;
+    case $rev in
+        1)  printf "%s" "Snapshot (#): "
+            read snp;
+            printf "%s\n" "${blue}$(sudo snapper -c $config delete $snp)${normal}"
+            ;;
+        2)  printf "Not yet supported!"
+            # printf "%s" "Subvolume (#): "
+            # read snp2;
+            # printf "%s\n" "${blue}$(sudo snapper -c $config diff $snp2)${normal}"
+            ;;
+        3)  printf "%s" "Config (#): "
+            read cnf;
+            printf "%s\n" "${blue}$(sudo snapper -c $config delete-config)${normal}"
+            ;;
+        *) printf "%s\n" "<-- Error: Please give valid input -->" ;;
+    esac
+}
+
+sMounting () { 
+    printf "%s\n-#> " "${cyan}1)${normal} Mount     ${cyan}2)${normal} Unmount";
+    read mnt;
+    case $mnt in
+        1)  printf "%s" "Snapshot (#): "
+            read snp;
+            printf "%s\n" "${blue}$(sudo snapper -c $config mount $snp)${normal}"
+            ;;
+        2)  printf "%s" "Snapshot (#): "
+            read snp2;
+            printf "%s\n" "${blue}$(sudo snapper -c $config umount $snp2)${normal}"
+            ;;
+        *) printf "%s\n" "<-- Error: Please give valid input -->" ;;
+    esac
+}
+
+main () {
+    printf "%s\n" "${magenta} ._.    _________.__                .___      _________                       ._. ";
+    printf "%s\n" " | |   /   _____/|  |__ _____     __| _/____ /   _____/ ____ _____  ______    | | ";
+    printf "%s\n" " |_|   \_____  \ |  |  \ __  \   / __ |/  _ \ _____  \ /    \ __  \ \____ \   |_| ";
+    printf "%s\n" " |-|   /        \|   Y  \/ __ \_/ /_/ (  <_> )        \   |  \/ __ \|  |_> >  |-| ";
+    printf "%s\n" " | |  /_______  /|___|  (____  /\____ |\____/_______  /___|  (____  /   __/   | | ";
+    printf "%s\n" " |_|          \/      \/     \/      \/             \/     \/     \/|__|      |_| ";
+    printf "%s\n" "                                                                                  ${normal}";
+    printf "%s\n" "-----------------------------#====================#-----------------------------"
+
+    printf "%s\n" "You currently have ${green}$CONF_NUM${normal} configuration/s";
+    printf "%s\n" "${blue}$CONF_NAME${normal}";
+    printf "%s" "Type name of config to use: ";
+    read config;
+    printf "%s\n" "Using Config: ${green}$config${normal}"
+    printf "%s\n" "-----------------------------#====================#-----------------------------"
+    printf "%s\n-#> " "${magenta}1)${normal} List     ${magenta}2)${normal} Create     ${magenta}3)${normal} Compare     ${magenta}4)${normal} Revert     ${magenta}5)${normal} Remove     ${magenta}6)${normal} Mounting";
+    read input;
+
+    case $input in
+        1) printf "%s\n" "-----------------------------#====================#-----------------------------"
+           sList
+           printf "%s\n" "-----------------------------#====================#-----------------------------"
+           ;;
+        2) printf "%s\n" "-----------------------------#====================#-----------------------------"
+           sCreate
+           printf "%s\n" "-----------------------------#====================#-----------------------------"
+           ;;
+        3) printf "%s\n" "-----------------------------#====================#-----------------------------"
+           sCompare
+           printf "%s\n" "-----------------------------#====================#-----------------------------"
+           ;;
+        4) printf "%s\n" "-----------------------------#====================#-----------------------------"
+           sRevert
+           printf "%s\n" "-----------------------------#====================#-----------------------------"
+           ;;
+        5) printf "%s\n" "-----------------------------#====================#-----------------------------"
+           sRemove
+           printf "%s\n" "-----------------------------#====================#-----------------------------"
+           ;;
+        6) printf "%s\n" "-----------------------------#====================#-----------------------------"
+           sMounting
+           printf "%s\n" "-----------------------------#====================#-----------------------------"
+           ;;
+        *) printf "%s\n" "< -- Error: Please give valid input -->" ;;
+    esac
+}
+
+main

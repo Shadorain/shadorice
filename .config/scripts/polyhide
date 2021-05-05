@@ -1,0 +1,5 @@
+#!/bin/bash
+ps -ef | grep hideIt | grep -v grep | awk '{print $2}' | xargs kill
+
+setsid /home/shadow/.config/shadobar/scripts/hideIt.sh --region 1920x0+1920+30 --peek -2 --name '^polybar-shadobar_DP-2$' &
+setsid /home/shadow/.config/shadobar/scripts/hideIt.sh --region 0x0+1920+30 --peek -2 --name '^polybar-shadobar_eDP-1$' &

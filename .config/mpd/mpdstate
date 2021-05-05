@@ -1,0 +1,1074 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 0
+time: 0.513000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Alive in Color - To Stay Alive/01 - Deadicated.mp3
+1:Alive in Color - To Stay Alive/02 - Say Anything.mp3
+2:Alive in Color - To Stay Alive/03 - Been Lost.mp3
+3:Alive in Color - To Stay Alive/04 - Miss Direction.mp3
+4:Alive in Color - To Stay Alive/05 - Into the Desert.mp3
+5:Alive in Color - To Stay Alive/06 - To Stay Alive.mp3
+6:Alive in Color - To Stay Alive/07 - Awake in Me.mp3
+7:Alive in Color - To Stay Alive/08 - Home.mp3
+8:Alive in Color - To Stay Alive/09 - Abandoned Youth.mp3
+9:Alive in Color - To Stay Alive/10 - Out of the Ocean.mp3
+10:August Burns Red - Looks Fragile After All - EP/01 - Background Music to Her Awakening.mp3
+11:August Burns Red - Looks Fragile After All - EP/02 - Missing This Opportunity.mp3
+12:August Burns Red - Looks Fragile After All - EP/03 - Glory Thrives.mp3
+13:August Burns Red - Looks Fragile After All - EP/04 - You Should Be Taking Flight Right Now.mp3
+14:August Burns Red - Looks Fragile After All - EP/05 - Accidental Shot Heard 'Round the World.mp3
+15:August Burns Red - Leveler/01 - Empire.mp3
+16:August Burns Red - Leveler/02 - Internal Cannon.mp3
+17:August Burns Red - Leveler/03 - Divisions.mp3
+18:August Burns Red - Leveler/04 - Cutting the Ties.mp3
+19:August Burns Red - Leveler/05 - Pangaea.mp3
+20:August Burns Red - Leveler/06 - Carpe Diem.mp3
+21:August Burns Red - Leveler/07 - 40 Nights.mp3
+22:August Burns Red - Leveler/08 - Salt & Light.mp3
+23:August Burns Red - Leveler/09 - Poor Millionaire.mp3
+24:August Burns Red - Leveler/10 - 1_16_2011.mp3
+25:August Burns Red - Leveler/11 - Boys of Fall.mp3
+26:August Burns Red - Leveler/12 - Leveler.mp3
+27:August Burns Red - Messengers/01 - Truth of a Liar.mp3
+28:August Burns Red - Messengers/02 - Up Against the Ropes.mp3
+29:August Burns Red - Messengers/03 - Back Burner.mp3
+30:August Burns Red - Messengers/04 - The Blinding Light.mp3
+31:August Burns Red - Messengers/05 - Composure.mp3
+32:August Burns Red - Messengers/06 - Vital Signs.mp3
+33:August Burns Red - Messengers/07 - The Eleventh Hour.mp3
+34:August Burns Red - Messengers/08 - The Balance.mp3
+35:August Burns Red - Messengers/09 - Black Sheep.mp3
+36:August Burns Red - Messengers/10 - An American Dream.mp3
+37:August Burns Red - Messengers/11 - Redemption.mp3
+38:August Burns Red - Rescue & Restore/01 - Provision.mp3
+39:August Burns Red - Rescue & Restore/02 - Treatment.mp3
+40:August Burns Red - Rescue & Restore/03 - Spirit Breaker.mp3
+41:August Burns Red - Rescue & Restore/04 - Count It All as Lost.mp3
+42:August Burns Red - Rescue & Restore/05 - Sincerity.mp3
+43:August Burns Red - Rescue & Restore/06 - Creative Captivity.mp3
+44:August Burns Red - Rescue & Restore/07 - Fault Line.mp3
+45:August Burns Red - Rescue & Restore/08 - Beauty in Tragedy.mp3
+46:August Burns Red - Rescue & Restore/09 - Animals.mp3
+47:August Burns Red - Rescue & Restore/10 - Echoes.mp3
+48:August Burns Red - Rescue & Restore/11 - The First Step.mp3
+49:August Burns Red - Thrill Seeker/01 - Your Little Suburbia Is in Ruins.mp3
+50:August Burns Red - Thrill Seeker/02 - Speech Impediment.mp3
+51:August Burns Red - Thrill Seeker/03 - Endorphins.mp3
+52:August Burns Red - Thrill Seeker/04 - Too Late for Roses.mp3
+53:August Burns Red - Thrill Seeker/05 - Barbarian.mp3
+54:August Burns Red - Thrill Seeker/06 - The Reflective Property.mp3
+55:August Burns Red - Thrill Seeker/07 - A Wish Full of Dreams.mp3
+56:August Burns Red - Thrill Seeker/08 - Consumer.mp3
+57:August Burns Red - Thrill Seeker/09 - A Shot Below the Belt.mp3
+58:August Burns Red - Thrill Seeker/10 - Eve of the End.mp3
+59:August Burns Red - Thrill Seeker/11 - The Seventh Trumpet.mp3
+60:August Burns Red - Found In Far Away Places/01 - The Wake.mp3
+61:August Burns Red - Found In Far Away Places/02 - Martyr.mp3
+62:August Burns Red - Found In Far Away Places/03 - Identity.mp3
+63:August Burns Red - Found In Far Away Places/04 - Separating The Seas.mp3
+64:August Burns Red - Found In Far Away Places/06 - Majoring In The Minors.mp3
+65:August Burns Red - Found In Far Away Places/07 - Everlasting Ending.mp3
+66:August Burns Red - Found In Far Away Places/08 - Broken Promises.mp3
+67:August Burns Red - Found In Far Away Places/09 - Blackwood.mp3
+68:August Burns Red - Found In Far Away Places/10 - Twenty-One Grams.mp3
+69:August Burns Red - Found In Far Away Places/11 - Vanguard.mp3
+70:August Burns Red - Phantom Anthem/01 - King Of Sorrow.mp3
+71:August Burns Red - Phantom Anthem/02 - Hero Of The Half Truth.mp3
+72:August Burns Red - Phantom Anthem/03 - The Frost.mp3
+73:August Burns Red - Phantom Anthem/04 - Lifeline.mp3
+74:August Burns Red - Phantom Anthem/05 - Invisible Enemy.mp3
+75:August Burns Red - Phantom Anthem/06 - Quake.mp3
+76:August Burns Red - Phantom Anthem/07 - Coordinates.mp3
+77:August Burns Red - Phantom Anthem/08 - Generations.mp3
+78:August Burns Red - Phantom Anthem/09 - Float.mp3
+79:August Burns Red - Phantom Anthem/10 - Dangerous.mp3
+80:August Burns Red - Phantom Anthem/11 - Carbon Copy.mp3
+81:August Burns Red - Constellations (Remixed)/01 - Thirty and Seven.mp3
+82:August Burns Red - Constellations (Remixed)/02 - Existence.mp3
+83:August Burns Red - Constellations (Remixed)/03 - Ocean of Apathy.mp3
+84:August Burns Red - Constellations (Remixed)/04 - White Washed.mp3
+85:August Burns Red - Constellations (Remixed)/05 - Marianas Trench.mp3
+86:August Burns Red - Constellations (Remixed)/06 - The Escape Artist.mp3
+87:August Burns Red - Constellations (Remixed)/07 - Indonesia.mp3
+88:August Burns Red - Constellations (Remixed)/08 - Paradox.mp3
+89:August Burns Red - Constellations (Remixed)/09 - Meridian.mp3
+90:August Burns Red - Constellations (Remixed)/10 - Rationalist.mp3
+91:August Burns Red - Constellations (Remixed)/11 - Meddler.mp3
+92:August Burns Red - Constellations (Remixed)/12 - Crusades.mp3
+93:August Burns Red - Constellations (Remixed)/13 - Ocean of Apathy (Reprise).mp3
+94:August Burns Red - Guardians/01 - The Narrative.mp3
+95:August Burns Red - Guardians/02 - Bones.mp3
+96:August Burns Red - Guardians/03 - Paramount.mp3
+97:August Burns Red - Guardians/04 - Defender.mp3
+98:August Burns Red - Guardians/05 - Lighthouse.mp3
+99:August Burns Red - Guardians/06 - Dismembered Memory.mp3
+100:August Burns Red - Guardians/07 - Ties That Bind.mp3
+101:August Burns Red - Guardians/08 - Bloodletter.mp3
+102:August Burns Red - Guardians/09 - Extinct By Instinct.mp3
+103:August Burns Red - Guardians/10 - Empty Heaven.mp3
+104:August Burns Red - Guardians/11 - Three Fountains.mp3
+105:Convictions - I Am Nothing/01 - The Void.mp3
+106:Convictions - I Am Nothing/02 - Burdens.mp3
+107:Convictions - I Am Nothing/03 - Eros.mp3
+108:Convictions - I Am Nothing/04 - 9_27_06.mp3
+109:Convictions - I Am Nothing/05 - Awaiting Reply (When All We Have Left Is Silence).mp3
+110:Convictions - I Am Nothing/06 - Thomas (feat. Matty Mullins).mp3
+111:Convictions - I Am Nothing/07 - Counterfeit.mp3
+112:Convictions - I Am Nothing/08 - Reflections.mp3
+113:Convictions - I Am Nothing/09 - I Am Nothing.mp3
+114:Convictions - Unworthy/01 - The Art of Breathing.mp3
+115:Convictions - Unworthy/02 - The Drifter.mp3
+116:Convictions - Unworthy/03 - Earth__Born.mp3
+117:Convictions - Unworthy/04 - Heart of Fire (feat. Ryan Kirby of Fit for a King).mp3
+118:Convictions - Hallowed Spirit _ Violent Divide/01 - Moros.mp3
+119:Convictions - Hallowed Spirit _ Violent Divide/02 - Sharks.mp3
+120:Convictions - Hallowed Spirit _ Violent Divide/03 - The Dahlia Disease.mp3
+121:Convictions - Hallowed Spirit _ Violent Divide/04 - Doubt _ _ Full.mp3
+122:Convictions - Hallowed Spirit _ Violent Divide/05 - The Will.mp3
+123:Convictions - Hallowed Spirit _ Violent Divide/06 - The Kidney.mp3
+124:Convictions - I Will Become/01 - The Void Remains.mp3
+125:Convictions - I Will Become/02 - House of Lies.mp3
+126:Convictions - I Will Become/03 - Brothers Blood.mp3
+127:Convictions - I Will Become/04 - Glaciers.mp3
+128:Convictions - I Will Become/05 - Charlatan.mp3
+129:Convictions - I Will Become/06 - Serotonin.mp3
+130:Convictions - I Will Become/07 - Clouded Mind.mp3
+131:Convictions - I Will Become/08 - The Mourning You Changed.mp3
+132:Convictions - I Will Become/09 - Healing Hands.mp3
+133:Convictions - I Will Become/10 - Dark Roots.mp3
+134:Convictions - I Will Become/11 - I Will Become.mp3
+135:Convictions - Hope for the Broken/01 - Exodus, The End of Us.mp3
+136:Convictions - Hope for the Broken/02 - Deceptive Heart.mp3
+137:Convictions - Hope for the Broken/03 - Voices (They Want Me Dead).mp3
+138:Convictions - Hope for the Broken/04 - Divided.mp3
+139:Convictions - Hope for the Broken/05 - We Are Violence.mp3
+140:Convictions - Hope for the Broken/06 - Feel Alive.mp3
+141:Convictions - Hope for the Broken/07 - False Witnesses.mp3
+142:Convictions - Hope for the Broken/09 - Reckless.mp3
+143:Convictions - Hope for the Broken/11 - Reverie.mp3
+144:Convictions - Hope for the Broken/12 - Never Wanted It This Way.mp3
+145:Convictions - Hope for the Broken/13 - Hope for the Broken.mp3
+146:Convictions - Hurricane.mp3
+147:The Devil Wears Prada - Dear Love_ A Beautiful Discord/01 - The Ascent.mp3
+148:The Devil Wears Prada - Dear Love_ A Beautiful Discord/02 - Gauntlet of Solitude.mp3
+149:The Devil Wears Prada - Dear Love_ A Beautiful Discord/03 - Dogs Can Grow Beards All Over.mp3
+150:The Devil Wears Prada - Dear Love_ A Beautiful Discord/04 - And the Sentence Trails Off.mp3
+151:The Devil Wears Prada - Dear Love_ A Beautiful Discord/05 - Rosemary Had an Accident.mp3
+152:The Devil Wears Prada - Dear Love_ A Beautiful Discord/06 - Redemption.mp3
+153:The Devil Wears Prada - Dear Love_ A Beautiful Discord/07 - Swords, Dragons & Diet Coke.mp3
+154:The Devil Wears Prada - Dear Love_ A Beautiful Discord/08 - Who Speaks Spanish, Colon Quesadilla.mp3
+155:The Devil Wears Prada - Dear Love_ A Beautiful Discord/09 - Texas Is South.mp3
+156:The Devil Wears Prada - Dear Love_ A Beautiful Discord/10 - Modeify the Pronunciation.mp3
+157:The Devil Wears Prada - Dear Love_ A Beautiful Discord/11 - Salvation.mp3
+158:The Devil Wears Prada - Plagues/01 - Goats On A Boat.mp3
+159:The Devil Wears Prada - Plagues/02 - Number Three, Never Forgot.mp3
+160:The Devil Wears Prada - Plagues/03 - HTML Rulez DOOd.mp3
+161:The Devil Wears Prada - Plagues/04 - Hey John, What's Your Name Again_.mp3
+162:The Devil Wears Prada - Plagues/05 - Don't Dink and Drance.mp3
+163:The Devil Wears Prada - Plagues/06 - You Can't Spell Crap Without _C_.mp3
+164:The Devil Wears Prada - Plagues/07 - This Song Is Called.mp3
+165:The Devil Wears Prada - Plagues/08 - Reptar, King Of The Ozone.mp3
+166:The Devil Wears Prada - Plagues/09 - The Scorpion Deathlock.mp3
+167:The Devil Wears Prada - Plagues/10 - Nickels Is Money Too.mp3
+168:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/01 - Sassafras.mp3
+169:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/02 - I Hate Buffering.mp3
+170:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/03 - Assistant To The Regional Manager.mp3
+171:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/04 - Dez Moines.mp3
+172:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/05 - Big Wiggly Style.mp3
+173:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/06 - Danger_ Wildman.mp3
+174:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/07 - Ben Has A Kid.mp3
+175:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/08 - Wapakalypse.mp3
+176:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/09 - Gimme Half.mp3
+177:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/10 - Louder Than Thunder.mp3
+178:The Devil Wears Prada - With Roots Above And Branches Below (Standard Edition)/11 - Lord Xenu.mp3
+179:The Devil Wears Prada - Zombie EP/01 - Escape.mp3
+180:The Devil Wears Prada - Zombie EP/02 - Anatomy.mp3
+181:The Devil Wears Prada - Zombie EP/03 - Outnumbered.mp3
+182:The Devil Wears Prada - Zombie EP/04 - Revive.mp3
+183:The Devil Wears Prada - Zombie EP/05 - Survivor.mp3
+184:The Devil Wears Prada - Dead Throne/01 - Dead Throne.mp3
+185:The Devil Wears Prada - Dead Throne/02 - Untidaled.mp3
+186:The Devil Wears Prada - Dead Throne/03 - Mammoth.mp3
+187:The Devil Wears Prada - Dead Throne/04 - Vengeance.mp3
+188:The Devil Wears Prada - Dead Throne/05 - R.I.T.mp3
+189:The Devil Wears Prada - Dead Throne/06 - My Questions.mp3
+190:The Devil Wears Prada - Dead Throne/07 - Kansas.mp3
+191:The Devil Wears Prada - Dead Throne/08 - Born To Lose.mp3
+192:The Devil Wears Prada - Dead Throne/09 - Forever Decay.mp3
+193:The Devil Wears Prada - Dead Throne/10 - Chicago.mp3
+194:The Devil Wears Prada - Dead Throne/11 - Constance.mp3
+195:The Devil Wears Prada - Dead Throne/12 - Pretenders.mp3
+196:The Devil Wears Prada - Dead Throne/13 - Holdfast.mp3
+197:The Devil Wears Prada - Dead & Alive/01 - Dead Throne.mp3
+198:The Devil Wears Prada - Dead & Alive/02 - Untidaled.mp3
+199:The Devil Wears Prada - Dead & Alive/03 - Escape.mp3
+200:The Devil Wears Prada - Dead & Alive/04 - Sassafras.mp3
+201:The Devil Wears Prada - Dead & Alive/05 - Born To Lose.mp3
+202:The Devil Wears Prada - Dead & Alive/06 - Mammoth.mp3
+203:The Devil Wears Prada - Dead & Alive/07 - Kansas.mp3
+204:The Devil Wears Prada - Dead & Alive/08 - Hey John, What's Your Name Again_.mp3
+205:The Devil Wears Prada - Dead & Alive/09 - Vengeance.mp3
+206:The Devil Wears Prada - Dead & Alive/10 - Outnumbered.mp3
+207:The Devil Wears Prada - Dead & Alive/11 - Assistant To The Regional Manager.mp3
+208:The Devil Wears Prada - Dead & Alive/12 - Dez Moines.mp3
+209:The Devil Wears Prada - Dead & Alive/13 - Dogs Can Grow Beards All Over.mp3
+210:The Devil Wears Prada - Dead & Alive/14 - Chicago.mp3
+211:The Devil Wears Prada - Dead & Alive/15 - Constance.mp3
+212:The Devil Wears Prada - Dead & Alive/16 - Danger_ Wildman.mp3
+213:The Devil Wears Prada - 8_18/01 - Gloom.mp3
+214:The Devil Wears Prada - 8_18/02 - Rumors.mp3
+215:The Devil Wears Prada - 8_18/03 - First Sight.mp3
+216:The Devil Wears Prada - 8_18/04 - War.mp3
+217:The Devil Wears Prada - 8_18/05 - 8_18.mp3
+218:The Devil Wears Prada - 8_18/06 - Sailor's Prayer.mp3
+219:The Devil Wears Prada - 8_18/07 - Care More.mp3
+220:The Devil Wears Prada - 8_18/08 - Martyrs.mp3
+221:The Devil Wears Prada - 8_18/09 - Black & Blue.mp3
+222:The Devil Wears Prada - 8_18/10 - Transgress.mp3
+223:The Devil Wears Prada - 8_18/11 - Number Eleven.mp3
+224:The Devil Wears Prada - 8_18/12 - Home for Grave.mp3
+225:The Devil Wears Prada - 8_18/13 - In Heart.mp3
+226:The Devil Wears Prada - Transit Blues/01 - Praise Poison.mp3
+227:The Devil Wears Prada - Transit Blues/02 - Daughter.mp3
+228:The Devil Wears Prada - Transit Blues/03 - Worldwide.mp3
+229:The Devil Wears Prada - Transit Blues/04 - Lock & Load.mp3
+230:The Devil Wears Prada - Transit Blues/05 - Flyover States.mp3
+231:The Devil Wears Prada - Transit Blues/06 - Detroit Tapes.mp3
+232:The Devil Wears Prada - Transit Blues/07 - The Condition.mp3
+233:The Devil Wears Prada - Transit Blues/08 - To The Key Of Evergreen.mp3
+234:The Devil Wears Prada - Transit Blues/09 - Submersion.mp3
+235:The Devil Wears Prada - Transit Blues/10 - Home For Grave Pt. ll.mp3
+236:The Devil Wears Prada - Transit Blues/11 - Transit Blues.mp3
+237:The Devil Wears Prada - The Act/01 - Switchblade.mp3
+238:The Devil Wears Prada - The Act/02 - Lines of Your Hands.mp3
+239:The Devil Wears Prada - The Act/03 - Chemical.mp3
+240:The Devil Wears Prada - The Act/04 - Wave of Youth.mp3
+241:The Devil Wears Prada - The Act/05 - Please Say No.mp3
+242:The Devil Wears Prada - The Act/06 - The Thread.mp3
+243:The Devil Wears Prada - The Act/07 - Numb.mp3
+244:The Devil Wears Prada - The Act/08 - Isn't It Strange_.mp3
+245:The Devil Wears Prada - The Act/09 - Diamond Lost.mp3
+246:The Devil Wears Prada - The Act/10 - As Kids.mp3
+247:The Devil Wears Prada - The Act/11 - Even Though.mp3
+248:The Devil Wears Prada - The Act/12 - Spiderhead.mp3
+249:Fit For A King - Creation _ Destruction/01 - Creation.mp3
+250:Fit For A King - Creation _ Destruction/02 - Warpath.mp3
+251:Fit For A King - Creation _ Destruction/03 - Hollow King (Sound of the End).mp3
+252:Fit For A King - Creation _ Destruction/04 - Broken Fame.mp3
+253:Fit For A King - Creation _ Destruction/05 - Bitter End.mp3
+254:Fit For A King - Creation _ Destruction/06 - Skin & Bones.mp3
+255:Fit For A King - Creation _ Destruction/07 - The Resistance.mp3
+256:Fit For A King - Creation _ Destruction/08 - Identity.mp3
+257:Fit For A King - Creation _ Destruction/09 - The Lioness.mp3
+258:Fit For A King - Creation _ Destruction/10 - Eyes to See.mp3
+259:Fit For A King - Creation _ Destruction/11 - Destruction.mp3
+260:Fit For A King - Descendants - Redux/01 - Il Diluvio.mp3
+261:Fit For A King - Descendants - Redux/02 - Ancient Waters.mp3
+262:Fit For A King - Descendants - Redux/03 - Buried.mp3
+263:Fit For A King - Descendants - Redux/06 - Descendants.mp3
+264:Fit For A King - Descendants - Redux/07 - Hollow Eyes.mp3
+265:Fit For A King - Descendants - Redux/08 - The Roots Within.mp3
+266:Fit For A King - Descendants - Redux/09 - Messenger, Messenger.mp3
+267:Fit For A King - Descendants - Redux/10 - Transcend.mp3
+268:Fit For A King - Descendants - Redux/11 - Unchanging.mp3
+269:Fit For A King - Descendants - Redux/12 - Keep Me Alive.mp3
+270:Fit For A King - Slave to Nothing/01 - Kill the Pain.mp3
+271:Fit For A King - Slave to Nothing.mp3
+272:Fit For A King - Slave to Nothing/02 - Young & Undeserving.mp3
+273:Fit For A King - Slave to Nothing/03 - Slave to Nothing.mp3
+274:Fit For A King - Slave to Nothing/04 - Break Away.mp3
+275:Fit For A King - Slave to Nothing/05 - Hooked.mp3
+276:Fit For A King - Slave to Nothing/06 - Selfish Eyes.mp3
+277:Fit For A King - Slave to Nothing/07 - A Greater Sense of Self.mp3
+278:Fit For A King - Slave to Nothing/08 - Forever Unbroken.mp3
+279:Fit For A King - Slave to Nothing/09 - Impostor.mp3
+280:Fit For A King - Slave to Nothing/10 - Cleanse My Soul.mp3
+281:Fit For A King - Slave to Nothing/11 - The Final Thoughts of a Dying Man.mp3
+282:Fit For A King - Deathgrip/01 - The End's Beginning.mp3
+283:Fit For A King - Deathgrip/02 - Pissed Off.mp3
+284:Fit For A King - Deathgrip/04 - Cold Room.mp3
+285:Fit For A King - Deathgrip/05 - Disease.mp3
+286:Fit For A King - Deathgrip/06 - Shadows & Echoes.mp3
+287:Fit For A King - Deathgrip/07 - More Than Nameless.mp3
+288:Fit For A King - Deathgrip/08 - We Are All Lost.mp3
+289:Fit For A King - Deathgrip/09 - Unclaimed, Unloved.mp3
+290:Fit For A King - Deathgrip/11 - Deathgrip.mp3
+291:Fit For A King - Dark Skies/01 - Engraved.mp3
+292:Fit For A King - Dark Skies/02 - The Price of Agony.mp3
+293:Fit For A King - Dark Skies/03 - Backbreaker.mp3
+294:Fit For A King - Dark Skies/04 - Anthem of the Defeated.mp3
+295:Fit For A King - Dark Skies/05 - When Everything Means Nothing.mp3
+296:Fit For A King - Dark Skies/06 - Youth _ Division.mp3
+297:Fit For A King - Dark Skies/07 - Shattered Glass.mp3
+298:Fit For A King - Dark Skies/08 - Tower of Pain.mp3
+299:Fit For A King - Dark Skies/09 - Debts of the Soul.mp3
+300:Fit For A King - Dark Skies/10 - Oblivion.mp3
+301:Fit For A King - Breaking the Mirror.mp3
+302:For All Eternity - Beyond the Gates/01 - Born.mp3
+303:For All Eternity - Beyond the Gates/02 - Vacant Room.mp3
+304:For All Eternity - Beyond the Gates/03 - Broken Hands.mp3
+305:For All Eternity - Beyond the Gates/04 - The Wide Path.mp3
+306:For All Eternity - Beyond the Gates/05 - Solid Ground.mp3
+307:For All Eternity - Beyond the Gates/06 - Renewer.mp3
+308:For All Eternity - Beyond the Gates/07 - Bright Eyes.mp3
+309:For All Eternity - Beyond the Gates/08 - Awake to the Sound.mp3
+310:For All Eternity - Beyond the Gates/09 - Strength.mp3
+311:For All Eternity - Beyond the Gates/10 - All That Awaits.mp3
+312:For All Eternity - Beyond the Gates/11 - Beyond the Gates.mp3
+313:For All Eternity - Beyond the Gates/12 - Victory.mp3
+314:For All Eternity - Metanoia/01 - Remove the Pulse.mp3
+315:For All Eternity - Metanoia/02 - Break of Dawn.mp3
+316:For All Eternity - Metanoia/03 - Further from Hate.mp3
+317:For All Eternity - Metanoia/04 - The Divide.mp3
+318:For All Eternity - Metanoia/05 - Mountainside.mp3
+319:For All Eternity - Metanoia/07 - Metanoia.mp3
+320:For All Eternity - Metanoia/09 - White Flame.mp3
+321:For All Eternity - Metanoia/10 - Awaken the Heart.mp3
+322:For All Eternity - The Will to Rebuild/01 - Shadow.mp3
+323:For All Eternity - The Will to Rebuild/02 - Fallout.mp3
+324:For All Eternity - The Will to Rebuild/03 - Nightmare.mp3
+325:For All Eternity - The Will to Rebuild/04 - The Will.mp3
+326:For All Eternity - The Will to Rebuild/05 - September.mp3
+327:For All Eternity - The Will to Rebuild/06 - The Vacated.mp3
+328:For All Eternity - The Will to Rebuild/07 - Deep Down.mp3
+329:For All Eternity - The Will to Rebuild/08 - Ascendant.mp3
+330:For All Eternity - The Will to Rebuild/09 - Vivid.mp3
+331:For All Eternity - The Will to Rebuild/10 - Derailed.mp3
+332:For All Eternity - The Will to Rebuild/11 - Clearer.mp3
+333:For Today - Breaker/01 - The Breaker's Origin.mp3
+334:For Today - Breaker/02 - Devastator.mp3
+335:For Today - Breaker/03 - The Advocate.mp3
+336:For Today - Breaker/04 - The Breaker's Valley.mp3
+337:For Today - Breaker/05 - Seraphim.mp3
+338:For Today - Breaker/06 - Arm the Masses.mp3
+339:For Today - Breaker/07 - White Flag.mp3
+340:For Today - Breaker/08 - The Breaker's Encounter.mp3
+341:For Today - Breaker/09 - Phoenix.mp3
+342:For Today - Breaker/10 - Psalm of the Son.mp3
+343:For Today - Breaker/11 - King.mp3
+344:For Today - Breaker/12 - The Breaker's Commission.mp3
+345:For Today - Ekklesia/01 - Intro.mp3
+346:For Today - Ekklesia/02 - Infantry.mp3
+347:For Today - Ekklesia/03 - Redemption.mp3
+348:For Today - Ekklesia/04 - Agape.mp3
+349:For Today - Ekklesia/05 - Never Lose Sight of The Goals.mp3
+350:For Today - Ekklesia/06 - Instrumental.mp3
+351:For Today - Ekklesia/07 - Words of Hope.mp3
+352:For Today - Ekklesia/08 - Ready For The Fight.mp3
+353:For Today - Ekklesia/09 - A Higher Standard.mp3
+354:For Today - Ekklesia/10 - With A Passion Burning.mp3
+355:For Today - Portraits/01 - Immanuel (The Challenger).mp3
+356:For Today - Portraits/02 - Saul of Tarsus (The Messenger).mp3
+357:For Today - Portraits/03 - Nicodemus (The Seeker).mp3
+358:For Today - Portraits/04 - Joel (The Watchman).mp3
+359:For Today - Portraits/05 - Immanuel (The Redeemer).mp3
+360:For Today - Portraits/06 - Elijah (The Forerunner).mp3
+361:For Today - Portraits/07 - Benedictus (Song of Zechariah).mp3
+362:For Today - Portraits/08 - Ezekiel (The Visionary).mp3
+363:For Today - Portraits/09 - Isaiah (The Willing).mp3
+364:For Today - Portraits/10 - Talmidim (The Servants).mp3
+365:For Today - Wake/01 - No Truth, No Sacrifice.mp3
+366:For Today - Wake/02 - Broken Lens.mp3
+367:For Today - Wake/03 - Forced into Fire.mp3
+368:For Today - Wake/04 - Deserter.mp3
+369:For Today - Wake/05 - Bitter Roots.mp3
+370:For Today - Wake/06 - Wasteland.mp3
+371:For Today - Wake/07 - Hopeless Ambition.mp3
+372:For Today - Wake/08 - Determination.mp3
+373:For Today - Wake/09 - Flooded Earth.mp3
+374:For Today - Wake/10 - Time and Tide.mp3
+375:For Today - Wake/11 - Two Brothers.mp3
+376:For Today - Wake/12 - Without You.mp3
+377:Haste the Day - Burning Bridges/01 - Blue 42.mp3
+378:Haste the Day - Burning Bridges/02 - The Closest Thing To Closure.mp3
+379:Haste the Day - Burning Bridges/03 - American Love.mp3
+380:Haste the Day - Burning Bridges/04 - Concerning The Way It Was.mp3
+381:Haste the Day - Burning Bridges/05 - Song Of Faith.mp3
+382:Haste the Day - Burning Bridges/06 - Ros King.mp3
+383:Haste the Day - Burning Bridges/07 - One Life To Live.mp3
+384:Haste the Day - Burning Bridges/08 - The Last Goodbye.mp3
+385:Haste the Day - Burning Bridges/09 - An Honest Confession.mp3
+386:Haste the Day - Burning Bridges/10 - Substance.mp3
+387:Haste the Day - Burning Bridges/11 - Breaking My Own Heart.mp3
+388:Haste the Day - Burning Bridges/12 - Outro.mp3
+389:Haste the Day - When Everything Falls/01 - Fallen.mp3
+390:Haste the Day - When Everything Falls/02 - The Perfect Night.mp3
+391:Haste the Day - When Everything Falls/03 - Walk On.mp3
+392:Haste the Day - When Everything Falls/04 - When Everything Falls.mp3
+393:Haste the Day - When Everything Falls/05 - If I Could See.mp3
+394:Haste the Day - When Everything Falls/06 - Walls And Fear.mp3
+395:Haste the Day - When Everything Falls/07 - For A Lifetime.mp3
+396:Haste the Day - When Everything Falls/08 - This Time It's Real.mp3
+397:Haste the Day - When Everything Falls/09 - Bleed Alone.mp3
+398:Haste the Day - When Everything Falls/10 - InstruMETAL.mp3
+399:Haste the Day - When Everything Falls/11 - All I Have.mp3
+400:Haste the Day - When Everything Falls/12 - Long Way Down.mp3
+401:Haste the Day - Pressure The Hinges/01 - Eye Of The Needle.mp3
+402:Haste the Day - Pressure The Hinges/02 - Pressure The Hinges.mp3
+403:Haste the Day - Pressure The Hinges/03 - The Minor Prophets.mp3
+404:Haste the Day - Pressure The Hinges/04 - The Oracle.mp3
+405:Haste the Day - Pressure The Hinges/05 - White Collar.mp3
+406:Haste the Day - Pressure The Hinges/06 - Needles.mp3
+407:Haste the Day - Pressure The Hinges/07 - Janet's Planet.mp3
+408:Haste the Day - Pressure The Hinges/08 - Servant Ties.mp3
+409:Haste the Day - Pressure The Hinges/09 - Stitches.mp3
+410:Haste the Day - Pressure The Hinges/10 - Vertigo.mp3
+411:Haste the Day - Pressure The Hinges/11 - Akeldema.mp3
+412:Haste the Day - Pressure The Hinges/12 - Eremus.mp3
+413:Haste the Day - Pressure The Hinges/13 - Chorus Of Angels.mp3
+414:Haste the Day - Dreamer/01 - 68.mp3
+415:Haste the Day - Dreamer/02 - Mad Man.mp3
+416:Haste the Day - Dreamer/03 - Haunting.mp3
+417:Haste the Day - Dreamer/04 - Resolve.mp3
+418:Haste the Day - Dreamer/05 - An Adult Tree.mp3
+419:Haste the Day - Dreamer/06 - Babylon.mp3
+420:Haste the Day - Dreamer/07 - Invoke Reform.mp3
+421:Haste the Day - Dreamer/08 - Sons Of The Fallen Nation.mp3
+422:Haste the Day - Dreamer/09 - Labyrinth.mp3
+423:Haste the Day - Dreamer/10 - Porcelain.mp3
+424:Haste the Day - Dreamer/11 - Autumn.mp3
+425:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/01 - Wake Up The Sun.mp3
+426:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/02 - Dog Like Vultures.mp3
+427:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/03 - The Quiet, Deadly Ticking.mp3
+428:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/04 - Travesty.mp3
+429:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/05 - Merit For Sadness.mp3
+430:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/06 - The Un-Manifest.mp3
+431:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/07 - The Place That Most Deny.mp3
+432:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/08 - White As Snow.mp3
+433:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/09 - Crush Resistance.mp3
+434:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/10 - Walk With A Crooked Spine.mp3
+435:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/11 - My Name Is Darkness.mp3
+436:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/12 - Meet Me Half Way.mp3
+437:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/13 - Blue 42.mp3
+438:Haste the Day - Attack Of The Wolf King (Deluxe Edition)/14 - Pressure The Hinges.mp3
+439:Haste the Day - Concerning The Way It Was/CD1/01 - Blue 42.mp3
+440:Haste the Day - Concerning The Way It Was/CD1/02 - The Closest Thing To Closure.mp3
+441:Haste the Day - Concerning The Way It Was/CD1/03 - American Love.mp3
+442:Haste the Day - Concerning The Way It Was/CD1/04 - Concerning The Way It Was.mp3
+443:Haste the Day - Concerning The Way It Was/CD1/05 - Song Of Faith.mp3
+444:Haste the Day - Concerning The Way It Was/CD1/06 - Ros King.mp3
+445:Haste the Day - Concerning The Way It Was/CD1/07 - One Life To Live.mp3
+446:Haste the Day - Concerning The Way It Was/CD1/08 - The Last Goodbye.mp3
+447:Haste the Day - Concerning The Way It Was/CD1/09 - An Honest Confession.mp3
+448:Haste the Day - Concerning The Way It Was/CD1/10 - Substance.mp3
+449:Haste the Day - Concerning The Way It Was/CD1/11 - Breaking My Own Heart.mp3
+450:Haste the Day - Concerning The Way It Was/CD1/12 - Outro.mp3
+451:Haste the Day - Concerning The Way It Was/CD2/01 - Fallen.mp3
+452:Haste the Day - Concerning The Way It Was/CD2/02 - The Perfect Night.mp3
+453:Haste the Day - Concerning The Way It Was/CD2/03 - Walk On.mp3
+454:Haste the Day - Concerning The Way It Was/CD2/04 - When Everything Falls.mp3
+455:Haste the Day - Concerning The Way It Was/CD2/05 - If I Could See.mp3
+456:Haste the Day - Concerning The Way It Was/CD2/06 - Walls And Fear.mp3
+457:Haste the Day - Concerning The Way It Was/CD2/07 - For A Lifetime.mp3
+458:Haste the Day - Concerning The Way It Was/CD2/08 - This Time It's Real.mp3
+459:Haste the Day - Concerning The Way It Was/CD2/09 - Bleed Alone.mp3
+460:Haste the Day - Concerning The Way It Was/CD2/10 - InstruMETAL.mp3
+461:Haste the Day - Concerning The Way It Was/CD2/11 - All I Have.mp3
+462:Haste the Day - Concerning The Way It Was/CD2/12 - Long Way Down.mp3
+463:Haste the Day - Concerning The Way It Was/CD3/01 - Eye Of The Needle.mp3
+464:Haste the Day - Concerning The Way It Was/CD3/02 - Pressure The Hinges.mp3
+465:Haste the Day - Concerning The Way It Was/CD3/03 - The Minor Prophets.mp3
+466:Haste the Day - Concerning The Way It Was/CD3/04 - The Oracle.mp3
+467:Haste the Day - Concerning The Way It Was/CD3/05 - White Collar.mp3
+468:Haste the Day - Concerning The Way It Was/CD3/06 - Needles.mp3
+469:Haste the Day - Concerning The Way It Was/CD3/07 - Janet's Planet.mp3
+470:Haste the Day - Concerning The Way It Was/CD3/08 - Servant Ties.mp3
+471:Haste the Day - Concerning The Way It Was/CD3/09 - Stitches.mp3
+472:Haste the Day - Concerning The Way It Was/CD3/10 - Vertigo.mp3
+473:Haste the Day - Concerning The Way It Was/CD3/11 - Akeldema.mp3
+474:Haste the Day - Concerning The Way It Was/CD3/12 - Eremus.mp3
+475:Haste the Day - Concerning The Way It Was/CD3/13 - Chorus Of Angels.mp3
+476:Haste the Day - Best Of The Best/01 - Blue 42.mp3
+477:Haste the Day - Best Of The Best/02 - American Love.mp3
+478:Haste the Day - Best Of The Best/03 - Fallen.mp3
+479:Haste the Day - Best Of The Best/04 - Walk On.mp3
+480:Haste the Day - Best Of The Best/05 - When Everything Falls.mp3
+481:Haste the Day - Best Of The Best/06 - Pressure The Hinges.mp3
+482:Haste the Day - Best Of The Best/07 - Stitches.mp3
+483:Haste the Day - Best Of The Best/08 - Chorus Of Angels.mp3
+484:Haste the Day - Best Of The Best/09 - 68.mp3
+485:Haste the Day - Best Of The Best/10 - Mad Man.mp3
+486:Haste the Day - Best Of The Best/11 - Autumn.mp3
+487:Haste the Day - Best Of The Best/12 - Dog Like Vultures.mp3
+488:Haste the Day - Best Of The Best/13 - Travesty.mp3
+489:Haste the Day - Coward/01 - Begin.mp3
+490:Haste the Day - Coward/02 - Take.mp3
+491:Haste the Day - Coward/03 - World.mp3
+492:Haste the Day - Coward/04 - Coward.mp3
+493:Haste the Day - Coward/05 - Lost.mp3
+494:Haste the Day - Coward/06 - Reconcile.mp3
+495:Haste the Day - Coward/07 - Shadow.mp3
+496:Haste the Day - Coward/08 - Fail.mp3
+497:Haste the Day - Coward/09 - Accept.mp3
+498:Haste the Day - Coward/10 - Secret.mp3
+499:Haste the Day - Coward/11 - Gnaw.mp3
+500:Hope for the Dying - Hope For The Dying/01 - City Of Corpses.mp3
+501:Hope for the Dying - Hope For The Dying/02 - A Beautiful Day For Vengeance.mp3
+502:Hope for the Dying - Hope For The Dying/03 - Into Darkness We Ride.mp3
+503:Hope for the Dying - Hope For The Dying/04 - Our Fallen Comrades.mp3
+504:Hope for the Dying - Hope For The Dying/05 - Where We Are Going We Don't Need Roads.mp3
+505:Hope for the Dying - Hope For The Dying/06 - Would The Angels Say.mp3
+506:Hope for the Dying - Hope For The Dying/07 - In Loving Memory.mp3
+507:Hope for the Dying - Aletheia/01 - Acceptance.mp3
+508:Hope for the Dying - Aletheia/02 - Reformation.mp3
+509:Hope for the Dying - Aletheia/03 - Iniquitous.mp3
+510:Hope for the Dying - Aletheia/04 - In Isolation.mp3
+511:Hope for the Dying - Aletheia/05 - Through a Nightmare, Darkly.mp3
+512:Hope for the Dying - Aletheia/06 - The Lost.mp3
+513:Hope for the Dying - Aletheia/07 - Visions.mp3
+514:Hope for the Dying - Aletheia/08 - Serenity.mp3
+515:Hope for the Dying - Aletheia/09 - Open up the Sky.mp3
+516:Hope for the Dying - Dissimulation/01 - Exordium.mp3
+517:Hope for the Dying - Dissimulation/02 - Vacillation.mp3
+518:Hope for the Dying - Dissimulation/03 - Orison.mp3
+519:Hope for the Dying - Dissimulation/04 - Transcend.mp3
+520:Hope for the Dying - Dissimulation/05 - Imminent War.mp3
+521:Hope for the Dying - Dissimulation/06 - Perpetual Ruin.mp3
+522:Hope for the Dying - Dissimulation/07 - The Awakening.mp3
+523:Hope for the Dying - Dissimulation/08 - The Awakening_ Dissimulation.mp3
+524:Hope for the Dying - Dissimulation/09 - The Awakening_ The Veil Lifted.mp3
+525:Hope for the Dying - Dissimulation/10 - Vile Reflections.mp3
+526:Hope for the Dying - Dissimulation/11 - Derision.mp3
+527:Hope for the Dying - Legacy/01 - Aurora.mp3
+528:Hope for the Dying - Legacy/02 - Setting Sun.mp3
+529:Hope for the Dying - Legacy/03 - Flame Forged.mp3
+530:Hope for the Dying - Legacy/04 - Narcissus.mp3
+531:Hope for the Dying - Legacy/05 - Nemesis.mp3
+532:Hope for the Dying - Legacy/06 - Trenches.mp3
+533:Hope for the Dying - Legacy/07 - Wretched Curse.mp3
+534:Hope for the Dying - Legacy/08 - Wander No More.mp3
+535:Hope for the Dying - Legacy/09 - Legacy.mp3
+536:Hope for the Dying - Legacy/10 - Adamantine.mp3
+537:IN THE MIDST OF LIONS - Out Of Darkness/01 - Awaken The Dawn.mp3
+538:IN THE MIDST OF LIONS - Out Of Darkness/02 - Tongues Of Fire.mp3
+539:IN THE MIDST OF LIONS - Out Of Darkness/03 - Out Of Darkness.mp3
+540:IN THE MIDST OF LIONS - Out Of Darkness/04 - Field Of Blood.mp3
+541:IN THE MIDST OF LIONS - Out Of Darkness/05 - Paid In Full.mp3
+542:IN THE MIDST OF LIONS - Out Of Darkness/06 - Manifesto.mp3
+543:IN THE MIDST OF LIONS - Out Of Darkness/07 - Crucifixion And Burial.mp3
+544:IN THE MIDST OF LIONS - Out Of Darkness/08 - He Is Risen.mp3
+545:IN THE MIDST OF LIONS - Out Of Darkness/09 - Herod's Demise.mp3
+546:IN THE MIDST OF LIONS - Out Of Darkness/10 - Into The Light.mp3
+547:IN THE MIDST OF LIONS - Shadows/01 - False Idols.mp3
+548:IN THE MIDST OF LIONS - Shadows/02 - The Call.mp3
+549:IN THE MIDST OF LIONS - Shadows/03 - Take Your Place.mp3
+550:IN THE MIDST OF LIONS - Shadows/04 - Overcome.mp3
+551:IN THE MIDST OF LIONS - Shadows/05 - Cry of the Oppressed.mp3
+552:IN THE MIDST OF LIONS - Shadows/06 - New Beginnings.mp3
+553:IN THE MIDST OF LIONS - Shadows/07 - An Offering.mp3
+554:IN THE MIDST OF LIONS - Shadows/08 - Hardened Hearts.mp3
+555:IN THE MIDST OF LIONS - Shadows/09 - Prepare the Way.mp3
+556:IN THE MIDST OF LIONS - Shadows/10 - One for All.mp3
+557:IN THE MIDST OF LIONS - The Heart of Man/01 - The Heart of Man.mp3
+558:IN THE MIDST OF LIONS - The Heart of Man/02 - The Pharisaic Heart.mp3
+559:IN THE MIDST OF LIONS - The Heart of Man/03 - The Machine.mp3
+560:IN THE MIDST OF LIONS - The Heart of Man/04 - Abandonment.mp3
+561:IN THE MIDST OF LIONS - The Heart of Man/05 - Opposition.mp3
+562:IN THE MIDST OF LIONS - The Heart of Man/06 - At the Feet of Creation.mp3
+563:IN THE MIDST OF LIONS - The Heart of Man/07 - Released.mp3
+564:IN THE MIDST OF LIONS - The Heart of Man/08 - Defiance.mp3
+565:IN THE MIDST OF LIONS - The Heart of Man/09 - Home.mp3
+566:IN THE MIDST OF LIONS - The Heart of Man/10 - Fearless.mp3
+567:IN THE MIDST OF LIONS - The Heart of Man/11 - An Awakening.mp3
+568:IN THE MIDST OF LIONS - The Heart of Man/12 - Reborn.mp3
+569:Memphis May Fire - The Hollow/01 - The Sinner.mp3
+570:Memphis May Fire - The Hollow/02 - The Unfaithful.mp3
+571:Memphis May Fire - The Hollow/03 - The Victim.mp3
+572:Memphis May Fire - The Hollow/04 - The Abandoned.mp3
+573:Memphis May Fire - The Hollow/05 - The Deceived.mp3
+574:Memphis May Fire - The Hollow/06 - The Commanded.mp3
+575:Memphis May Fire - The Hollow/07 - The Burden (Interlude).mp3
+576:Memphis May Fire - The Hollow/08 - The Haunted.mp3
+577:Memphis May Fire - The Hollow/09 - The Reality.mp3
+578:Memphis May Fire - The Hollow/10 - The Redeemed.mp3
+579:Memphis May Fire - Challenger/01 - Without Walls.mp3
+580:Memphis May Fire - Challenger/02 - Alive In The Lights.mp3
+581:Memphis May Fire - Challenger/03 - Prove Me Right.mp3
+582:Memphis May Fire - Challenger/04 - Red In Tooth & Claw.mp3
+583:Memphis May Fire - Challenger/05 - Vices.mp3
+584:Memphis May Fire - Challenger/06 - Legacy.mp3
+585:Memphis May Fire - Challenger/07 - Miles Away (feat. Kellin Quinn).mp3
+586:Memphis May Fire - Challenger/08 - Jezebel.mp3
+587:Memphis May Fire - Challenger/09 - Losing Sight (feat. Danny Worsnop).mp3
+588:Memphis May Fire - Challenger/10 - Generation_ Hate.mp3
+589:Memphis May Fire - Challenger/11 - Vessels.mp3
+590:Memphis May Fire - The Hollow/01 - The Sinner.mp3
+591:Memphis May Fire - The Hollow/02 - The Unfaithful.mp3
+592:Memphis May Fire - The Hollow/03 - The Victim.mp3
+593:Memphis May Fire - The Hollow/04 - The Abandoned.mp3
+594:Memphis May Fire - The Hollow/06 - The Commanded.mp3
+595:Memphis May Fire - The Hollow/09 - The Reality.mp3
+596:Memphis May Fire - The Hollow/10 - The Redeemed.mp3
+597:Memphis May Fire - Challenger/01 - Without Walls.mp3
+598:Memphis May Fire - Challenger/02 - Alive In The Lights.mp3
+599:Memphis May Fire - Challenger/03 - Prove Me Right.mp3
+600:Memphis May Fire - Challenger/04 - Red In Tooth & Claw.mp3
+601:Memphis May Fire - Challenger/05 - Vices.mp3
+602:Oh, Sleeper - When I Am God/01 - Vices Like Vipers.mp3
+603:Oh, Sleeper - When I Am God/02 - I Will Welcome The Reaping.mp3
+604:Oh, Sleeper - When I Am God/03 - We Are The Archers.mp3
+605:Oh, Sleeper - When I Am God/04 - Charlatan's Host.mp3
+606:Oh, Sleeper - When I Am God/05 - The Siren's Song.mp3
+607:Oh, Sleeper - When I Am God/06 - The Color Theft.mp3
+608:Oh, Sleeper - When I Am God/07 - To Flagship.mp3
+609:Oh, Sleeper - When I Am God/08 - His Name Was Bishop.mp3
+610:Oh, Sleeper - When I Am God/09 - Building The Nations.mp3
+611:Oh, Sleeper - When I Am God/10 - Revelations In The Calm.mp3
+612:Oh, Sleeper - When I Am God/11 - The End Of A Dark Campaign.mp3
+613:Oh, Sleeper - Son Of The Morning/01 - Son Of The Morning.mp3
+614:Oh, Sleeper - Son Of The Morning/02 - The New Breed.mp3
+615:Oh, Sleeper - Son Of The Morning/03 - In All Honesty.mp3
+616:Oh, Sleeper - Son Of The Morning/04 - Breathing Blood.mp3
+617:Oh, Sleeper - Son Of The Morning/05 - Reveries Of Flight.mp3
+618:Oh, Sleeper - Son Of The Morning/06 - World Without A Sun.mp3
+619:Oh, Sleeper - Son Of The Morning/07 - The Fire Dawn.mp3
+620:Oh, Sleeper - Son Of The Morning/08 - A Banquet For Traitors.mp3
+621:Oh, Sleeper - Son Of The Morning/09 - Commissioned By Kings.mp3
+622:Oh, Sleeper - Son Of The Morning/10 - The Finisher.mp3
+623:Oh, Sleeper - Children Of Fire/01 - Endseekers.mp3
+624:Oh, Sleeper - Children Of Fire/02 - Shed Your Soul.mp3
+625:Oh, Sleeper - Children Of Fire/03 - The Marriage Of Steel And Skin.mp3
+626:Oh, Sleeper - Children Of Fire/04 - Hush Yael.mp3
+627:Oh, Sleeper - Children Of Fire/05 - The Conscience Speaks.mp3
+628:Oh, Sleeper - Children Of Fire/06 - Dealers Of Fame.mp3
+629:Oh, Sleeper - Children Of Fire/07 - Means To Believe.mp3
+630:Oh, Sleeper - Children Of Fire/08 - In The Wake Of Pigs.mp3
+631:Oh, Sleeper - Children Of Fire/09 - Claws Of A God.mp3
+632:Oh, Sleeper - Children Of Fire/10 - The Family Ruin.mp3
+633:Oh, Sleeper - Children Of Fire/11 - Chewing The Stitch.mp3
+634:Oh, Sleeper - Children Of Fire/12 - Children Of Fire.mp3
+635:Oh, Sleeper - Titan/01 - Naofumi Mitsuhashi.mp3
+636:Oh, Sleeper - Titan/04 - Heavy Hands.mp3
+637:Oh, Sleeper - Titan/05 - The Rise.mp3
+638:Oh, Sleeper - Bloodied _ Unbowed/01 - Let It Wave.mp3
+639:Oh, Sleeper - Bloodied _ Unbowed/02 - Decimation & Burial.mp3
+640:Oh, Sleeper - Bloodied _ Unbowed/03 - Fissure.mp3
+641:Oh, Sleeper - Bloodied _ Unbowed/04 - Of Bane & Disease.mp3
+642:Oh, Sleeper - Bloodied _ Unbowed/05 - Two Ships.mp3
+643:Oh, Sleeper - Bloodied _ Unbowed/06 - The Island.mp3
+644:Oh, Sleeper - Bloodied _ Unbowed/07 - Mutinous.mp3
+645:Oh, Sleeper - Bloodied _ Unbowed/08 - Pulse over Throne.mp3
+646:Oh, Sleeper - Bloodied _ Unbowed/09 - Oxygen.mp3
+647:Oh, Sleeper - Bloodied _ Unbowed/10 - The Summit.mp3
+648:Phinehas - The Phinehas - EP/01 - Well If the Earths Are Stopped, Then the Fox Faces the Hounds.mp3
+649:Phinehas - The Phinehas - EP/02 - The Jungle.mp3
+650:Phinehas - The Phinehas - EP/03 - Panhammer.mp3
+651:Phinehas - The Phinehas - EP/04 - I Am The Lion.mp3
+652:Phinehas - The Phinehas - EP/05 - Grace Disguised By Darkness.mp3
+653:Phinehas - Till The End/01 - Dead Choir.mp3
+654:Phinehas - Till The End/02 - White Livered.mp3
+655:Phinehas - Till The End/03 - Truth Be Told.mp3
+656:Phinehas - Till The End/04 - Non.mp3
+657:Phinehas - Till The End/05 - Forever West.mp3
+658:Phinehas - Till The End/06 - Tetelestai.mp3
+659:Phinehas - Till The End/07 - Coup De Grace.mp3
+660:Phinehas - Till The End/08 - Omnis.mp3
+661:Phinehas - Till The End/09 - Seven.mp3
+662:Phinehas - Till The End/10 - Iliaster (More Than Skin).mp3
+663:Phinehas - Till The End/11 - Evening Gray and Morning Red.mp3
+664:Phinehas - Till The End/12 - Moriar.mp3
+665:Phinehas - Till The End/13 - Till the End.mp3
+666:Phinehas - Dark Flag.mp3
+667:Phinehas - Dark Flag/01 - Dark Flag.mp3
+668:Phinehas - Dark Flag/02 - Burning Bright.mp3
+669:Phinehas - Dark Flag/03 - I Saw the Bombs Fall.mp3
+670:Phinehas - Dark Flag/04 - The 38th Parallel.mp3
+671:Phinehas - Dark Flag/05 - Hell Below.mp3
+672:Phinehas - Dark Flag/06 - A War That Never Ends.mp3
+673:Phinehas - Dark Flag/07 - Break the Earth.mp3
+674:Phinehas - Dark Flag/08 - My Rosary.mp3
+675:Phinehas - Dark Flag/09 - The Arduous March.mp3
+676:Phinehas - Dark Flag/10 - Communion for Ravens.mp3
+677:Phinehas - Dark Flag/11 - Meaningless Names.mp3
+678:Phinehas - Dark Flag/12 - Know Death; Know Forever.mp3
+679:Phinehas - Fight Through the Night - EP/06 - Book of Names.mp3
+680:Phinehas - The Last Word Is Yours to Speak/01 - Throes.mp3
+681:Phinehas - The Last Word Is Yours to Speak/02 - Fleshkiller.mp3
+682:Phinehas - The Last Word Is Yours to Speak/03 - The Deepest of Graves.mp3
+683:Phinehas - The Last Word Is Yours to Speak/04 - Blood on My Knuckles.mp3
+684:Phinehas - The Last Word Is Yours to Speak/05 - Twisted.mp3
+685:Phinehas - The Last Word Is Yours to Speak/06 - De el Quatro.mp3
+686:Phinehas - The Last Word Is Yours to Speak/07 - Out of the Dust.mp3
+687:Phinehas - The Last Word Is Yours to Speak/08 - The Blessing and the Curse.mp3
+688:Phinehas - The Last Word Is Yours to Speak/09 - Dyson Sphere.mp3
+689:Phinehas - The Last Word Is Yours to Speak/10 - Manipulator's Wire.mp3
+690:Phinehas - The Last Word Is Yours to Speak/11 - Salting the Mine.mp3
+691:Phinehas - The Last Word Is Yours to Speak/12 - From a Burning Sun.mp3
+692:Phinehas - The Last Word Is Yours to Speak/13 - WWII.mp3
+693:Phinehas - Thegodmachine/01 - Thegodmachine_ The Speaking Stone.mp3
+694:Phinehas - Thegodmachine/02 - Bad Blood.mp3
+695:Phinehas - Thegodmachine/03 - A Pattern in Pain.mp3
+696:Phinehas - Thegodmachine/04 - I Am the Lion.mp3
+697:Phinehas - Thegodmachine/05 - From One End of the Sky to the Other.mp3
+698:Phinehas - Thegodmachine/06 - Legacy.mp3
+699:Phinehas - Thegodmachine/07 - Crowns.mp3
+700:Phinehas - Thegodmachine/08 - The Wishing Well.mp3
+701:Phinehas - Thegodmachine/09 - My Horses Are Many.mp3
+702:Phinehas - Thegodmachine/10 - Grace Disguised by Darkness.mp3
+703:Phinehas - Thegodmachine/11 - Pendulum.mp3
+704:Phinehas - Thegodmachine/12 - Thegodmachine_ The Rider.mp3
+705:Phinehas - Thegodmachine/13 - That I May Love You.mp3
+706:Texas In July - Salt of the Earth - EP/01 - Hook, Line and Sinner.mp3
+707:Texas In July - Salt of the Earth - EP/02 - Dressed For War.mp3
+708:Texas In July - Salt of the Earth - EP/03 - Show Some Pride.mp3
+709:Texas In July - Salt of the Earth - EP/04 - There's Talk of Strange Folk Abroad.mp3
+710:Texas In July - Salt of the Earth - EP/05 - Reflections.mp3
+711:Texas In July - I Am/01 - Introduction.mp3
+712:Texas In July - I Am/02 - It's Not My First Rodeo.mp3
+713:Texas In July - I Am/03 - Elements.mp3
+714:Texas In July - I Am/04 - Lancaster.mp3
+715:Texas In July - I Am/05 - Hook, Line and Sinner.mp3
+716:Texas In July - I Am/06 - I Am Yours.mp3
+717:Texas In July - I Am/07 - Aurora.mp3
+718:Texas In July - I Am/08 - Page One.mp3
+719:Texas In July - I Am/09 - Reflections.mp3
+720:Texas In July - I Am/10 - Satellites.mp3
+721:Texas In July - I Am/11 - Father Time.mp3
+722:Texas In July - One Reality/01 - Introduction.mp3
+723:Texas In July - One Reality/02 - Magnolia.mp3
+724:Texas In July - One Reality/03 - 1000 Lies.mp3
+725:Texas In July - One Reality/04 - Dreamer.mp3
+726:Texas In July - One Reality/05 - Dying World.mp3
+727:Texas In July - One Reality/06 - No Greater Love.mp3
+728:Texas In July - One Reality/07 - May.mp3
+729:Texas In July - One Reality/08 - Our Freedom.mp3
+730:Texas In July - One Reality/09 - Cyclops.mp3
+731:Texas In July - One Reality/10 - Pretender.mp3
+732:Texas In July - One Reality/11 - One RealIty.mp3
+733:Texas In July - Uncivilized/01 - Uncivilized.mp3
+734:Texas In July - Uncivilized/02 - Fight Fair.mp3
+735:Texas In July - Reflections/01 - Uncivilized.mp3
+736:Texas In July - Reflections/02 - Aurora.mp3
+737:Texas In July - Reflections/03 - Dressed for War.mp3
+738:Texas In July - Reflections/04 - Elements.mp3
+739:Texas In July - Reflections/05 - Show Some Pride.mp3
+740:Texas In July - Reflections/06 - Hook, Line and Sinner.mp3
+741:Texas In July - Reflections/07 - It's Not My First Rodeo.mp3
+742:Texas In July - Reflections/08 - Fair Fight.mp3
+743:Texas In July - Reflections/09 - Lancaster.mp3
+744:Texas In July - Reflections/10 - Reflections.mp3
+745:Texas In July - Reflections/11 - Page One.mp3
+746:Texas In July - Reflections/12 - Satellites.mp3
+747:Texas In July - Reflections/13 - There's Talk of Strange Folk Abroad.mp3
+748:Texas In July - Reflections/14 - Father Time.mp3
+749:Texas In July - Texas in July (Deluxe Edition)/01 - Initiate.mp3
+750:Texas In July - Texas in July (Deluxe Edition)/02 - Cry Wolf.mp3
+751:Texas In July - Texas in July (Deluxe Edition)/03 - Shallow Point.mp3
+752:Texas In July - Texas in July (Deluxe Edition)/04 - Without a Head.mp3
+753:Texas In July - Texas in July (Deluxe Edition)/05 - Bed of Nails.mp3
+754:Texas In July - Texas in July (Deluxe Edition)/06 - Repressed Memories.mp3
+755:Texas In July - Texas in July (Deluxe Edition)/07 - C4.mp3
+756:Texas In July - Texas in July (Deluxe Edition)/08 - Crux Lust.mp3
+757:Texas In July - Texas in July (Deluxe Edition)/09 - Paranoia.mp3
+758:Texas In July - Texas in July (Deluxe Edition)/10 - Black Magic.mp3
+759:Texas In July - Texas in July (Deluxe Edition)/11 - Cloudy Minds.mp3
+760:Texas In July - Texas in July (Deluxe Edition)/12 - Time-Lapse.mp3
+761:Texas In July - Texas in July (Deluxe Edition)/13 - 03 Deville.mp3
+762:Texas In July - Texas in July (Deluxe Edition)/14 - Forbidden Fruit.mp3
+763:Texas In July - Bloodwork/01 - Broken Soul.mp3
+764:Texas In July - Bloodwork/02 - Sweetest Poison.mp3
+765:Texas In July - Bloodwork/03 - Pseudo Self.mp3
+766:Texas In July - Bloodwork/04 - Defenseless.mp3
+767:Texas In July - Bloodwork/05 - The Void.mp3
+768:Texas In July - Bloodwork/06 - Inner Demons.mp3
+769:Texas In July - Bloodwork/07 - Decamilli.mp3
+770:Texas In July - Bloodwork/08 - Nooses.mp3
+771:Texas In July - Bloodwork/09 - The Tightrope.mp3
+772:Texas In July - Bloodwork/10 - Illuminate.mp3
+773:Texas In July - Bloodwork/11 - Bloodwork.mp3
+774:Underoath - The Changing Of Times/01 - When The Sun Sleeps.mp3
+775:Underoath - The Changing Of Times/02 - Letting Go Of Tonight.mp3
+776:Underoath - The Changing Of Times/03 - A Message For Adrienne.mp3
+777:Underoath - The Changing Of Times/04 - Never Meant To Break Your Heart.mp3
+778:Underoath - The Changing Of Times/05 - The Changing Of Times.mp3
+779:Underoath - The Changing Of Times/06 - Angel Below.mp3
+780:Underoath - The Changing Of Times/07 - The Best Of Me.mp3
+781:Underoath - The Changing Of Times/08 - Short Of Daybreak.mp3
+782:Underoath - The Changing Of Times/09 - Alone In December.mp3
+783:Underoath - The Changing Of Times/10 - 814 Stops Today.mp3
+784:Underoath - They're Only Chasing Safety/01 - Young And Aspiring.mp3
+785:Underoath - They're Only Chasing Safety/02 - A Boy Brushed Red Living In Black And White.mp3
+786:Underoath - They're Only Chasing Safety/03 - The Impact Of Reason.mp3
+787:Underoath - They're Only Chasing Safety/04 - Reinventing Your Exit.mp3
+788:Underoath - They're Only Chasing Safety/05 - The Blue Note (Instrumental).mp3
+789:Underoath - They're Only Chasing Safety/06 - It's Dangerous Business Walking Out Your Front Door.mp3
+790:Underoath - They're Only Chasing Safety/07 - Down, Set, Go.mp3
+791:Underoath - They're Only Chasing Safety/08 - I Don't Feel Very Receptive Today.mp3
+792:Underoath - They're Only Chasing Safety/09 - I'm Content With Losing.mp3
+793:Underoath - They're Only Chasing Safety/10 - Some Will Seek Forgiveness, Others Escape.mp3
+794:Underoath - Define The Great Line/01 - In Regards To Myself.mp3
+795:Underoath - Define The Great Line/02 - A Moment Suspended In Time.mp3
+796:Underoath - Define The Great Line/03 - There Could Be Nothing After This.mp3
+797:Underoath - Define The Great Line/04 - You're Ever So Inviting.mp3
+798:Underoath - Define The Great Line/05 - Salmarnir.mp3
+799:Underoath - Define The Great Line/06 - Returning Empty Handed.mp3
+800:Underoath - Define The Great Line/07 - Casting Such A Thin Shadow.mp3
+801:Underoath - Define The Great Line/08 - Moving For The Sake Of Motion.mp3
+802:Underoath - Define The Great Line/09 - Writing On The Walls.mp3
+803:Underoath - Define The Great Line/10 - Everyone Looks So Good From Here.mp3
+804:Underoath - Define The Great Line/11 - To Whom It May Concern.mp3
+805:Underoath - Lost In The Sound Of Separation/01 - Breathing In A New Mentality.mp3
+806:Underoath - Lost In The Sound Of Separation/02 - Anyone Can Dig A Hole But It Takes A Real Man To Call It Home.mp3
+807:Underoath - Lost In The Sound Of Separation/03 - A Fault Line, A Fault Of Mine.mp3
+808:Underoath - Lost In The Sound Of Separation/04 - Emergency Broadcast_ The End Is Near.mp3
+809:Underoath - Lost In The Sound Of Separation/05 - The Only Survivor Was Miraculously Unharmed.mp3
+810:Underoath - Lost In The Sound Of Separation/06 - We Are The Involuntary.mp3
+811:Underoath - Lost In The Sound Of Separation/07 - The Created Void.mp3
+812:Underoath - Lost In The Sound Of Separation/08 - Coming Down Is Calming Down.mp3
+813:Underoath - Lost In The Sound Of Separation/09 - Desperate Times, Desperate Measures.mp3
+814:Underoath - Lost In The Sound Of Separation/10 - Too Bright To See, Too Loud To Hear.mp3
+815:Underoath - Lost In The Sound Of Separation/11 - Desolate Earth_ The End Is Here.mp3
+816:Underoath - Ø (Disambiguation)/01 - In Division.mp3
+817:Underoath - Ø (Disambiguation)/02 - Catch Myself Catching Myself.mp3
+818:Underoath - Ø (Disambiguation)/03 - Paper Lung.mp3
+819:Underoath - Ø (Disambiguation)/04 - Illuminator.mp3
+820:Underoath - Ø (Disambiguation)/05 - Driftwood.mp3
+821:Underoath - Ø (Disambiguation)/06 - A Divine Eradication.mp3
+822:Underoath - Ø (Disambiguation)/07 - Who Will Guard The Guardians.mp3
+823:Underoath - Ø (Disambiguation)/08 - Reversal.mp3
+824:Underoath - Ø (Disambiguation)/09 - Vacant Mouth.mp3
+825:Underoath - Ø (Disambiguation)/10 - My Deteriorating Incline.mp3
+826:Underoath - Ø (Disambiguation)/11 - In Completion.mp3
+827:Underoath - Play Your Old Stuff/CD1/01 - When The Sun Sleeps.mp3
+828:Underoath - Play Your Old Stuff/CD1/02 - Letting Go Of Tonight.mp3
+829:Underoath - Play Your Old Stuff/CD1/03 - A Message For Adrienne.mp3
+830:Underoath - Play Your Old Stuff/CD1/04 - Never Meant To Break Your Heart.mp3
+831:Underoath - Play Your Old Stuff/CD1/05 - The Changing Of Times.mp3
+832:Underoath - Play Your Old Stuff/CD1/06 - Angel Below.mp3
+833:Underoath - Play Your Old Stuff/CD1/07 - The Best Of Me.mp3
+834:Underoath - Play Your Old Stuff/CD1/08 - Short Of Daybreak.mp3
+835:Underoath - Play Your Old Stuff/CD1/09 - Alone In December.mp3
+836:Underoath - Play Your Old Stuff/CD1/10 - 814 Stops Today.mp3
+837:Underoath - Play Your Old Stuff/CD2/01 - Young And Aspiring.mp3
+838:Underoath - Play Your Old Stuff/CD2/02 - A Boy Brushed Red Living In Black And White.mp3
+839:Underoath - Play Your Old Stuff/CD2/03 - The Impact Of Reason.mp3
+840:Underoath - Play Your Old Stuff/CD2/04 - Reinventing Your Exit.mp3
+841:Underoath - Play Your Old Stuff/CD2/05 - The Blue Note (Instrumental).mp3
+842:Underoath - Play Your Old Stuff/CD2/06 - It's Dangerous Business Walking Out Your Front Door.mp3
+843:Underoath - Play Your Old Stuff/CD2/07 - Down, Set, Go.mp3
+844:Underoath - Play Your Old Stuff/CD2/08 - I Don't Feel Very Receptive Today.mp3
+845:Underoath - Play Your Old Stuff/CD2/09 - I'm Content With Losing.mp3
+846:Underoath - Play Your Old Stuff/CD2/10 - Some Will Seek Forgiveness, Others Escape.mp3
+847:Underoath - Play Your Old Stuff/CD3/01 - In Regards To Myself.mp3
+848:Underoath - Play Your Old Stuff/CD3/02 - A Moment Suspended In Time.mp3
+849:Underoath - Play Your Old Stuff/CD3/03 - There Could Be Nothing After This.mp3
+850:Underoath - Play Your Old Stuff/CD3/04 - You're Ever So Inviting.mp3
+851:Underoath - Play Your Old Stuff/CD3/05 - Salmarnir.mp3
+852:Underoath - Play Your Old Stuff/CD3/06 - Returning Empty Handed.mp3
+853:Underoath - Play Your Old Stuff/CD3/07 - Casting Such A Thin Shadow.mp3
+854:Underoath - Play Your Old Stuff/CD3/08 - Moving For The Sake Of Motion.mp3
+855:Underoath - Play Your Old Stuff/CD3/09 - Writing On The Walls.mp3
+856:Underoath - Play Your Old Stuff/CD3/10 - Everyone Looks So Good From Here.mp3
+857:Underoath - Play Your Old Stuff/CD3/11 - To Whom It May Concern.mp3
+858:Underoath - Anthology 1999-2013/01 - Sunburnt.mp3
+859:Underoath - Anthology 1999-2013/02 - Unsound.mp3
+860:Underoath - Anthology 1999-2013/03 - In Division.mp3
+861:Underoath - Anthology 1999-2013/04 - Catch Myself Catching Myself.mp3
+862:Underoath - Anthology 1999-2013/05 - Paper Lung.mp3
+863:Underoath - Anthology 1999-2013/06 - Desperate Times, Desperate Measures.mp3
+864:Underoath - Anthology 1999-2013/07 - Too Bright To See, Too Loud To Hear.mp3
+865:Underoath - Anthology 1999-2013/08 - In Regards To Myself.mp3
+866:Underoath - Anthology 1999-2013/09 - You're Ever So Inviting.mp3
+867:Underoath - Anthology 1999-2013/10 - Writing On The Walls.mp3
+868:Underoath - Anthology 1999-2013/11 - A Boy Brushed Red Living In Black And White.mp3
+869:Underoath - Anthology 1999-2013/12 - Reinventing Your Exit.mp3
+870:Underoath - Anthology 1999-2013/13 - It's Dangerous Business Walking Out Your Front Door.mp3
+871:Underoath - Anthology 1999-2013/14 - I've Got Ten Friends And A Crowbar That Says You Ain't Gonna Do Jack.mp3
+872:Underoath - Anthology 1999-2013/15 - When The Sun Sleeps.mp3
+873:Underoath - Anthology 1999-2013/16 - Cries Of The Past.mp3
+874:Underoath - Anthology 1999-2013/17 - Heart Of Stone.mp3
+875:Underoath - Act of Depression/01 - Heart of Stone.mp3
+876:Underoath - Act of Depression/02 - A Love so Pure.mp3
+877:Underoath - Act of Depression/03 - Burden in Your Hands.mp3
+878:Underoath - Act of Depression/04 - Innocence Stolen.mp3
+879:Underoath - Act of Depression/05 - Act of Depression.mp3
+880:Underoath - Act of Depression/06 - Watch Me Die.mp3
+881:Underoath - Cries of the Past/01 - The Last.mp3
+882:Underoath - Cries of the Past/02 - Giving up Hurts the Most.mp3
+883:Underoath - Cries of the Past/03 - Walking Away.mp3
+884:Underoath - Cries of the Past/04 - And I Dreamt of You.mp3
+885:Underoath - Cries of the Past/05 - Cries of the Past.mp3
+886:Wage War - Blueprints/01 - Hollow.mp3
+887:Wage War - Blueprints/02 - Twenty One.mp3
+888:Wage War - Blueprints/03 - Alive.mp3
+889:Wage War - Blueprints/04 - Blueprints.mp3
+890:Wage War - Blueprints/05 - Youngblood.mp3
+891:Wage War - Blueprints/06 - The River.mp3
+892:Wage War - Blueprints/07 - Deadlocked.mp3
+893:Wage War - Blueprints/08 - Enemy.mp3
+894:Wage War - Blueprints/09 - Spineless.mp3
+895:Wage War - Blueprints/10 - Basic Hate.mp3
+896:Wage War - Blueprints/11 - Desperate.mp3
+897:Wage War - Deadweight/01 - Two Years.mp3
+898:Wage War - Deadweight/02 - Southbound.mp3
+899:Wage War - Deadweight/03 - Don't Let Me Fade Away.mp3
+900:Wage War - Deadweight/04 - Stitch.mp3
+901:Wage War - Deadweight/05 - Witness.mp3
+902:Wage War - Deadweight/06 - Deadweight.mp3
+903:Wage War - Deadweight/07 - Gravity.mp3
+904:Wage War - Deadweight/08 - Never Enough.mp3
+905:Wage War - Deadweight/09 - Indestructible.mp3
+906:Wage War - Deadweight/10 - Disdain.mp3
+907:Wage War - Deadweight/11 - My Grave Is Mine To Dig.mp3
+908:Wage War - Deadweight/12 - Johnny Cash.mp3
+909:Wage War - Pressure/07 - Low.mp3
+910:Wolves At The Gate - Pulled from the Deep - Demo/01 - Pulled From the Deep.mp3
+911:Wolves At The Gate - Pulled from the Deep - Demo/02 - My Trials To Your Agonies, They Do Not Compare.mp3
+912:Wolves At The Gate - Pulled from the Deep - Demo/03 - My Ransomed Soul.mp3
+913:Wolves At The Gate - We Are The Ones/01 - We Are The Ones.mp3
+914:Wolves At The Gate - We Are The Ones/02 - Vapors.mp3
+915:Wolves At The Gate - We Are The Ones/03 - Heralds.mp3
+916:Wolves At The Gate - We Are The Ones/04 - Tonight My Son.mp3
+917:Wolves At The Gate - We Are The Ones/05 - No Rival.mp3
+918:Wolves At The Gate - We Are The Ones/06 - Oh The Depths.mp3
+919:Wolves At The Gate - We Are The Ones/07 - Heralds (Acoustic).mp3
+920:Wolves At The Gate - We Are The Ones/08 - No Rival (Acoustic).mp3
+921:Wolves At The Gate - Captors/01 - The Harvest.mp3
+922:Wolves At The Gate - Captors/02 - Awaken.mp3
+923:Wolves At The Gate - Captors/03 - Morning Star.mp3
+924:Wolves At The Gate - Captors/04 - Dead Man.mp3
+925:Wolves At The Gate - Captors/05 - In Your Wake.mp3
+926:Wolves At The Gate - Captors/06 - Slaves.mp3
+927:Wolves At The Gate - Captors/07 - Step Out To The Water.mp3
+928:Wolves At The Gate - Captors/08 - Amnesty.mp3
+929:Wolves At The Gate - Captors/09 - Safeguards.mp3
+930:Wolves At The Gate - Captors/10 - Through The Night.mp3
+931:Wolves At The Gate - Captors/11 - Man Of Sorrows.mp3
+932:Wolves At The Gate - The King _ Come Thou Long Expected Jesus/01 - The King.mp3
+933:Wolves At The Gate - The King _ Come Thou Long Expected Jesus/02 - Come Thou Long Expected Jesus.mp3
+934:Wolves At The Gate - Vxv/01 - Vxv.mp3
+935:Wolves At The Gate - Vxv/02 - Wake Up.mp3
+936:Wolves At The Gate - Vxv/03 - Dust to Dust.mp3
+937:Wolves At The Gate - Vxv/04 - Return.mp3
+938:Wolves At The Gate - Vxv/05 - Relief.mp3
+939:Wolves At The Gate - Vxv/06 - The Bird and the Snake.mp3
+940:Wolves At The Gate - Vxv/07 - Rest.mp3
+941:Wolves At The Gate - Vxv/08 - East to West.mp3
+942:Wolves At The Gate - Vxv/09 - Wild Heart.mp3
+943:Wolves At The Gate - Vxv/10 - The Convicted.mp3
+944:Wolves At The Gate - Vxv/11 - Majesty in Misery.mp3
+945:Wolves At The Gate - Vxv/12 - The Father's Bargain.mp3
+946:Wolves At The Gate - Types & Shadows/01 - Asleep.mp3
+947:Wolves At The Gate - Types & Shadows/02 - Flickering Flame.mp3
+948:Wolves At The Gate - Types & Shadows/03 - War in the Time of Peace.mp3
+949:Wolves At The Gate - Types & Shadows/04 - Anathema.mp3
+950:Wolves At The Gate - Types & Shadows/05 - The Aftermath.mp3
+951:Wolves At The Gate - Types & Shadows/06 - Fountain.mp3
+952:Wolves At The Gate - Types & Shadows/07 - Weary Ground.mp3
+953:Wolves At The Gate - Types & Shadows/08 - Lowly.mp3
+954:Wolves At The Gate - Types & Shadows/09 - Broken Bones.mp3
+955:Wolves At The Gate - Types & Shadows/10 - Convalesce.mp3
+956:Wolves At The Gate - Types & Shadows/11 - Chasing the Wind.mp3
+957:Wolves At The Gate - Types & Shadows/12 - Hindsight.mp3
+958:Wolves At The Gate - Types & Shadows/13 - Grave Digger.mp3
+959:Wolves At The Gate - Eclipse/01 - The Cure.mp3
+960:Wolves At The Gate - Eclipse/02 - Face to Face.mp3
+961:Wolves At The Gate - Eclipse/03 - A Voice in the Violence.mp3
+962:Wolves At The Gate - Eclipse/04 - Drifter.mp3
+963:Wolves At The Gate - Eclipse/05 - Enemy.mp3
+964:Wolves At The Gate - Eclipse/06 - Evil Are the Kings.mp3
+965:Wolves At The Gate - Eclipse/07 - Eclipse.mp3
+966:Wolves At The Gate - Eclipse/08 - Response.mp3
+967:Wolves At The Gate - Eclipse/09 - History.mp3
+968:Wolves At The Gate - Eclipse/10 - The Sea in Between.mp3
+969:Wolves At The Gate - Eclipse/11 - Alone.mp3
+970:Wolves At The Gate - Eclipse/12 - Counterfeit.mp3
+971:Wolves At The Gate - Eclipse/13 - Blessings & Curses.mp3
+972:Wolves At The Gate - Back to School/01 - Deadbolt.mp3
+973:Wolves At The Gate - Back to School/02 - Understanding in a Car Crash.mp3
+974:Wolves At The Gate - Back to School/03 - Sleepwalking.mp3
+975:Wolves At The Gate - Back to School/04 - Planning a Prison Break.mp3
+976:War of Ages - Pride Of The Wicked/01 - Guide For The Helpless.mp3
+977:War of Ages - Pride Of The Wicked/02 - Rise From The Ashes.mp3
+978:War of Ages - Pride Of The Wicked/03 - Strength Within.mp3
+979:War of Ages - Pride Of The Wicked/04 - Absence of Fear.mp3
+980:War of Ages - Pride Of The Wicked/05 - The Fall Of Pride.mp3
+981:War of Ages - Pride Of The Wicked/06 - Heart Of A Warrior.mp3
+982:War of Ages - Pride Of The Wicked/07 - Aftermath.mp3
+983:War of Ages - Pride Of The Wicked/08 - Bitter Sweet.mp3
+984:War of Ages - Pride Of The Wicked/09 - Silenced Insecurities.mp3
+985:War of Ages - Pride Of The Wicked/10 - Stone By Stone.mp3
+986:War of Ages - Fire From The Tomb/01 - Intro.mp3
+987:War of Ages - Fire From The Tomb/02 - Stand Your Ground.mp3
+988:War of Ages - Fire From The Tomb/03 - Brothers In Arms.mp3
+989:War of Ages - Fire From The Tomb/04 - The Awakening.mp3
+990:War of Ages - Fire From The Tomb/05 - False Prophet.mp3
+991:War of Ages - Fire From The Tomb/06 - Only the Strong Survive.mp3
+992:War of Ages - Fire From The Tomb/07 - My Solitude.mp3
+993:War of Ages - Fire From The Tomb/08 - Battle On.mp3
+994:War of Ages - Fire From The Tomb/09 - One Day.mp3
+995:War of Ages - Fire From The Tomb/10 - Scars of Tomorrow.mp3
+996:War of Ages - Fire From The Tomb/11 - Broken Before You.mp3
+997:War of Ages - Fire From The Tomb/12 - Second Chance.mp3
+998:War of Ages - Arise And Conquer/01 - All Consuming Fire.mp3
+999:War of Ages - Arise And Conquer/02 - When Faith Turns To Ashes.mp3
+1000:War of Ages - Arise And Conquer/03 - Through The Flames.mp3
+1001:War of Ages - Arise And Conquer/04 - Salvation.mp3
+1002:War of Ages - Arise And Conquer/05 - Sleep Of Prisoners.mp3
+1003:War of Ages - Arise And Conquer/06 - Wages Of Sin.mp3
+1004:War of Ages - Arise And Conquer/07 - Yet Another Fallen Eve.mp3
+1005:War of Ages - Arise And Conquer/08 - Generational Curse.mp3
+1006:War of Ages - Arise And Conquer/09 - The Awakening.mp3
+1007:War of Ages - Arise And Conquer/10 - The Deception Of Strongholds.mp3
+1008:War of Ages - Eternal/01 - Collapse.mp3
+1009:War of Ages - Eternal/02 - Desire.mp3
+1010:War of Ages - Eternal/03 - Failure.mp3
+1011:War of Ages - Eternal/04 - My Resting Place.mp3
+1012:War of Ages - Eternal/05 - Eternal.mp3
+1013:War of Ages - Eternal/06 - Indecision.mp3
+1014:War of Ages - Eternal/07 - Lack of Clarity.mp3
+1015:War of Ages - Eternal/08 - The Fallen.mp3
+1016:War of Ages - Eternal/09 - Your Betrayal.mp3
+1017:War of Ages - Eternal/10 - Instrumental.mp3
+1018:War of Ages - Return To Life/01 - Immortal.mp3
+1019:War of Ages - Return To Life/02 - Redeemer.mp3
+1020:War of Ages - Return To Life/03 - Fallen Idol.mp3
+1021:War of Ages - Return To Life/04 - Silent Night.mp3
+1022:War of Ages - Return To Life/05 - M.E.B.mp3
+1023:War of Ages - Return To Life/06 - Song of Solomon.mp3
+1024:War of Ages - Return To Life/07 - With Honor.mp3
+1025:War of Ages - Return To Life/08 - Psalms.mp3
+1026:War of Ages - Return To Life/09 - Final Act.mp3
+1027:War of Ages - Return To Life/10 - Unite.mp3
+1028:War of Ages - Supreme Chaos/01 - From Ashes.mp3
+1029:War of Ages - Supreme Chaos/02 - Lost in Apathy.mp3
+1030:War of Ages - Supreme Chaos/03 - Doomsday.mp3
+1031:War of Ages - Supreme Chaos/04 - Chaos Theory.mp3
+1032:War of Ages - Supreme Chaos/05 - Lionheart.mp3
+1033:War of Ages - Supreme Chaos/06 - On Broken Wings.mp3
+1034:War of Ages - Supreme Chaos/07 - Amber Alert.mp3
+1035:War of Ages - Supreme Chaos/08 - Renegade.mp3
+1036:War of Ages - Supreme Chaos/09 - Ecstasy.mp3
+1037:War of Ages - Supreme Chaos/10 - Still Small Voice.mp3
+1038:War of Ages - Alpha/01 - Creator.mp3
+1039:War of Ages - Alpha/02 - Fullness.mp3
+1040:War of Ages - Alpha/03 - Buried Alive.mp3
+1041:War of Ages - Alpha/04 - Warpath.mp3
+1042:War of Ages - Alpha/05 - Hollow Point.mp3
+1043:War of Ages - Alpha/06 - Repentance.mp3
+1044:War of Ages - Alpha/07 - Mind Control.mp3
+1045:War of Ages - Alpha/08 - Immunity Revoked.mp3
+1046:War of Ages - Alpha/09 - Warrior.mp3
+1047:War of Ages - Alpha/10 - Cut Throat.mp3
+1048:War of Ages - Void/01 - The Watchers.mp3
+1049:War of Ages - Void/02 - Void.mp3
+1050:War of Ages - Void/03 - Blood of the Earth.mp3
+1051:War of Ages - Void/04 - Miles Apart.mp3
+1052:War of Ages - Void/05 - Sulphur and Salt.mp3
+1053:War of Ages - Void/06 - Greed.mp3
+1054:War of Ages - Void/07 - Envy.mp3
+1055:War of Ages - Void/08 - Wrath.mp3
+1056:War of Ages - Void/09 - Jezebel.mp3
+1057:War of Ages - Void/10 - Brotherhood.mp3
+1058:War of Ages - Void/11 - The Return.mp3
+playlist_end

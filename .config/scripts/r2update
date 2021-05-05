@@ -1,0 +1,5 @@
+#!/bin/bash
+wd=`pwd`
+cd ~/Downloads/radare2/
+./sys/install.sh
+cd $wd
